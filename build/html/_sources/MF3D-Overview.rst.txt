@@ -5,7 +5,7 @@ MF3D Overview
 About MF3D
 ===============================
 
-The Macaque Face 3D (MF3D) project is an effort to develop a parametrically controlled,
+The Macaque Face 3D project is an effort to develop a parametrically controlled,
 anatomically accurate, three-dimensional, virtual avatar of the Rhesus macaque face and head, for
 visual stimulation in behavioral neuroscience experiments involving this important model species.
 The avatar has been used to produced the first ever publicly available database of computer generated 

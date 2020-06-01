@@ -11,7 +11,7 @@ About MF3D
 
 	<iframe src="https://player.vimeo.com/video/323447440?autoplay=1&loop=1&color=ff9933&byline=0&portrait=0" style="display:block;padding:10px;border:5px" width="400" height="225" frameborder="0" align="right" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-The Macaque Face 3D (MF3D) project is an effort to develop a parametrically controlled,
+The Macaque Face 3D project is an effort to develop a parametrically controlled,
 anatomically accurate, three-dimensional, virtual avatar of the Rhesus macaque face and head, for
 visual stimulation in behavioral neuroscience experiments involving this important model species.
 The avatar has been used to produced the first ever publicly available database of computer generated 
@@ -41,10 +41,8 @@ Contents
    :maxdepth: 2
 
    MF3D Overview <MF3D-Overview>
-   Background <MF3D-Background>
    MF3D Release 1 <MF3D-Release-1>
    MF3D Release 2 <MF3D-Release-2>
-   MF3D Real-Time <MF3D-Real-Time>
    MF3D Tools - Stimulus Editor <MF3D-Stimulus-Editor>
    MF3D Tools - Video Parameter GUI <MF3D-Video-Parameter-Estimation-GUI>
    MF3D Methods - Face Space <MF3D-Parameterizing-anatomical-variations>

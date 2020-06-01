@@ -48,8 +48,7 @@ masking specific structures in the corresponding colour image.
 
 .. _mf3d-r1-figA:
 
-.. image:: _images/MurphyLeopold_Fig1A.png
-  :width: 800
+.. figure:: _images/MurphyLeopold_Fig1A.png
   :alt: Figure 1A - Stimulus set format
 
 **Figure 1A.** Stimulus set format and applications. **i.** Each colour image in the set   is rendered as a 3840 x 2160 pixel RGBA image in .png format with 32-bits per pixel. The avatar is positioned such that the center of the screen coincides with the cyclopean eye when the avatar is directly facing the camera. **ii.** For each colour image, we provide a corresponding label map image (.hdr format) of the same dimensions, where integer pixel values indicate which anatomical structure of the avatar they belong to. **iii.** An example of a simulated gaze distribution map for the stimulus shown in i. **iv.** Proportion of fixations on each labelled structure can be easily computed. **v.** Novel stimuli can be created by using the label map to mask specific parts of the original image. 
@@ -76,8 +75,7 @@ neck (±30° azimuth and elevation) and body (±60° azimuth) orientations.
 
 .. _mf3d-r1-figB:
 
-.. image:: _images/MurphyLeopold_Fig1B.png
-  :width: 800
+.. figure:: _images/MurphyLeopold_Fig1B.png
   :alt: Figure 1B - Expression stimuli
 
 **Figure 1B, Expression stimuli.** **i.** All head orientations
@@ -95,14 +93,14 @@ Identity subset
 
 For the identity set, we selected a subset of head orientations (±90°
 azimuth x ±30° elevation in 30° increments = 21 orientations; :ref:`Figure
-1C, i <<mf3d-r1-figC>>`), and co-varied facial morphology based on distinct
-trajectories within PCA-space (n = 65; :ref:`Figure 1C, ii <<mf3d-r1-figC>>`), including
+1C, i <mf3d-r1-figC>`), and co-varied facial morphology based on distinct
+trajectories within PCA-space (n = 65; :ref:`Figure 1C, ii <mf3d-r1-figC>`), including
 each of the first five PCs (which together account for 75% of the sample
 variance in facial morphology), with distinctiveness (Euclidean distance
 from the average face, ±4σ in 1σ increments = 8 levels, excluding the
 mean; :ref:`Figure 1C, iii <mf3d-r1-figC>`) for a total of 10,941 identity images.
 
-.. _mf3d-r1-figC:
+.. _mf3d-r1-figc:
 
 .. figure:: _images/MurphyLeopold_Fig1C.png
    :alt: Figure 1C - Identity stimuli
