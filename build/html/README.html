@@ -1,0 +1,178 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>About MF3D &#8212; MF3D 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="about-mf3d">
+<h1>About MF3D<a class="headerlink" href="#about-mf3d" title="Permalink to this headline">¶</a></h1>
+<p>The Macaque Face 3D (MF3D) project is an effort to develop a parametrically controlled,
+anatomically accurate, three-dimensional, virtual avatar of the Rhesus macaque face and head, for
+visual stimulation in behavioral neuroscience experiments involving this important model species.
+The avatar has been used to produced the first ever publicly available database of computer generated
+images of macaque facial expression and identity, which you can learn more about below.
+Full details of how the model and rendered images were generated have been published here:</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Murphy AP &amp; Leopold DA (2019)</strong>. A parameterized digital 3D model
+of the Rhesus macaque face for investigating the visual processing
+of social cues. <em>J.Neurosci.Methods</em>, 324: 108309. <a class="reference external" href="https://doi.org/10.1016/j.jneumeth.2019.06.001">DOI:
+10.1016/j.jneumeth.2019.06.001</a></p>
+</div>
+<a class="reference internal image-reference" href="https://user-images.githubusercontent.com/7523776/58911022-ef7b2000-86e4-11e9-8a6a-ef9a44206a4e.png"><img alt="MF3D construction summary" src="https://user-images.githubusercontent.com/7523776/58911022-ef7b2000-86e4-11e9-8a6a-ef9a44206a4e.png" style="width: 800px;" /></a>
+</div>
+<hr class="docutils" />
+<div class="section" id="mf3d-r1-stimulus-set">
+<h1>MF3D R1 Stimulus Set<a class="headerlink" href="#mf3d-r1-stimulus-set" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference external" href="https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544">MF3D stimulus
+set (Release 1)</a> consist of 14,000 high resolution images and animated video sequences. The images and animations are hosted on <a class="reference external" href="https://figshare.com">Figshare</a> and can be downloaded separately:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226029">MF3D Expression set</a></li>
+<li><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226311">MF3D Identities set</a></li>
+<li><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226317">MF3D Animations set</a></li>
+</ul>
+<p>An overview of the contents of this stimulus set can be found
+<a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D/wiki/MF3D-Release-%231">here</a>.
+The <a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools">MF3D Tools</a> GitHub repository contains code (Matlab and Python) to facilitate
+the selection, loading, editing, analysis and saving of images and animations from the stimulus set.</p>
+<p>The code in this repository is licensed under GNU General Public License <a class="reference external" href="https://choosealicense.com/licenses/gpl-3.0/#">GNU GPLv3</a>,
+while the media provided in the MF3D R1 stimulus set is licensed under Creative Commons <a class="reference external" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC
+4.0</a>. If you use any content from the stimulus set in your research, we ask
+that you cite the publication listed above.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="feature-overview">
+<h1>Feature Overview<a class="headerlink" href="#feature-overview" title="Permalink to this headline">¶</a></h1>
+<p>The following video animations demonstrate some of the parameters of the
+3D macaque avatar that can be controlled (click images to open videos).</p>
+<div class="section" id="facial-expression-gaze-and-lighting">
+<h2>Facial expression, gaze and lighting<a class="headerlink" href="#facial-expression-gaze-and-lighting" title="Permalink to this headline">¶</a></h2>
+<iframe class="float-left" src="https://player.vimeo.com/video/326460055?color=ff9933&byline=0&portrait=0" style="display:block;padding:10px;border:5px" width="400" height="225" frameborder="0" align="left" allow="autoplay; fullscreen" allowfullscreen></iframe><p>This video demonstrates how our macaque model of emotional facial
+expressions (for a single identity) can be continuously and
+parametrically varied to adjust appearance. The model was constructed
+using computed tomography (CT) data from a real Rhesus macaque, acquired
+under anesthesia, and edited and rigged by a professional digital
+artist. In addition to control of various facial expressions, the
+model’s head and eye gaze direction can be programmatically controlled,
+as well as other variables such as environmental lighting and surface
+coloration, amongst others.</p>
+</div>
+<div class="section" id="facial-dynamics-estimation">
+<h2>Facial dynamics estimation<a class="headerlink" href="#facial-dynamics-estimation" title="Permalink to this headline">¶</a></h2>
+<iframe class="float-left" src="https://player.vimeo.com/video/329805226?color=ff9933&byline=0&portrait=0" style="display:block;padding:10px;border:5px" width="400" height="225" frameborder="0" align="left" allow="autoplay; fullscreen" allowfullscreen></iframe><p>In order to simulate naturalistic facial dynamics in the macaque avatar,
+we estimate the time courses of facial motion from video footage of real
+animals. Applying these time courses to the animation of bones and shape
+keys of the model, we can mimic the facial motion of the original clip,
+while retaining independent control over a wide range of other
+variables. The output animation can be rendered at a higher resolution
+and frame rate (using interpolation) than the input video. (Original
+video footage in the left panel is used with permission of Off The
+Fence™).</p>
+</div>
+<div class="section" id="identity-morphing">
+<h2>Identity morphing<a class="headerlink" href="#identity-morphing" title="Permalink to this headline">¶</a></h2>
+<iframe class="float-left" src="https://player.vimeo.com/video/323447440?loop=1&color=ff9933&byline=0&portrait=0" style="display:block;padding:10px;border:5px" width="400" height="225" frameborder="0" align="left" allow="autoplay; fullscreen" allowfullscreen></iframe><p>Individual variations in
+cranio-facial morphology (3D face shape) can be continuously and
+parametrically varied to adjust appearance, as in the <a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226311">MF3D R1
+Identity</a> stimulus set.
+The statistical model was constructed through principal component
+analysis (PCA) of the 3D surface reconstructions of 23 real Rhesus
+monkeys from computed tomography (CT) data acquired under anesthesia.
+The 3D plot in the top right corner illustrates the first three
+principal components of this ‘face-space’, where the origin of the plot
+represents the sample average face.</p>
+</div>
+<div class="section" id="animated-sequences">
+<h2>Animated sequences<a class="headerlink" href="#animated-sequences" title="Permalink to this headline">¶</a></h2>
+<iframe class="float-left" src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" style="display:block;padding:10px;border:5px" width="400" height="225" frameborder="0" align="left" allow="autoplay; fullscreen" allowfullscreen></iframe><p>Animated facial expression clips from the <a class="reference external" href="https://figshare.com/articles/MF3D_R1_Animations/8226317">MF3D R1
+Animation</a>
+stimulus set can be combined to form a longer continuous animation
+sequence for use in experiments that require more naturalistic dynamics.
+This example was generated using the Python script
+<a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py">MF3D_ConcatClips_Demo.py</a>
+to interleave the appropriate head rotation sequences between consecutive expression clips, controlled via the open-source <a class="reference external" href="www.blender.org">Blender</a> video sequence editor.</p>
+<hr class="docutils" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/MF3D_Logo_black.svg" alt="Logo"/>
+            </a></p>
+<h3><a href="index.html">Table Of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Release-1.html">MF3D Release 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Release-2.html">MF3D Release 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Real-Time-Rendering.html">MF3D Real-Time</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/README.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Aidan Murphy.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.9.
+    </div>
+  </body>
+</html>

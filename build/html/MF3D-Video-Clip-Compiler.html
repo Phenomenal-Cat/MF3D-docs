@@ -1,0 +1,152 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Overview &#8212; MF3D 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<p>For addressing certain scientific questions, it would be beneficial to
+be able to present dynamic video stimuli continuously over a longer
+duration, with many variations of facial movement interleaved. The short
+animated videos provided in the MF3D Animations stimulus set have been
+rendered in manner that allows users to concatenate multiple clips
+together to achieve this goal. Specifically, the first and last frames
+of each movie clip for a given head azimuth orientation are identical.
+Therefore, all that is needed to create longer movie clips containing
+many permutations of facial actions is to edit the original clips
+together in video editing software.</p>
+<p>While there are many programs available for video editing, we like to
+use the video sequence editor (VSE) provided in
+<a class="reference external" href="https://www.blender.org/">Blender</a>, for three reasons:</p>
+<ol class="arabic simple">
+<li>Blender is <a class="reference external" href="https://www.blender.org/about/license/">free and
+open-source</a> under the GNU
+General Public License</li>
+<li>Blender has an embedded <a class="reference external" href="https://docs.blender.org/api/current/">Python
+interpreter</a>, allowing
+Python scripting of various actions</li>
+<li>Blender is the software that we also used to render the images and
+movies of 3D macaque avatar</li>
+</ol>
+</div>
+<hr class="docutils" />
+<div class="section" id="using-mf3d-compilemovies-py">
+<h1>Using MF3D_CompileMovies.py<a class="headerlink" href="#using-mf3d-compilemovies-py" title="Permalink to this headline">¶</a></h1>
+<p>MF3D R1 provides a limited set of movie clips, which are summarized in
+the accompanying spreadsheet (.csv file). <a href="#id1"><span class="problematic" id="id2">`MF3D\_CompileMovies.py &lt;&gt;`__</span></a>
+reads the data from this spreadsheet to find the appropriate order to
+position various movie clips in order to generate a new longer movie
+containing smooth continuous motion.</p>
+</div>
+<div class="section" id="example">
+<h1>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h1>
+<p>For example, if a user were to specify the following variables in
+<a href="#id1"><span class="problematic" id="id3">`MF3D\_CompileMovies.py &lt;&gt;`__</span></a>:</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ClipSequence</span>    <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Yawn&#39;</span><span class="p">,</span><span class="s1">&#39;Rotate&#39;</span><span class="p">,</span><span class="s1">&#39;Coo&#39;</span><span class="p">,</span><span class="s1">&#39;Rotate&#39;</span><span class="p">,</span><span class="s1">&#39;Scream&#39;</span><span class="p">]</span>
+<span class="n">HeadAzimuths</span>    <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">60</span><span class="p">,</span> <span class="o">-</span><span class="mi">60</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">30</span><span class="p">]</span>
+<span class="n">PlaybackSpeed</span>   <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>…this tells the script to load the following sequence of five movie
+clips:</p>
+<ol class="arabic simple">
+<li>load the movie clip in which the avatar performs a yawn action with
+the head azimuth angle at 0° (i.e. facing the virtual camera).</li>
+<li>Once the yawn clip is completed, a subset of frames will be loaded
+from the head rotation clip, and appended in reverse order so as to
+produce a head rotation from 0 to -60° at a speed of 60°/second.</li>
+<li>load the movie clip containing a ‘coo’ vocalization with the head
+azimuth angle at -60°,</li>
+<li>load the frames from the head rotation clip to show the head rotating
+from -60° to +30°, at 105°/second</li>
+<li>load the movie clip containing a ‘scream’ vocalization with the head
+azimuth angle at +30°</li>
+</ol>
+<hr class="docutils" />
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/MF3D_Logo_black.svg" alt="Logo"/>
+            </a></p>
+<h3><a href="index.html">Table Of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Overview.html">MF3D Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Release-1.html">MF3D Release 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Release-2.html">MF3D Release 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Real-Time-Rendering.html">MF3D Real-Time</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Stimulus-Editor.html">   MF3D Stimulus Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Video-Parameter-Estimation-GUI.html">   MF3D Video Parameter GUI</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/MF3D-Video-Clip-Compiler.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Aidan Murphy.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.9.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MF3D ‘Face-space’ construction &#8212; MF3D 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Overview" href="MF3D-Video-Parameter-Estimation-GUI.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="MF3D-Video-Parameter-Estimation-GUI.html" title="Overview"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="mf3d-face-space-construction">
+<h1>MF3D ‘Face-space’ construction<a class="headerlink" href="#mf3d-face-space-construction" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="parameterizing-anatomical-variations">
+<h2>Parameterizing anatomical variations<a class="headerlink" href="#parameterizing-anatomical-variations" title="Permalink to this headline">¶</a></h2>
+<p>One of the earliest studies of variation in anatomical proportions was
+by the German Renaissance artist <a class="reference external" href="https://www.nlm.nih.gov/exhibition/historicalanatomies/durer_bio.html">Albrecht Dürer
+(1528)</a>,
+who described the application of <a class="reference external" href="https://www.virtual-anthropology.com/virtual-anthropology/compare/geometric-morphometrics/thin-plate-spline/">deformation
+grids</a>
+to mathematically describe variation in human facial anatomy. This approach was further developed by Scottish mathematical biologist D’Arcy Thompson in <a class="reference external" href="https://en.wikipedia.org/wiki/On_Growth_and_Form">On Growth and Form (1917)</a>.</p>
+<p>In the digital age, a pioneering study by <a class="reference external" href="https://doi.org/10.1145/311535.311556">Blanz &amp; Vetter (1999)</a> was the first to apply this approach to 3D face data acquired through laser scans of 200 human participants. Specifically, they used <a class="reference external" href="https://en.wikipedia.org/wiki/Principal_component_analysis">principal component analysis (PCA)</a> to identify the major components of morphological variation in their sample. The resulting statistical description of ‘face space’ can be used to generate an infinite number of novel faces, which is now commercially available as the <a class="reference external" href="https://facegen.com/">FaceGen</a> software.</p>
+<a class="reference internal image-reference" href="_images/Durer_1528_Grid.jpg"><img alt="deformation grid" src="_images/Durer_1528_Grid.jpg" style="width: 48%;" /></a>
+<a class="reference internal image-reference" href="_images/Leopold_2006_Fig1.png"><img alt="deformation grid" src="_images/Leopold_2006_Fig1.png" style="width: 48%;" /></a>
+<p><strong>Left:</strong> <a class="reference external" href="https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer">Dürer (1528)</a> originally proposed mathematical descriptions of variation in face shape using deformation grid. <strong>Right:</strong> <a class="reference external" href="https://doi.org/10.1038/82947">Leopold et al., 2006</a> used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The ‘face-space’ construct of facial identity variation features
+the average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.</p>
+</div>
+<div class="section" id="craniofacial-morphology-analysis-for-mf3d">
+<h2>Craniofacial morphology analysis for MF3D<a class="headerlink" href="#craniofacial-morphology-analysis-for-mf3d" title="Permalink to this headline">¶</a></h2>
+<p>The method for creating the macaque face-space used to generate identity
+variations in MF3D is described in <a class="reference external" href="https://doi.org/10.1016/j.jneumeth.2019.06.001">Murphy &amp; Leopold
+(2019)</a> and
+illustrated in figure 5 from that paper (below). Briefly, Corresponding vertices
+were manually selected on a low polygon count (50,000 vertices) base mesh topology
+(created based on individual M02 of the CT data sample) and the high poly raw
+surface meshes of each other individual (panel A). This was performed in the
+commercial software <a class="reference external" href="https://www.russian3dscanner.com/">Wrap3</a>, which then applies
+a warping process to produces a surface mesh with topology A and
+morphology B (bottom left of panel A). This process was repeated for each individual in the sample, and the resulting mesh data were then manually cleaned by a professional digital artist (bottom right of panel A).</p>
+<p>The cleaned corresponding meshes of all individuals were then imported into
+Matlab, their vertex positions were averaged to generate the mesh of
+the sample mean and a PCA was run.</p>
+<div class="figure">
+<img alt="Facial morphology analysis" src="_images/MurphyLeopold_Fig5.jpg" />
+</div>
+<p><strong>Fig. 5. Morphable face model construction.</strong>
+<strong>A.</strong> Example of manual selection of corresponding vertices on the low-poly base mesh topology (topology A) created from individual M02 (morphology A) and the high-poly raw surface mesh of individual M09 (right). The warping process produces a surface mesh with topology A and morphology B (bottom left), which can then be manually edited (bottom right).
+<strong>B.</strong> Sample mean mesh surface.
+<strong>C.</strong> First five principal components (mean ± 2σ) of macaque face-space.
+<strong>D.</strong> Locations of original sample identities (n
+= 23) projected into principal component face-space (first 3 PC dimensions only).
+<strong>E.</strong> Distribution of CT scan voxel volume for each
+individual plotted against their Euclidean distance from the sample mean
+(σ).
+<strong>F.</strong> Percentage of variance in sample cranio-facial morphology
+explained by each principal component.
+<strong>G.</strong> Distributions of demographic variables for Rhesus macaque CT data sample.
+<strong>H.</strong> Age trajectory through face-space for males calculated by averaging 5
+youngest (2nd column) and 5 oldest (4th column) males, and
+extrapolating.
+<strong>I.</strong> Sexual dimorphism trajectory through face-space
+calculated by averaging 5 males (2nd column) and 5 females (4th column),
+and extrapolating. Colour map indicates the displacement of each vertex
+relative to the mean (middle column) for each mesh. Meshes were aligned
+via Procrustes method.</p>
+</div>
+<div class="section" id="expression-transfer">
+<h2>Expression transfer<a class="headerlink" href="#expression-transfer" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/MF3D_Logo_black.svg" alt="Logo"/>
+            </a></p>
+<h3><a href="index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Overview.html">MF3D Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Release-1.html">MF3D Release 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Release-2.html">MF3D Release 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Real-Time-Rendering.html">MF3D Real-Time</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Stimulus-Editor.html">MF3D Stimulus Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Video-Parameter-Estimation-GUI.html">MF3D Video Parameter GUI</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">MF3D Methods</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#parameterizing-anatomical-variations">Parameterizing anatomical variations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#craniofacial-morphology-analysis-for-mf3d">Craniofacial morphology analysis for MF3D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#expression-transfer">Expression transfer</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="MF3D-Video-Parameter-Estimation-GUI.html"
+                        title="previous chapter">Overview</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/MF3D-Parameterizing-anatomical-variations.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="MF3D-Video-Parameter-Estimation-GUI.html" title="Overview"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Aidan Murphy.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.9.
+    </div>
+  </body>
+</html>
