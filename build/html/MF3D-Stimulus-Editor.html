@@ -16,7 +16,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Overview" href="MF3D-Video-Parameter-Estimation-GUI.html" />
-    <link rel="prev" title="MF3D RT (real-time)" href="MF3D-Real-Time.html" /> 
+    <link rel="prev" title="MF3D Release 2" href="MF3D-Release-2.html" /> 
   </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
@@ -28,7 +28,7 @@
           <a href="MF3D-Video-Parameter-Estimation-GUI.html" title="Overview"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="MF3D-Real-Time.html" title="MF3D RT (real-time)"
+          <a href="MF3D-Release-2.html" title="MF3D Release 2"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
       </ul>
@@ -41,8 +41,7 @@
             
   <div class="section" id="mf3d-stimulus-editor">
 <h1>MF3D Stimulus Editor<a class="headerlink" href="#mf3d-stimulus-editor" title="Permalink to this headline">¶</a></h1>
-<p>We provide a graphical user interface (GUI) programmed in Matlab
-(<code class="docutils literal notranslate"><span class="pre">`MF3D_StimEditor.m</span></code> &lt;&gt;`__) to help users of the MF3D R1 stimulus set
+<p>We provide a graphical user interface (GUI) programmed in Matlab <code class="docutils literal notranslate"><span class="pre">MF3D_StimEditor.m</span></code> to help users of the MF3D R1 stimulus set
 to download, select, load, edit, analyse and save the images that they wish to use in
 their experiments. The GUI is intended to provide an easy way for users
 to select subsets of the 14,000 images and apply simple image
@@ -52,7 +51,7 @@ operations that are not currently implemented in the GUI.</p>
 <div class="section" id="getting-started">
 <h2>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools">MF3D Tools</a> contains scripts that can be used to downloaded the MF3D R1 stimulus sets from Figshare, unzip them and reorganize the directory structure. If you are using Matlab, this can be done using the
-<a href="#id2"><span class="problematic" id="id3">`MF3D_Download.m &lt;&gt;`_</span></a> GUI as follows:</p>
+<code class="docutils literal notranslate"><span class="pre">MF3D_Installer.m</span></code> GUI as follows:</p>
 <ul class="simple">
 <li>Clone the <a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools">MF3D-Tools</a> GitHub repository by opening a terminal window, navigating to the directory where you want MF3D-Tools installed and run:</li>
 </ul>
@@ -60,12 +59,17 @@ operations that are not currently implemented in the GUI.</p>
 </pre></div>
 </div>
 <ul class="simple">
-<li>Open Matlab, navigate to the ‘MF3D Tools’ folder and run <code class="docutils literal notranslate"><span class="pre">MF3D_Download</span></code> in the Matlab command line. Note that the script requires permissions to move the code and image files around.</li>
+<li>Alternatively, you can <a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools/archive/master.zip">download MF3D Tools</a> directly and unzip the folder.</li>
+<li>Open Matlab, navigate to the ‘MF3D Tools’ folder and run <code class="docutils literal notranslate"><span class="pre">MF3D_Installer.m</span></code> in the Matlab command line. Note that the script requires permissions to move the code and image files around.</li>
+</ul>
+<div class="figure align-right">
+<a class="align-right reference internal image-reference" href="_images/MF3D_Installer.png"><img alt="MF3D Installer GUI" class="align-right" src="_images/MF3D_Installer.png" style="width: 400px;" /></a>
+</div>
+<ul class="simple">
 <li>The MF3D Installer GUI window appears. Select a destination folder where you would like the MF3D R1 stimulus set installed. If the MF3D R1 stimulus set is already fully or partially installed, the corresponding fields will turn green.</li>
 <li>Select which subsets of the MF3D R1 stimulus set you want to install using the check boxes.</li>
-<li>Click the <code class="docutils literal notranslate"><span class="pre">Download</span></code> button to begin download and unzipping. If the files are already downloaded (indicated by a full progress bar) but the files have not been reorganized, select <code class="docutils literal notranslate"><span class="pre">Reorganize</span></code> button.</li>
+<li>Click the <strong>Download</strong> button to begin download and unzipping. If the files are already downloaded (indicated by a full progress bar) but the files have not been reorganized, select <strong>Reorganize</strong> button.</li>
 </ul>
-<a class="reference internal image-reference" href="_images/MF3D_Tools_Installer.png"><img alt="MF3D Installer GUI" src="_images/MF3D_Tools_Installer.png" style="width: 500px;" /></a>
 <p>The parameters used to generate each image in the MF3D R1 stimulus set
 are provided in the accompanying spreadsheets (.csv files) - one for the
 expression set and another for the identity set. When the GUI is
@@ -83,7 +87,7 @@ Multiple rows can be selected in each active parameter list, and the
 total number of images currently selected appears in the top right hand
 corner of the GUI.</p>
 <div class="figure">
-<img alt="MF3D Stimulus Editor GUI selection panel" src="_images/MF3D_Tools_StimEditor_Fig2.png" />
+<img alt="MF3D Stimulus Editor GUI selection panel" src="_images/MF3D_Tools_StimEditor_Fig3.png" />
 </div>
 </div>
 <div class="section" id="preview-panel">
@@ -133,7 +137,7 @@ screen across head angles.</li>
 pixels.</li>
 </ul>
 <div class="figure">
-<img alt="MF3D Stimulus Editor GUI preview panel" src="_images/MF3D_Tools_StimEditor_Fig3.png" />
+<img alt="MF3D Stimulus Editor GUI preview panel" src="_images/MF3D_Tools_StimEditor_Fig2.png" />
 </div>
 </div>
 <div class="section" id="cropping-and-rescaling">
@@ -163,10 +167,8 @@ once it has been downloaded and added to the Matlab path.</p>
 <h3><a href="index.html">Table Of Contents</a></h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Overview.html">MF3D Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="MF3D-Background.html">Background</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Release-1.html">MF3D Release 1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Release-2.html">MF3D Release 2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="MF3D-Real-Time.html">MF3D Real-Time</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">MF3D Tools - Stimulus Editor</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#getting-started">Getting started</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#stimulus-selection">Stimulus selection</a></li>
@@ -182,8 +184,8 @@ once it has been downloaded and added to the Matlab path.</p>
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="MF3D-Real-Time.html"
-                        title="previous chapter">MF3D RT (real-time)</a></p>
+  <p class="topless"><a href="MF3D-Release-2.html"
+                        title="previous chapter">MF3D Release 2</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="MF3D-Video-Parameter-Estimation-GUI.html"
                         title="next chapter">Overview</a></p>
@@ -220,7 +222,7 @@ once it has been downloaded and added to the Matlab path.</p>
           <a href="MF3D-Video-Parameter-Estimation-GUI.html" title="Overview"
              >next</a> |</li>
         <li class="right" >
-          <a href="MF3D-Real-Time.html" title="MF3D RT (real-time)"
+          <a href="MF3D-Release-2.html" title="MF3D Release 2"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
       </ul>
