@@ -62,7 +62,7 @@ In this study, the authors recorded single unit activity from the anterior fundu
 
 
 A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. 
-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 
 .. image:: _images/Figures/MurphyLeopold_Fig7.jpg
   :width: 400

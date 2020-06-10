@@ -17,7 +17,7 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 # sys.path.append(os.path.abspath('sphinxext'))
 
-autodoc_mock_imports = ['matplotlib']
+#autodoc_mock_imports = ['matplotlib']
 
 # -- Project information -----------------------------------------------------
 
@@ -44,7 +44,7 @@ release = '1.0'
 extensions = [
     'sphinx.ext.githubpages',
     'recommonmark',
-    'matplotlib.sphinxext.plot_directive'
+    # 'matplotlib.sphinxext.plot_directive'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

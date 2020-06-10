@@ -16,22 +16,22 @@ macaque faces with unparalleled parametric control.
 Expression x Identity subset
 ----------------------------
 
-.. todo::
+.. note::
+  The static stimuli of MF3D R2 will extend those of release 1 by
+  covarying the following variables:
 
-	The static stimuli of MF3D R2 will extend those of release 1 by
-covarying the following variables:
+  -  expression types
 
--  expression types
+  -  expression intensities
 
--  expression intensities
+  -  head orientations
 
--  head orientations
+  -  identity dimensions
 
--  identity dimensions
+  -  identity distinctiveness levels
 
--  identity distinctiveness levels
+  -  lighting directions
 
--  lighting directions
 
 Animation subset
 ----------------
