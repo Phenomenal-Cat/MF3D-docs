@@ -2,7 +2,7 @@
 MF3D Background
 ==================================
 
-Why are neuroscientists creating virtual reality monkeys? The answer requires a brief history of the field of social neuroscience and the importance of the macaque monkey as an animal model for understanding the human brain and psychiatric illness. 
+Why are neuroscientists creating virtual reality monkeys? The answer requires a brief history of the field of social neuroscience and the importance of the macaque monkey as an animal model for understanding the human brain and psychiatric disorders. 
 
 Studying the Social Primate Brain
 -------------------------------------
@@ -48,7 +48,7 @@ Despite these technological advances, the time and cost of employing skilled dig
  :align: left
  :class: align-left
  :alt: Macaque avatars
-**Figure 1. Developmental history of digital macaque avatars. A.** `Steckenfinger & Ghazanfar, 2009 <https://doi.org/10.1073/pnas.0910063106>`_ **B.** `Ghazanfar et al., 2013 <https://doi.org/10.1073/pnas.1214956110>`_ **C.** Artist: Tim Mrozek (`Paukner et al., 2014 <https://doi.org/10.1111/desc.12207>`_; `Simpson et al., 2016 <https://doi.org/10.1038/srep19669>`_) **D.** Artist: `Damien Montelliard <https://www.3dminfographie.com/en/>`_ (`Wilson et al., 2019 <https://doi.org/10.1101/758458>`_) **E.** (`Siebert et al., 2019 <http://www.compsens.uni-tuebingen.de/compsens/index.php/publications/patents?view=project&task=show&id=87>`_) **F.** Artist: `Kelly Bullock, 2019 <https://www.kellybullockart.com/macaquemonkey>`_ **G.** `Barbary macaque (M.sylvanus) <https://en.wikipedia.org/wiki/Barbary_macaque>`_, by artist `Shariq Altaf, 2018 <https://area.autodesk.com/gallery/barbary-macaque/>`_. **H.** `Japanese macaque (M.fuscata) <https://en.wikipedia.org/wiki/Japanese_macaque>`_ by artist `Andre Holzmeister, 2017 <www.andreholzmeister.com/primate_pages>`_. **I.** Japanese macaque by studio `Kleos Animation, 2018 <www.kleosanimation.com>`_.
+**Figure 1. Developmental history of digital macaque avatars. A.** `Steckenfinger & Ghazanfar, 2009 <https://doi.org/10.1073/pnas.0910063106>`_ **B.** `Ghazanfar et al., 2013 <https://doi.org/10.1073/pnas.1214956110>`_ **C.** Artist: `Tim Mrozek <https://www.artstation.com/timrozek>`_ (`Paukner et al., 2014 <https://doi.org/10.1111/desc.12207>`_; `Simpson et al., 2016 <https://doi.org/10.1038/srep19669>`_) **D.** Artist: `Damien Montelliard <https://www.3dminfographie.com/en/>`_ (`Wilson et al., 2019 <https://doi.org/10.1101/758458>`_) **E.** (`Siebert et al., 2020 <https://doi.org/10.1523/ENEURO.0524-19.2020>`_) **F.** Artist: `Kelly Bullock, 2019 <https://www.kellybullockart.com/macaquemonkey>`_ (`Martinez-Trujillo lab <http://martinezlab.robarts.ca/>`_, unpublished) **G.** `Barbary macaque (M.sylvanus) <https://en.wikipedia.org/wiki/Barbary_macaque>`_, by artist `Shariq Altaf, 2018 <https://area.autodesk.com/gallery/barbary-macaque/>`_. **H.** `Japanese macaque (M.fuscata) <https://en.wikipedia.org/wiki/Japanese_macaque>`_ by artist `Andre Holzmeister, 2017 <www.andreholzmeister.com/primate_pages>`_. **I.** Japanese macaque by studio `Kleos Animation, 2018 <www.kleosanimation.com>`_.
 
 .. container:: clearer
     .. image :: _images/spacer.png

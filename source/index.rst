@@ -40,12 +40,13 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   MF3D Overview <MF3D-Overview>
+   Overview <MF3D-Overview>
+   Background <MF3D-Background>
    MF3D Release 1 <MF3D-Release-1>
    MF3D Release 2 <MF3D-Release-2>
    MF3D Tools - Stimulus Editor <MF3D-Stimulus-Editor>
    MF3D Tools - Video Parameter GUI <MF3D-Video-Parameter-Estimation-GUI>
-   MF3D Methods - Face Space <MF3D-Parameterizing-anatomical-variations>
+   Methods - Face Space <MF3D-Parameterizing-anatomical-variations>
    Published Research <MF3D-Research>
 
 

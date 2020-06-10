@@ -41,6 +41,7 @@ release = '1.0'
 extensions = [
     'sphinx.ext.githubpages',
     'recommonmark',
+    'matplotlib.sphinxext.plot_directive'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -102,9 +103,9 @@ html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 
 
 
 # Custom CSS
-#html_css_files = [
-#    'css/custom.css',
-#]
+html_css_files = [
+    'css/custom.css',
+]
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
