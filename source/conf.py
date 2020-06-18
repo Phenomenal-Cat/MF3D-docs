@@ -44,6 +44,7 @@ release = '1.0'
 extensions = [
     'sphinx.ext.githubpages',
     'recommonmark',
+    # 'zot4rst.sphinx',
     # 'matplotlib.sphinxext.plot_directive'
 ]
 

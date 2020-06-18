@@ -4,7 +4,7 @@ MF3D Background
 
 Why are neuroscientists creating virtual reality monkeys? The answer requires a brief history of the field of social neuroscience and the importance of the macaque monkey as an animal model for understanding the human brain and psychiatric disorders. 
 
-Studying the Social Primate Brain
+Studying the social primate brain
 -------------------------------------
 
 .. image:: _images/NHPSpeciesPieChart.png
@@ -28,12 +28,31 @@ In the wild, Rhesus macaques have the second largest territorial range of any pr
 Face processing in the macaque brain
 -------------------------------------
 
-Neural responses to images of faces in the macaque brain were first reported by `Gross et al. (1972) <https://doi.org/10.1152/jn.1972.35.1.96>`_. The approach of recording extracellular spiking activity during visual stimulation of the anesthetized monkey followed that of `Hubel & Wiesel (1968) <https://doi.org/10.1113/jphysiol.1968.sp008455>`_. Subsequent electrophysiology studies revealed that many of these neurons in the superior temporal sulcus (STS) are sensitive to specific types of facial information, including head and eye gaze direction, identity, and facial expression (`Perrett et al., 1982 <https://doi.org/10.1007/BF00239352>`_; `1985 <https://doi.org/10.1098/rspb.1985.0003>`_; `Hasselmo, Rolls & Baylis, 1989 <10.1016/s0166-4328(89)80054-3>`_). The development of non-invasive functional magnetic resonance imaging (fMRI) in the 1990s subsequently lead to the discovery that many of these face-selective neurons were clustered together in specific regions of the macaque inferotemporal (IT) cortex (`Tsao et al., 2003 <https://doi.org/10.1038/nn1111>`_), prefrontal cortex (`Tsao et al., 2008 <https://doi.org/10.1038/nn.2158>`_) and medial temporal lobe (`Landi & Freiwald, 2017 <https://doi.org/10.1126/science.aan1139>`_). 
+.. image:: _images/Figures/Gross1984.png
+ :width: 50%
+ :align: right
+ :alt: Gross et al., 1972 & 1984
 
+Neural responses to images of faces in the macaque brain were first reported by `Gross et al. (1972) <https://doi.org/10.1152/jn.1972.35.1.96>`_. The approach of recording extracellular spiking activity during visual stimulation of the anesthetized monkey followed that of `Hubel & Wiesel (1968) <https://doi.org/10.1113/jphysiol.1968.sp008455>`_. Subsequent electrophysiology studies revealed that many of these neurons in the macaque superior temporal sulcus (STS) are sensitive to specific types of facial information, including head and eye gaze direction, identity, and facial expression (`Perrett et al., 1982 <https://doi.org/10.1007/BF00239352>`_; `1985 <https://doi.org/10.1098/rspb.1985.0003>`_; `Hasselmo, Rolls & Baylis, 1989 <10.1016/s0166-4328(89)80054-3>`_). 
+
+.. image:: _images/Figures/Freiwald_patches.jpg
+ :width: 25%
+ :align: left
+ :alt: Macaque fMRI
+
+The development of non-invasive functional magnetic resonance imaging (fMRI) in the 1990s lead to the discovery of face selective regions of ventral visual cortex in humans (`Kanwisher et al., 1997 <https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997>`_) and subsequently the discovery that face-selective neurons were also clustered together in specific regions of the macaque inferotemporal (IT) cortex (`Tsao et al., 2003 <https://doi.org/10.1038/nn1111>`_), prefrontal cortex (`Tsao et al., 2008 <https://doi.org/10.1038/nn.2158>`_) and medial temporal lobe (`Landi & Freiwald, 2017 <https://doi.org/10.1126/science.aan1139>`_). 
+
+
+Limitations of traditional vision neuroscience
+---------------------------------------------------------
+
+The reductionist approach that has proven so successful for understanding the neurophysiological basis of visual processing in early visual areas, typically relies on simplified, abstract or artificial stimuli in order to allow for systematic, parameterized testing along stimulus dimensions of interest. However, the artificial nature of these experimental paradigms raises questions of their relevance to the types of visual experiences that the brain naturally encounters. This tension between rigorous control and ethological validity is perhaps most conspicuous in trying to understand the visual processing of social cues, to which much of the primate brain appears dedicated.
+
+Consequently, scientists have more recently begun exploring alternative approaches that utilize more complex, ethologically valid visual stimulation paradigms (`Hasson et al., 2003 <https://doi.org/10.1126/science.1089506>`_; `Mosher, Zimmerman & Gothard, 2014 <https://doi.org/10.1016/j.cub.2014.08.063>`_; `Russ & Leopold, 2015 <https://doi.org/10.1016/j.neuroimage.2015.01.012>`_; `McMahon et al., 2015 <https://doi.org/10.1523/JNEUROSCI.3825-14.2015>`_ ; `Park et al., 2017 <https://doi.org/10.1016/j.neuron.2017.07.014>`_). However, the trade-off of using 'natural' video stimuli is the loss of experimental control. While the visual and semantic content of video footage containing human actors is at least partially under the control of the director, natural movies of macaque subjects cannot be easily choreographed to address specific research questions.
 
 
 Development of Macaque Avatars
-------------------------------
+-------------------------------
 
 Digital macaque 'avatars' have been used in behavioral and neuroscience research for over a decade (:ref:`Figure 1 <avatars-fig>`). This approach has typically involved a trade-off between ethological validity (i.e. how natural and/or 'real' the visual stimulus appears to the subject) and experimental control. Indeed, an early study concluded that macaque subjects may experience a perceptual phenomenon known as the 'uncanny valley', whereby semi-realistic artificial representations of faces elicit more negative emotional responses than either real or obviously artificial faces (`Steckenfinger & Ghazanfar, 2009 <https://doi.org/10.1073/pnas.0910063106>`_). 
 
@@ -43,21 +62,23 @@ Despite these technological advances, the time and cost of employing skilled dig
 
 .. _avatars-fig:
 
-.. image:: _images/MacaqueAvatarsFig.png
- :width: 50%
- :align: left
- :class: align-left
- :alt: Macaque avatars
-**Figure 1. Developmental history of digital macaque avatars. A.** `Steckenfinger & Ghazanfar, 2009 <https://doi.org/10.1073/pnas.0910063106>`_ **B.** `Ghazanfar et al., 2013 <https://doi.org/10.1073/pnas.1214956110>`_ **C.** Artist: `Tim Mrozek <https://www.artstation.com/timrozek>`_ (`Paukner et al., 2014 <https://doi.org/10.1111/desc.12207>`_; `Simpson et al., 2016 <https://doi.org/10.1038/srep19669>`_) **D.** Artist: `Damien Montelliard <https://www.3dminfographie.com/en/>`_ (`Wilson et al., 2019 <https://doi.org/10.1101/758458>`_) **E.** (`Siebert et al., 2020 <https://doi.org/10.1523/ENEURO.0524-19.2020>`_) **F.** Artist: `Kelly Bullock, 2019 <https://www.kellybullockart.com/macaquemonkey>`_ (`Martinez-Trujillo lab <http://martinezlab.robarts.ca/>`_, unpublished) **G.** `Barbary macaque (M.sylvanus) <https://en.wikipedia.org/wiki/Barbary_macaque>`_, by artist `Shariq Altaf, 2018 <https://area.autodesk.com/gallery/barbary-macaque/>`_. **H.** `Japanese macaque (M.fuscata) <https://en.wikipedia.org/wiki/Japanese_macaque>`_ by artist `Andre Holzmeister, 2017 <www.andreholzmeister.com/primate_pages>`_. **I.** Japanese macaque by studio `Kleos Animation, 2018 <www.kleosanimation.com>`_.
+  .. image:: _images/MacaqueAvatarsFig.png
+    :width: 50%
+    :align: left
+    :class: align-left
+    :alt: Macaque avatars
+
+  **Figure 1. Developmental history of digital macaque avatars. A.** `Steckenfinger & Ghazanfar, 2009 <https://doi.org/10.1073/pnas.0910063106>`_ **B.** `Ghazanfar et al., 2013 <https://doi.org/10.1073/pnas.1214956110>`_ **C.** Artist: `Tim Mrozek <https://www.artstation.com/timrozek>`_ (`Paukner et al., 2014 <https://doi.org/10.1111/desc.12207>`_; `Simpson et al., 2016 <https://doi.org/10.1038/srep19669>`_) **D.** Artist: `Damien Montelliard <https://www.3dminfographie.com/en/>`_ (`Wilson et al., 2019 <https://doi.org/10.1101/758458>`_) **E.** (`Siebert et al., 2020 <https://doi.org/10.1523/ENEURO.0524-19.2020>`_) **F.** Artist: `Kelly Bullock, 2019 <https://www.kellybullockart.com/macaquemonkey>`_ (`Martinez-Trujillo lab <http://martinezlab.robarts.ca/>`_, unpublished) **G.** `Barbary macaque (M.sylvanus) <https://en.wikipedia.org/wiki/Barbary_macaque>`_, by artist `Shariq Altaf, 2018 <https://area.autodesk.com/gallery/barbary-macaque/>`_. **H.** `Japanese macaque (M.fuscata) <https://en.wikipedia.org/wiki/Japanese_macaque>`_ by artist `Andre Holzmeister, 2017 <www.andreholzmeister.com/primate_pages>`_. **I.** Japanese macaque by studio `Kleos Animation, 2018 <www.kleosanimation.com>`_.
 
 .. container:: clearer
+
     .. image :: _images/spacer.png
+      :height: 1
 
 
+Virtual Reality: ethologically validity and experimental control
+------------------------------------------------------------------
 
-
-Enhancing Ethological Validity through Virtual Reality
--------------------------------------------------------
 
 
 

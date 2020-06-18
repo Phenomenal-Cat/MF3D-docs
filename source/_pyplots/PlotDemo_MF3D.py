@@ -13,7 +13,7 @@ from matplotlib.cm import cool
 
 # Read MF3D demographic data from spreadsheet
 CSVFile = 'MF3D_Demographics.csv'
-Data = np.genfromtxt(CSVFile , delimiter=',', dtype=None)
+Data = np.genfromtxt(CSVFile , delimiter=',', dtype=None, encoding=None)
 NumData = np.genfromtxt(CSVFile , delimiter=',')
 ages = NumData[1:,3]
 weights = NumData[1:,2]
@@ -29,7 +29,7 @@ left, width = 0.1, 0.65
 bottom, height = 0.1, 0.65
 spacing = 0.02
 rect_scatter = [left, bottom, width, height]
-ScatterLims = [0, 30, 4, 18]
+ScatterLims = [0, 30, 0, 18]
 binwidth = 0.5
 barcolor = (0.5,0.5,1)
 
@@ -60,7 +60,7 @@ plt.ylabel('Weight (kg)', fontsize=16)
 
 #==== Histogram plots
 ax_histx = fig.add_subplot(gs[0, 0], sharex=ax_scatter)
-plt.title('MF3D Demographic Summary')
+plt.title('MF3D Demographic Summary (N = %d)' % len(ages))
 ax_histx.set_facecolor((0.9,0.9,0.9))
 #plt.axis('off')
 ax_histy = fig.add_subplot(gs[1, 1], sharey=ax_scatter)
@@ -75,4 +75,5 @@ ax_histy.hist(weights, bins=ybins, orientation='horizontal', color =barcolor, lw
 ax_histx.set_xlim(ax_scatter.get_xlim())
 ax_histy.set_ylim(ax_scatter.get_ylim())
 
+plt.savefig("MF3D_DemographicsPlot.svg")
 plt.show()
