@@ -14,6 +14,7 @@
 
 import os
 import sys
+import datetime
 sys.path.insert(0, os.path.abspath('.'))
 # sys.path.append(os.path.abspath('sphinxext'))
 
@@ -22,13 +23,11 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'MF3D'
-copyright = '2020, Aidan Murphy'
+now = datetime.datetime.now()       # Get current date
 author = 'Aidan Murphy'
-
-# The short X.Y version
-version = ''
-# The full version, including alpha/beta/rc tags
-release = '1.0'
+copyright = '%d, %s' % (now.year, author)
+version = '1.0'                     # The short X.Y version
+release = '1.0'                     # The full version, including alpha/beta/rc tags
 
 
 # -- General configuration ---------------------------------------------------
@@ -45,7 +44,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'recommonmark',
     # 'zot4rst.sphinx',
-    # 'matplotlib.sphinxext.plot_directive'
+    'matplotlib.sphinxext.plot_directive'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -86,12 +85,15 @@ html_theme = 'nature'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#
+
 html_logo = './_images/MF3D_Logo_black.svg'
+
+html_show_sourcelink = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
+
 html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
@@ -108,7 +110,7 @@ html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 
 
 # Custom CSS
 html_css_files = [
-    'css/custom.css',
+    'css/mf3d.css',
 ]
 
 
@@ -116,6 +118,14 @@ html_css_files = [
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'MF3Ddoc'
+
+
+
+# -- Options for Matplotlib output --------------------------------------------
+
+plot_html_show_source_link = False
+plot_html_show_formats = False # Don't show html links to source
+plot_basedir = '_pyplots'      # Name of Python plots folder in source
 
 
 # -- Options for LaTeX output ------------------------------------------------

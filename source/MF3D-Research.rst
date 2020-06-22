@@ -65,6 +65,10 @@ Khandhadia AP, Murphy AP, Romanksi LM, Bizley JK, Leopold DA (2019).
 
 In this study, the authors recorded single unit activity from the anterior fundus (AF) face-patch of the STS while subjects viewed animated sequences of the macaque avatar performing various vocalizations with varying head direction, with and without audio. Neurons in AF were modulated by both head direction and vocalization type.
 
+.. container:: clearer
+
+    .. image :: _images/spacer.png
+      :height: 1
 
 
 A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. 

@@ -2,6 +2,8 @@
 MF3D 'Face-space' construction
 ==============================
 
+.. contents:: :local:
+
 Parameterizing anatomical variations
 ------------------------------------
 
@@ -69,7 +71,31 @@ relative to the mean (middle column) for each mesh. Meshes were aligned
 via Procrustes method.
 
 
+Sample space expansion
+-----------------------------------
+
+.. plot:: PlotDemo_UNC.py
+  :include-source: False
+  :width: 300px
+  :align: right
+
+The validity of a 'face-space' is fundamentally limited by the sample used to construct it. The demographic make-up of the sample used to construct the original MF3D face-space is shown in Figure 5G above. All animals in this sample (N = 36) were over 4 years of age, and only a small proportion were female (N = 7). Although it is possible to identify an axis within the N-dimensional face-space that corresponds to age and then linearly extrapolate (Figure 5H), the resulting constructions of facial morphology are unlikely to be realistic (e.g. due to non-linear age related changes in facial morphology).
+
+
+To resolve this issue, we expanded the sample used to construct the face-space model, using the `UNC-Wisconsin Rhesus macaque Neurodevelopment Database <https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3>`_ (`Young et al., 2017 <https://doi.org/10.3389/fnins.2017.00029>`_). This database includes anatomical (T1-weighted) MRI scans from 36 infant Rhesus macaques between the ages of 2 weeks to 4 years old, collected longitudinally (150 scans total). The demographic distribution of this additional sample is shown in the plot on the right. The figure below illustrates raw soft tissue surface reconstructions from the T1 data for an individual at 5 time points during the first year of life. The segmentation of soft tissue from MRI data is noticeably noisier than segmentations from CT data, requires more smoothing and therefore lacks comparable detail. However, the data are sufficient to estimate craniofacial morphology since we fit the existing base mesh (clean topology) constructed from CT data to these raw MRI-derived meshes.
+
+.. image:: _images/Renders/UNC_Summary_Fig1.png
+  :width: 60%
+  :align: left
+  :alt: Craniofacial development in Rhesus macaque
+
+.. container:: clearer
+
+    .. image :: _images/spacer.png
+      :height: 1
+
+
 Expression transfer
 ------------------------------------
 
-
+Another limitation of the original MF3D model was that identity was parameterized separately from expression, and it was therefore not possible to generate faces of different individuals with the various modeled expressions. To resolve this issue we performed expression cloning, transferring the expression component of the original model into the face-space framework. This was achieved using `Wrap3 (RS3D) <https://www.russian3dscanner.com/>`_ software.

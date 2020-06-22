@@ -15,9 +15,7 @@ The `MF3D stimulus set (Release 1) <https://figshare.com/projects/MF3D_Release_1
   :alt: CC-BY-NC
 
 -  `MF3D Expression set <https://doi.org/10.6084/m9.figshare.8226029>`_ (10.97 GB)
-
 -  `MF3D Identities set <https://doi.org/10.6084/m9.figshare.8226311>`_ (26.75 GB)
-
 -  `MF3D Animations set <https://doi.org/10.6084/m9.figshare.8226317>`_ (614 MB)
 
 
@@ -146,15 +144,15 @@ vocalizations.
 
 .. raw:: html
 
-	<figure>
-    	<img src="_images/MurphyLeopold_Fig1D.png" width="300" align="left" style="display:block; padding:10px; border:5px"/>
-	</figure>
+     <figure>
+     <img src="_images/MurphyLeopold_Fig1D.png" width="300" align="left" style="display:block; padding:10px; border:5px"/>
+     </figure>
 
 	<iframe src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" style="display:block; padding:10px; border:5px" width="400" height="225" frameborder="0" align="right" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 	</br>
 	<div>
-	<b>Figure 1D.</b> Animated stimuli.** A subset of frames from an example
+	<b>Figure 1D.</b> Animated stimuli. A subset of frames from an example
 	animation sequence included in the MF3D R1 stimulus set is rendered at 5
 	different head azimuth orientations (rows). Bottom panel: Accompanying
 	audio waveform and spectrogram for this particular animation, which

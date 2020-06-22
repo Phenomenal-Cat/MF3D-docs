@@ -118,17 +118,33 @@ functionality:
 .. figure:: _images/MF3D_Tools_StimEditor_Fig2.png   
    :alt: MF3D Stimulus Editor GUI preview panel
 
-Cropping and rescaling
-----------------------
+Output formatting and rescaling
+--------------------------------
 
-To apply custom cropping of the images, select the
+If you want to save edited versions of the selected stimuli as image files 
+then you can use the options in the ``Output panel``:
+
+-  ``File format``: select the image file format that you want to save the new images to.
+   If any portion of the edited stimuli is transparent then ,png will be the only output
+   File format option.
+
+-  ``Resolution``: if you intend to present the stimuli at a lower resolution than their original
+   4K then you may want to scale them down in order to reduce file size. Since most visual stimulus
+   presentation software can re-scale images on-the-fly, this is not essential.
+
+-  ``Color``: sets the color properties of the saved output images. Options include original, grayscale,
+   and hue inverted.
+
 
 Image analysis and normalization
 --------------------------------
 
-In vision science, it is often desirable to either quantify or control the
+In traditional reductionist approaches to vision science, it is often 
+considered desirable to either quantify or control the
 low-level visual properties of the stimuli. The MF3D Stimulus Editor
-allows users to run functions from the `SHINE
-Toolbox <http://www.mapageweb.umontreal.ca/gosselif/SHINE/>`__
-(`Willenbockel et al., 2010 <https://doi.org/10.3758/BRM.42.3.671>`__)
-once it has been downloaded and added to the Matlab path.
+allows users to run various third party functions on the selected stimuli,
+for example:
+
+-  `SHINE Toolbox <http://www.mapageweb.umontreal.ca/gosselif/SHINE/>`__ (`Willenbockel et al., 2010 <https://doi.org/10.3758/BRM.42.3.671>`__) for normalization of contrast, luminance, spectral power.
+-  `Saliency Toolbox <http://www.saliencytoolbox.net/>`_ (`Itti et al., 1998 <https://doi.org/10.1109/34.730558>`_; `Harel et al., 2007 <https://resolver.caltech.edu/CaltechAUTHORS:20160315-111145907>`_; etc.) for quantification of visual saliency within images.
+-  `Computational Colour Science Toolbox <https://www.mathworks.com/matlabcentral/fileexchange/40640-computational-colour-science-using-matlab-2e>`_

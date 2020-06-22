@@ -4,7 +4,7 @@ MF3D Background
 
 Why are neuroscientists creating virtual reality monkeys? The answer requires a brief history of the field of social neuroscience and the importance of the macaque monkey as an animal model for understanding the human brain and psychiatric disorders. 
 
-Studying the Social Primate Brain
+Studying the social primate brain
 -------------------------------------
 
 .. image:: _images/NHPSpeciesPieChart.png
@@ -40,19 +40,19 @@ Neural responses to images of faces in the macaque brain were first reported by 
  :align: left
  :alt: Macaque fMRI
 
-The development of non-invasive functional magnetic resonance imaging (fMRI) in the 1990s lead to the discovery of face selective regions of ventral visual cortex in humans (`Kanwisher et al., 1997 <https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997>`_) and subsequently the discovery that face-selective neurons were also clustered together in specific regions of the macaque inferotemporal (IT) cortex (`Tsao et al., 2003 <https://doi.org/10.1038/nn1111>`_), prefrontal cortex (`Tsao et al., 2008 <https://doi.org/10.1038/nn.2158>`_) and medial temporal lobe (`Landi & Freiwald, 2017 <https://doi.org/10.1126/science.aan1139>`_). 
+The development of non-invasive functional magnetic resonance imaging (fMRI) in the 1990s lead to the discovery of face selective regions of ventral visual cortex in humans (`Kanwisher et al., 1997 <https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997>`_) and subsequently the discovery that face-selective neurons were also clustered together in specific regions of the macaque inferotemporal (IT) cortex (`Tsao et al., 2003 <https://doi.org/10.1038/nn1111>`_; `2006 <https://doi.org/10.1126/science.1119983>`_; `Pinsk et al., 2005 <https://doi.org/10.1073/pnas.0502605102>`_), prefrontal cortex (`Tsao et al., 2008 <https://doi.org/10.1038/nn.2158>`_) and medial temporal lobe (`Landi & Freiwald, 2017 <https://doi.org/10.1126/science.aan1139>`_). 
 
 
-Limitations of the traditional vision neuroscience approach
-------------------------------------------------------------
+Limitations of traditional vision neuroscience approach
+---------------------------------------------------------
 
 The reductionist approach that has proven so successful for understanding the neurophysiological basis of visual processing in early visual areas, typically relies on simplified, abstract or artificial stimuli in order to allow for systematic, parameterized testing along stimulus dimensions of interest. However, the artificial nature of these experimental paradigms raises questions of their relevance to the types of visual experiences that the brain naturally encounters. This tension between rigorous control and ethological validity is perhaps most conspicuous in trying to understand the visual processing of social cues, to which much of the primate brain appears dedicated.
 
-Consequently, scientists have more recently begun exploring alternative approaches that utilize more complex, ethologically valid visual stimulation paradigms (`Hasson et al., 2003 <https://doi.org/10.1126/science.1089506>`_; `Mosher, Zimmerman & Gothard, 2014 <https://doi.org/10.1016/j.cub.2014.08.063>`_; `Russ & Leopold, 2015 <https://doi.org/10.1016/j.neuroimage.2015.01.012>`_; `McMahon et al., 2015 <https://doi.org/10.1523/JNEUROSCI.3825-14.2015>`_ ; `Park et al., 2017 <https://doi.org/10.1016/j.neuron.2017.07.014>`_). However, the trade-off of using 'natural' video stimuli is the loss of experimental control. While the visual and semantic content of video footage containing human actors is at least partially under the control of the director, natural movies of macaque subjects cannot be easily choreographed to address specific research questions.
+Consequently, scientists have more recently begun exploring alternative approaches that utilize more complex, ethologically valid visual stimulation paradigms (`Hasson et al., 2003 <https://doi.org/10.1126/science.1089506>`_; `Mosher, Zimmerman & Gothard, 2014 <https://doi.org/10.1016/j.cub.2014.08.063>`_; `Russ & Leopold, 2015 <https://doi.org/10.1016/j.neuroimage.2015.01.012>`_; `McMahon et al., 2015 <https://doi.org/10.1523/JNEUROSCI.3825-14.2015>`_; `Park et al., 2017 <https://doi.org/10.1016/j.neuron.2017.07.014>`_). However, the trade-off of using 'natural' video stimuli is the loss of experimental control. While the visual and semantic content of video footage containing human actors is at least partially under the control of the director, natural movies of macaque subjects cannot be easily choreographed to address specific research questions.
 
 
 Development of Macaque Avatars
-------------------------------
+-------------------------------
 
 Digital macaque 'avatars' have been used in behavioral and neuroscience research for over a decade (:ref:`Figure 1 <avatars-fig>`). This approach has typically involved a trade-off between ethological validity (i.e. how natural and/or 'real' the visual stimulus appears to the subject) and experimental control. Indeed, an early study concluded that macaque subjects may experience a perceptual phenomenon known as the 'uncanny valley', whereby semi-realistic artificial representations of faces elicit more negative emotional responses than either real or obviously artificial faces (`Steckenfinger & Ghazanfar, 2009 <https://doi.org/10.1073/pnas.0910063106>`_). 
 
@@ -79,7 +79,11 @@ Despite these technological advances, the time and cost of employing skilled dig
 Virtual Reality: ethologically validity and experimental control
 ------------------------------------------------------------------
 
+.. image:: _images/Renders/MF3D_SceneDemo.png
+  :width: 60%
+  :align: right
+  :alt: MF3D avatar in a naturalistic virtual environment
 
-
+While the use of macaque avatars rendered in isolation is the logical extension of the traditional visual neuroscience approach, a major benefit of the flexibility provided by a digital avatar is the ability to embed it in more naturalistic virtual environments. This can take the form of either offline rendered film-like realistic scenes, or real-time rendered computer game-like scenes. Importantly, the latter approach offers the ability to address a range of research questions that it would not be possible to test using traditional video stimuli nor real-life interactions between animals.
 
 

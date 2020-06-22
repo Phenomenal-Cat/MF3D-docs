@@ -1,18 +1,19 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MF3D Release 1 &#8212; MF3D 1.0 documentation</title>
     <link rel="stylesheet" href="_static/nature.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/css/mf3d.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="MF3D Release 2" href="MF3D-Release-2.html" />
@@ -30,7 +31,8 @@
         <li class="right" >
           <a href="MF3D-Background.html" title="MF3D Background"
              accesskey="P">previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">MF3D Release 1</a></li> 
       </ul>
     </div>  
 
@@ -42,14 +44,12 @@
   <div class="section" id="mf3d-release-1">
 <h1>MF3D Release 1<a class="headerlink" href="#mf3d-release-1" title="Permalink to this headline">¶</a></h1>
 <p>The <a class="reference external" href="https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544">MF3D stimulus set (Release 1)</a> consist of 14,000 high resolution images and animated video sequences. The images and animations are hosted on <a class="reference external" href="https://figshare.com">Figshare</a> and can be downloaded separately:</p>
-<a class="align-right reference internal image-reference" href="_images/Figshare.svg"><div align="right" class="align-right"><img alt="Figshare" class="align-right" src="_images/Figshare.svg" width="150" /></div>
-</a>
-<a class="align-right reference internal image-reference" href="_images/cc-by-nc.svg"><div align="right" class="align-right"><img alt="CC-BY-NC" class="align-right" src="_images/cc-by-nc.svg" width="100" /></div>
-</a>
+<a class="align-right reference internal image-reference" href="_images/Figshare.svg"><img alt="Figshare" class="align-right" src="_images/Figshare.svg" width="150" /></a>
+<a class="align-right reference internal image-reference" href="_images/cc-by-nc.svg"><img alt="CC-BY-NC" class="align-right" src="_images/cc-by-nc.svg" width="100" /></a>
 <ul class="simple">
-<li><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226029">MF3D Expression set</a> (10.97 GB)</li>
-<li><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226311">MF3D Identities set</a> (26.75 GB)</li>
-<li><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226317">MF3D Animations set</a> (614 MB)</li>
+<li><p><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226029">MF3D Expression set</a> (10.97 GB)</p></li>
+<li><p><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226311">MF3D Identities set</a> (26.75 GB)</p></li>
+<li><p><a class="reference external" href="https://doi.org/10.6084/m9.figshare.8226317">MF3D Animations set</a> (614 MB)</p></li>
 </ul>
 <div class="section" id="what-s-in-mf3d-r1">
 <h2>What’s in MF3D R1?<a class="headerlink" href="#what-s-in-mf3d-r1" title="Permalink to this headline">¶</a></h2>
@@ -72,7 +72,7 @@ value depending on the anatomical region of the avatar it belongs to
 in free-viewing paradigms (<a class="reference internal" href="#mf3d-r1-figa"><span class="std std-ref">Figure 1A, iii-iv</span></a>), for
 gaze-contingent reward schedules, or for generating novel stimuli by
 masking specific structures in the corresponding colour image.</p>
-<div class="figure" id="mf3d-r1-figa">
+<div class="figure align-default" id="mf3d-r1-figa">
 <img alt="Figure 1A - Stimulus set format" src="_images/MurphyLeopold_Fig1A.png" />
 </div>
 <p><strong>Figure 1A.</strong> Stimulus set format and applications. <strong>i.</strong> Each colour image in the set   is rendered as a 3840 x 2160 pixel RGBA image in .png format with 32-bits per pixel. The avatar is positioned such that the center of the screen coincides with the cyclopean eye when the avatar is directly facing the camera. <strong>ii.</strong> For each colour image, we provide a corresponding label map image (.hdr format) of the same dimensions, where integer pixel values indicate which anatomical structure of the avatar they belong to. <strong>iii.</strong> An example of a simulated gaze distribution map for the stimulus shown in i. <strong>iv.</strong> Proportion of fixations on each labelled structure can be easily computed. <strong>v.</strong> Novel stimuli can be created by using the label map to mask specific parts of the original image.</p>
@@ -92,7 +92,7 @@ closed eyes, as well as azimuth rotations beyond 90° (100 to 260° in 10°
 increments) for a total of 2,926 colour images. In order to maintain
 naturalistic poses, head orientation was varied through a combination of
 neck (±30° azimuth and elevation) and body (±60° azimuth) orientations.</p>
-<div class="figure" id="mf3d-r1-figb">
+<div class="figure align-default" id="mf3d-r1-figb">
 <img alt="Figure 1B - Expression stimuli" src="_images/MurphyLeopold_Fig1B.png" />
 </div>
 <p><strong>Figure 1B, Expression stimuli.</strong> <strong>i.</strong> All head orientations
@@ -113,7 +113,7 @@ each of the first five PCs (which together account for 75% of the sample
 variance in facial morphology), with distinctiveness (Euclidean distance
 from the average face, ±4σ in 1σ increments = 8 levels, excluding the
 mean; <a class="reference internal" href="#mf3d-r1-figc"><span class="std std-ref">Figure 1C, iii</span></a>) for a total of 10,941 identity images.</p>
-<div class="figure" id="mf3d-r1-figc">
+<div class="figure align-default" id="mf3d-r1-figc">
 <img alt="Figure 1C - Identity stimuli" src="_images/MurphyLeopold_Fig1C.png" />
 </div>
 <p><strong>Figure 1C. Identity stimuli. i.</strong> All head orientations rendered for
@@ -153,19 +153,20 @@ vocalizations.</p>
 <img src="_images/MurphyLeopold_Fig1D.png" width="300" align="left" style="display:block; padding:10px; border:5px"/>
 </figure>
 
-<iframe src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" style="display:block; padding:10px; border:5px" width="400" height="225" frameborder="0" align="right" allow="autoplay; fullscreen" allowfullscreen></iframe>
+   <iframe src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" style="display:block; padding:10px; border:5px" width="400" height="225" frameborder="0" align="right" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-</br>
-<div>
-<b>Figure 1D.</b> Animated stimuli.** A subset of frames from an example
-animation sequence included in the MF3D R1 stimulus set is rendered at 5
-different head azimuth orientations (rows). Bottom panel: Accompanying
-audio waveform and spectrogram for this particular animation, which
-depicts a ‘scream’ vocalization.
-</div></div>
+   </br>
+   <div>
+   <b>Figure 1D.</b> Animated stimuli. A subset of frames from an example
+   animation sequence included in the MF3D R1 stimulus set is rendered at 5
+   different head azimuth orientations (rows). Bottom panel: Accompanying
+   audio waveform and spectrogram for this particular animation, which
+   depicts a ‘scream’ vocalization.
+   </div></div>
 </div>
 
 
+            <div class="clearer"></div>
           </div>
         </div>
       </div>
@@ -174,7 +175,7 @@ depicts a ‘scream’ vocalization.
             <p class="logo"><a href="index.html">
               <img class="logo" src="_static/MF3D_Logo_black.svg" alt="Logo"/>
             </a></p>
-<h3><a href="index.html">Table Of Contents</a></h3>
+<h3><a href="index.html">Table of Contents</a></h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Background.html">Background</a></li>
@@ -198,25 +199,16 @@ depicts a ‘scream’ vocalization.
   <h4>Next topic</h4>
   <p class="topless"><a href="MF3D-Release-2.html"
                         title="next chapter">MF3D Release 2</a></p>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="_sources/MF3D-Release-1.rst.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -233,12 +225,13 @@ depicts a ‘scream’ vocalization.
         <li class="right" >
           <a href="MF3D-Background.html" title="MF3D Background"
              >previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">MF3D Release 1</a></li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 2020, Aidan Murphy.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.9.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.1.
     </div>
   </body>
 </html>

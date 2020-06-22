@@ -1,18 +1,19 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MF3D Stimulus Editor &#8212; MF3D 1.0 documentation</title>
     <link rel="stylesheet" href="_static/nature.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/css/mf3d.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Overview" href="MF3D-Video-Parameter-Estimation-GUI.html" />
@@ -30,7 +31,8 @@
         <li class="right" >
           <a href="MF3D-Release-2.html" title="MF3D Release 2"
              accesskey="P">previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">MF3D Stimulus Editor</a></li> 
       </ul>
     </div>  
 
@@ -53,22 +55,22 @@ operations that are not currently implemented in the GUI.</p>
 <p><a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools">MF3D Tools</a> contains scripts that can be used to downloaded the MF3D R1 stimulus sets from Figshare, unzip them and reorganize the directory structure. If you are using Matlab, this can be done using the
 <code class="docutils literal notranslate"><span class="pre">MF3D_Installer.m</span></code> GUI as follows:</p>
 <ul class="simple">
-<li>Clone the <a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools">MF3D-Tools</a> GitHub repository by opening a terminal window, navigating to the directory where you want MF3D-Tools installed and run:</li>
+<li><p>Clone the <a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools">MF3D-Tools</a> GitHub repository by opening a terminal window, navigating to the directory where you want MF3D-Tools installed and run:</p></li>
 </ul>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/MonkeyGone2Heaven/MF3D-Tools.git
 </pre></div>
 </div>
 <ul class="simple">
-<li>Alternatively, you can <a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools/archive/master.zip">download MF3D Tools</a> directly and unzip the folder.</li>
-<li>Open Matlab, navigate to the ‘MF3D Tools’ folder and run <code class="docutils literal notranslate"><span class="pre">MF3D_Installer.m</span></code> in the Matlab command line. Note that the script requires permissions to move the code and image files around.</li>
+<li><p>Alternatively, you can <a class="reference external" href="https://github.com/MonkeyGone2Heaven/MF3D-Tools/archive/master.zip">download MF3D Tools</a> directly and unzip the folder.</p></li>
+<li><p>Open Matlab, navigate to the ‘MF3D Tools’ folder and run <code class="docutils literal notranslate"><span class="pre">MF3D_Installer.m</span></code> in the Matlab command line. Note that the script requires permissions to move the code and image files around.</p></li>
 </ul>
 <div class="figure align-right">
 <a class="align-right reference internal image-reference" href="_images/MF3D_Installer.png"><img alt="MF3D Installer GUI" class="align-right" src="_images/MF3D_Installer.png" style="width: 400px;" /></a>
 </div>
 <ul class="simple">
-<li>The MF3D Installer GUI window appears. Select a destination folder where you would like the MF3D R1 stimulus set installed. If the MF3D R1 stimulus set is already fully or partially installed, the corresponding fields will turn green.</li>
-<li>Select which subsets of the MF3D R1 stimulus set you want to install using the check boxes.</li>
-<li>Click the <strong>Download</strong> button to begin download and unzipping. If the files are already downloaded (indicated by a full progress bar) but the files have not been reorganized, select <strong>Reorganize</strong> button.</li>
+<li><p>The MF3D Installer GUI window appears. Select a destination folder where you would like the MF3D R1 stimulus set installed. If the MF3D R1 stimulus set is already fully or partially installed, the corresponding fields will turn green.</p></li>
+<li><p>Select which subsets of the MF3D R1 stimulus set you want to install using the check boxes.</p></li>
+<li><p>Click the <strong>Download</strong> button to begin download and unzipping. If the files are already downloaded (indicated by a full progress bar) but the files have not been reorganized, select <strong>Reorganize</strong> button.</p></li>
 </ul>
 <p>The parameters used to generate each image in the MF3D R1 stimulus set
 are provided in the accompanying spreadsheets (.csv files) - one for the
@@ -86,7 +88,7 @@ and will activate and deactivate the corresponding parameter lists.
 Multiple rows can be selected in each active parameter list, and the
 total number of images currently selected appears in the top right hand
 corner of the GUI.</p>
-<div class="figure">
+<div class="figure align-default">
 <img alt="MF3D Stimulus Editor GUI selection panel" src="_images/MF3D_Tools_StimEditor_Fig3.png" />
 </div>
 </div>
@@ -108,54 +110,70 @@ on or off, which will update the <code class="docutils literal notranslate"><spa
 controls to the left of the <code class="docutils literal notranslate"><span class="pre">Masking</span> <span class="pre">panel</span></code> provide the following
 functionality:</p>
 <ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">Apply</span> <span class="pre">Smoothing</span></code>: Apply image smoothing to the label map before
+<li><p><code class="docutils literal notranslate"><span class="pre">Apply</span> <span class="pre">Smoothing</span></code>: Apply image smoothing to the label map before
 masking the color image. This option reduces pixelated edges in the
 alpha transparency layer of the final images, as can be seen in the
-<code class="docutils literal notranslate"><span class="pre">Preview</span> <span class="pre">panel</span></code>.</li>
-<li><code class="docutils literal notranslate"><span class="pre">Kernel</span> <span class="pre">width</span></code>: Sets the width of the smoothing kernel (pixels)
-applied to the label map before masking.</li>
-<li><code class="docutils literal notranslate"><span class="pre">Background</span></code>: Sets the type of background to use for the output
+<code class="docutils literal notranslate"><span class="pre">Preview</span> <span class="pre">panel</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Kernel</span> <span class="pre">width</span></code>: Sets the width of the smoothing kernel (pixels)
+applied to the label map before masking.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Background</span></code>: Sets the type of background to use for the output
 images. The default is transparent (same as input images), but it can
 also be set to use a solid color or a Fourier scrambled version of
-the original image.</li>
-<li><code class="docutils literal notranslate"><span class="pre">Ellipse</span> <span class="pre">crop</span></code>: Displays an ellipse in the <code class="docutils literal notranslate"><span class="pre">Preview</span> <span class="pre">panel</span></code> that
+the original image.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Ellipse</span> <span class="pre">crop</span></code>: Displays an ellipse in the <code class="docutils literal notranslate"><span class="pre">Preview</span> <span class="pre">panel</span></code> that
 can be dragged, scaled and resized with the mouse. Pixels outside of
 the ellipse will have alpha transparency values of 0 (fully
 transparent) when saved. When ellipse crop is enabled, the background
-selected will only appear inside the ellipse.</li>
-<li><code class="docutils literal notranslate"><span class="pre">Isotropic</span></code>: Maintain a 1:1 aspect ratio ellipse (i.e. circular)
-crop.</li>
-<li><code class="docutils literal notranslate"><span class="pre">Cyclopean</span> <span class="pre">center</span></code>: this will center the cropping ellipse on the
+selected will only appear inside the ellipse.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Isotropic</span></code>: Maintain a 1:1 aspect ratio ellipse (i.e. circular)
+crop.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Cyclopean</span> <span class="pre">center</span></code>: this will center the cropping ellipse on the
 ‘cyclopean eye’ (indicated in the <code class="docutils literal notranslate"><span class="pre">Preview</span> <span class="pre">panel</span></code> by a white
 astrisk) by finding the centroid of each group of pixels belonging to
 the ‘eye’ label group (indicated by red astrisks) and calculating the
 mid-point. Turning this option on will cause the location of the
 avatar’s body on the screen to shift as the head turns, but will keep
 the eyes either side of the centre on the horizontal meridian of the
-screen across head angles.</li>
-<li><code class="docutils literal notranslate"><span class="pre">Radius</span> <span class="pre">(px)</span></code>: Sets the radius of the elliptical crop selection in
-pixels.</li>
+screen across head angles.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Radius</span> <span class="pre">(px)</span></code>: Sets the radius of the elliptical crop selection in
+pixels.</p></li>
 </ul>
-<div class="figure">
+<div class="figure align-default">
 <img alt="MF3D Stimulus Editor GUI preview panel" src="_images/MF3D_Tools_StimEditor_Fig2.png" />
 </div>
 </div>
-<div class="section" id="cropping-and-rescaling">
-<h2>Cropping and rescaling<a class="headerlink" href="#cropping-and-rescaling" title="Permalink to this headline">¶</a></h2>
-<p>To apply custom cropping of the images, select the</p>
+<div class="section" id="output-formatting-and-rescaling">
+<h2>Output formatting and rescaling<a class="headerlink" href="#output-formatting-and-rescaling" title="Permalink to this headline">¶</a></h2>
+<p>If you want to save edited versions of the selected stimuli as image files
+then you can use the options in the <code class="docutils literal notranslate"><span class="pre">Output</span> <span class="pre">panel</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">File</span> <span class="pre">format</span></code>: select the image file format that you want to save the new images to.
+If any portion of the edited stimuli is transparent then ,png will be the only output
+File format option.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Resolution</span></code>: if you intend to present the stimuli at a lower resolution than their original
+4K then you may want to scale them down in order to reduce file size. Since most visual stimulus
+presentation software can re-scale images on-the-fly, this is not essential.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Color</span></code>: sets the color properties of the saved output images. Options include original, grayscale,
+and hue inverted.</p></li>
+</ul>
 </div>
 <div class="section" id="image-analysis-and-normalization">
 <h2>Image analysis and normalization<a class="headerlink" href="#image-analysis-and-normalization" title="Permalink to this headline">¶</a></h2>
-<p>In vision science, it is often desirable to either quantify or control the
+<p>In traditional reductionist approaches to vision science, it is often
+considered desirable to either quantify or control the
 low-level visual properties of the stimuli. The MF3D Stimulus Editor
-allows users to run functions from the <a class="reference external" href="http://www.mapageweb.umontreal.ca/gosselif/SHINE/">SHINE
-Toolbox</a>
-(<a class="reference external" href="https://doi.org/10.3758/BRM.42.3.671">Willenbockel et al., 2010</a>)
-once it has been downloaded and added to the Matlab path.</p>
+allows users to run various third party functions on the selected stimuli,
+for example:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.mapageweb.umontreal.ca/gosselif/SHINE/">SHINE Toolbox</a> (<a class="reference external" href="https://doi.org/10.3758/BRM.42.3.671">Willenbockel et al., 2010</a>) for normalization of contrast, luminance, spectral power.</p></li>
+<li><p><a class="reference external" href="http://www.saliencytoolbox.net/">Saliency Toolbox</a> (<a class="reference external" href="https://doi.org/10.1109/34.730558">Itti et al., 1998</a>; <a class="reference external" href="https://resolver.caltech.edu/CaltechAUTHORS:20160315-111145907">Harel et al., 2007</a>; etc.) for quantification of visual saliency within images.</p></li>
+<li><p><a class="reference external" href="https://www.mathworks.com/matlabcentral/fileexchange/40640-computational-colour-science-using-matlab-2e">Computational Colour Science Toolbox</a></p></li>
+</ul>
 </div>
 </div>
 
 
+            <div class="clearer"></div>
           </div>
         </div>
       </div>
@@ -164,7 +182,7 @@ once it has been downloaded and added to the Matlab path.</p>
             <p class="logo"><a href="index.html">
               <img class="logo" src="_static/MF3D_Logo_black.svg" alt="Logo"/>
             </a></p>
-<h3><a href="index.html">Table Of Contents</a></h3>
+<h3><a href="index.html">Table of Contents</a></h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Background.html">Background</a></li>
@@ -175,7 +193,7 @@ once it has been downloaded and added to the Matlab path.</p>
 <li class="toctree-l2"><a class="reference internal" href="#stimulus-selection">Stimulus selection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#preview-panel">Preview panel</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#image-masking">Image masking</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#cropping-and-rescaling">Cropping and rescaling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#output-formatting-and-rescaling">Output formatting and rescaling</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#image-analysis-and-normalization">Image analysis and normalization</a></li>
 </ul>
 </li>
@@ -190,25 +208,16 @@ once it has been downloaded and added to the Matlab path.</p>
   <h4>Next topic</h4>
   <p class="topless"><a href="MF3D-Video-Parameter-Estimation-GUI.html"
                         title="next chapter">Overview</a></p>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="_sources/MF3D-Stimulus-Editor.rst.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -225,12 +234,13 @@ once it has been downloaded and added to the Matlab path.</p>
         <li class="right" >
           <a href="MF3D-Release-2.html" title="MF3D Release 2"
              >previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">MF3D Stimulus Editor</a></li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 2020, Aidan Murphy.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.9.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.1.
     </div>
   </body>
 </html>
