@@ -4,6 +4,8 @@ MF3D Background
 
 Why are neuroscientists creating virtual reality monkeys? The answer requires a brief history of the field of social neuroscience and the importance of the macaque monkey as an animal model for understanding the human brain and psychiatric disorders. 
 
+.. contents:: :local:
+
 Studying the social primate brain
 -------------------------------------
 
@@ -64,7 +66,7 @@ Limitations of traditional vision neuroscience approach
   :width: 100%
   :target: https://www.cell.com/cms/10.1016/j.cub.2014.08.063/attachment/97abaa03-5af9-440a-86d0-ebfcde401546/mmc4.mp4
 
-  Natural video stimuli used by Mosher and colleagues (2015) revealed that some amygdala neurons are sensitive to whether the subject is looking at the eyes of another animal. Click image to view movie.
+  Natural video stimuli used by `Mosher and colleagues (2015) <https://doi.org/10.1016/j.cub.2014.08.063>`_ revealed that some amygdala neurons are sensitive to whether the subject is looking at the eyes of another animal. Click image to view movie.
 
 The reductionist approach that has proven so successful for understanding the neurophysiological basis of visual processing in early visual areas, typically relies on simplified, abstract or artificial stimuli in order to allow for systematic, parameterized testing along stimulus dimensions of interest. However, the artificial nature of these experimental paradigms raises questions of their relevance to the types of visual experiences that the brain naturally encounters. This tension between rigorous control and ethological validity is perhaps most conspicuous in trying to understand the visual processing of social cues, to which much of the primate brain appears dedicated.
 

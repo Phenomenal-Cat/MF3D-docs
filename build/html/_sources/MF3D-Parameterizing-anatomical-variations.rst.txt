@@ -45,29 +45,10 @@ Matlab, their vertex positions were averaged to generate the mesh of
 the sample mean and a PCA was run. 
 
 
-.. figure:: _images/MurphyLeopold_Fig5.jpg
+.. figure:: _images/ML_Figs/MurphyLeopold_Fig5.jpg
   :alt: Facial morphology analysis
 
-**Fig. 5. Morphable face model construction.**
-**A.** Example of manual selection of corresponding vertices on the low-poly base mesh topology (topology A) created from individual M02 (morphology A) and the high-poly raw surface mesh of individual M09 (right). The warping process produces a surface mesh with topology A and morphology B (bottom left), which can then be manually edited (bottom right). 
-**B.** Sample mean mesh surface. 
-**C.** First five principal components (mean ± 2σ) of macaque face-space. 
-**D.** Locations of original sample identities (n
-= 23) projected into principal component face-space (first 3 PC dimensions only). 
-**E.** Distribution of CT scan voxel volume for each
-individual plotted against their Euclidean distance from the sample mean
-(σ). 
-**F.** Percentage of variance in sample cranio-facial morphology
-explained by each principal component. 
-**G.** Distributions of demographic variables for Rhesus macaque CT data sample. 
-**H.** Age trajectory through face-space for males calculated by averaging 5
-youngest (2nd column) and 5 oldest (4th column) males, and
-extrapolating. 
-**I.** Sexual dimorphism trajectory through face-space
-calculated by averaging 5 males (2nd column) and 5 females (4th column),
-and extrapolating. Colour map indicates the displacement of each vertex
-relative to the mean (middle column) for each mesh. Meshes were aligned
-via Procrustes method.
+  **Morphable face model construction. A.** Example of manual selection of corresponding vertices on the low-poly base mesh topology (topology A) created from individual M02 (morphology A) and the high-poly raw surface mesh of individual M09 (right). The warping process produces a surface mesh with topology A and morphology B (bottom left), which can then be manually edited (bottom right). **B.** Sample mean mesh surface. **C.** First five principal components (mean ± 2σ) of macaque face-space. **D.** Locations of original sample identities (n = 23) projected into principal component face-space (first 3 PC dimensions only). **E.** Distribution of CT scan voxel volume for each individual plotted against their Euclidean distance from the sample mean (σ). **F.** Percentage of variance in sample cranio-facial morphology explained by each principal component. **G.** Distributions of demographic variables for Rhesus macaque CT data sample. **H.** Age trajectory through face-space for males calculated by averaging 5 youngest (2nd column) and 5 oldest (4th column) males, and extrapolating. **I.** Sexual dimorphism trajectory through face-space calculated by averaging 5 males (2nd column) and 5 females (4th column), and extrapolating. Colour map indicates the displacement of each vertex relative to the mean (middle column) for each mesh. Meshes were aligned via Procrustes method.
 
 
 Sample space expansion
@@ -83,15 +64,19 @@ The validity of a 'face-space' is fundamentally limited by the sample used to co
 
 To resolve this issue, we expanded the sample used to construct the face-space model, using the `UNC-Wisconsin Rhesus macaque Neurodevelopment Database <https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3>`_ (`Young et al., 2017 <https://doi.org/10.3389/fnins.2017.00029>`_). This database includes anatomical (T1-weighted) MRI scans from 36 infant Rhesus macaques between the ages of 2 weeks to 4 years old, collected longitudinally (150 scans total). The demographic distribution of this additional sample is shown in the plot on the right. The figure below illustrates raw soft tissue surface reconstructions from the T1 data for an individual at 5 time points during the first year of life. The segmentation of soft tissue from MRI data is noticeably noisier than segmentations from CT data, requires more smoothing and therefore lacks comparable detail. However, the data are sufficient to estimate craniofacial morphology since we fit the existing base mesh (clean topology) constructed from CT data to these raw MRI-derived meshes.
 
-.. image:: _images/Renders/UNC_Summary_Fig1.png
-  :width: 60%
+.. figure:: _images/Renders/UNC_Summary_Fig1.png
   :align: left
+  :figwidth: 60%
+  :width: 100%
   :alt: Craniofacial development in Rhesus macaque
+
+  Raw soft tissue reconstructions of an individual Rhesus macaque across time, generated from the `UNC Wisconsin Rhesus macaque Neurodevelopment Database <https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3>`_ (`Young et al, 2017 <https://doi.org/10.3389/fnins.2017.00029>`_).
+
 
 .. container:: clearer
 
     .. image :: _images/spacer.png
-      :height: 1
+       :width: 1
 
 
 Expression transfer
