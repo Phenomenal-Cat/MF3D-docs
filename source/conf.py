@@ -86,7 +86,7 @@ html_theme = 'nature'
 # further.  For a list of options available for each theme, see the
 # documentation.
 
-html_logo = './_images/MF3D_Logo_black.svg'
+html_logo = './_images/Logos/MF3D_Logo_black.svg'
 
 html_show_sourcelink = False
 

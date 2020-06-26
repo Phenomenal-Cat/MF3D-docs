@@ -45,7 +45,7 @@ Matlab, their vertex positions were averaged to generate the mesh of
 the sample mean and a PCA was run. 
 
 
-.. figure:: _images/MurphyLeopold_Fig5.jpg
+.. figure:: _images/ML_Figs/MurphyLeopold_Fig5.jpg
   :alt: Facial morphology analysis
 
 **Fig. 5. Morphable face model construction.**
@@ -83,15 +83,13 @@ The validity of a 'face-space' is fundamentally limited by the sample used to co
 
 To resolve this issue, we expanded the sample used to construct the face-space model, using the `UNC-Wisconsin Rhesus macaque Neurodevelopment Database <https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3>`_ (`Young et al., 2017 <https://doi.org/10.3389/fnins.2017.00029>`_). This database includes anatomical (T1-weighted) MRI scans from 36 infant Rhesus macaques between the ages of 2 weeks to 4 years old, collected longitudinally (150 scans total). The demographic distribution of this additional sample is shown in the plot on the right. The figure below illustrates raw soft tissue surface reconstructions from the T1 data for an individual at 5 time points during the first year of life. The segmentation of soft tissue from MRI data is noticeably noisier than segmentations from CT data, requires more smoothing and therefore lacks comparable detail. However, the data are sufficient to estimate craniofacial morphology since we fit the existing base mesh (clean topology) constructed from CT data to these raw MRI-derived meshes.
 
-.. image:: _images/Renders/UNC_Summary_Fig1.png
-  :width: 60%
+.. figure:: _images/Renders/UNC_Summary_Fig1.png
+  :width: 100%
+  :figwidth: 60%
   :align: left
   :alt: Craniofacial development in Rhesus macaque
 
-.. container:: clearer
-
-    .. image :: _images/spacer.png
-      :height: 1
+  Raw soft tissue reconstructions of an individual Rhesus macaque across time, generated from the UNC-Wisconsin Rhesus macaque Neurodevelopment Database <https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3>`_ (`Young et al., 2017 <https://doi.org/10.3389/fnins.2017.00029>`_)
 
 
 Expression transfer
