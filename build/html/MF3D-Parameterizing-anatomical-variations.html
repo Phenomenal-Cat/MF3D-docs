@@ -45,14 +45,18 @@
 <h1>MF3D ‘Face-space’ construction<a class="headerlink" href="#mf3d-face-space-construction" title="Permalink to this headline">¶</a></h1>
 <div class="contents local topic" id="contents">
 <ul class="simple">
-<li><p><a class="reference internal" href="#parameterizing-anatomical-variations" id="id1">Parameterizing anatomical variations</a></p></li>
-<li><p><a class="reference internal" href="#craniofacial-morphology-analysis-for-mf3d" id="id2">Craniofacial morphology analysis for MF3D</a></p></li>
-<li><p><a class="reference internal" href="#sample-space-expansion" id="id3">Sample space expansion</a></p></li>
-<li><p><a class="reference internal" href="#expression-transfer" id="id4">Expression transfer</a></p></li>
+<li><p><a class="reference internal" href="#parameterizing-anatomical-variations" id="id2">Parameterizing anatomical variations</a></p></li>
+<li><p><a class="reference internal" href="#craniofacial-morphology-analysis-for-mf3d" id="id3">Craniofacial morphology analysis for MF3D</a></p></li>
+<li><p><a class="reference internal" href="#sample-space-expansion" id="id4">Sample space expansion</a></p></li>
+<li><p><a class="reference internal" href="#expression-transfer" id="id5">Expression transfer</a></p></li>
 </ul>
 </div>
 <div class="section" id="parameterizing-anatomical-variations">
-<h2><a class="toc-backref" href="#id1">Parameterizing anatomical variations</a><a class="headerlink" href="#parameterizing-anatomical-variations" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Parameterizing anatomical variations</a><a class="headerlink" href="#parameterizing-anatomical-variations" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-right" id="id1" style="width: 50%">
+<a class="reference internal image-reference" href="_images/FaceSpace_DurerLeopold.png"><img alt="Parameterization of facial shape" src="_images/FaceSpace_DurerLeopold.png" style="width: 100%;" /></a>
+<p class="caption"><span class="caption-text"><strong>A.</strong> <a class="reference external" href="https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer">Dürer (1528)</a> originally proposed mathematical descriptions of variation in face shape using deformation grid. <strong>B.</strong> <a class="reference external" href="https://doi.org/10.1038/82947">Leopold et al., 2006</a> used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The ‘face-space’ construct of facial identity variation features the average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
 <p>One of the earliest studies of variation in anatomical proportions was
 by the German Renaissance artist <a class="reference external" href="https://www.nlm.nih.gov/exhibition/historicalanatomies/durer_bio.html">Albrecht Dürer
 (1528)</a>,
@@ -60,13 +64,9 @@ who described the application of <a class="reference external" href="https://www
 grids</a>
 to mathematically describe variation in human facial anatomy. This approach was further developed by Scottish mathematical biologist D’Arcy Thompson in <a class="reference external" href="https://en.wikipedia.org/wiki/On_Growth_and_Form">On Growth and Form (1917)</a>.</p>
 <p>In the digital age, a pioneering study by <a class="reference external" href="https://doi.org/10.1145/311535.311556">Blanz &amp; Vetter (1999)</a> was the first to apply this approach to 3D face data acquired through laser scans of 200 human participants. Specifically, they used <a class="reference external" href="https://en.wikipedia.org/wiki/Principal_component_analysis">principal component analysis (PCA)</a> to identify the major components of morphological variation in their sample. The resulting statistical description of ‘face space’ can be used to generate an infinite number of novel faces, which is now commercially available as the <a class="reference external" href="https://facegen.com/">FaceGen</a> software.</p>
-<a class="reference internal image-reference" href="_images/Durer_1528_Grid.jpg"><img alt="deformation grid" src="_images/Durer_1528_Grid.jpg" style="width: 48%;" /></a>
-<a class="reference internal image-reference" href="_images/Leopold_2006_Fig1.png"><img alt="deformation grid" src="_images/Leopold_2006_Fig1.png" style="width: 48%;" /></a>
-<p><strong>Left:</strong> <a class="reference external" href="https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer">Dürer (1528)</a> originally proposed mathematical descriptions of variation in face shape using deformation grid. <strong>Right:</strong> <a class="reference external" href="https://doi.org/10.1038/82947">Leopold et al., 2006</a> used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The ‘face-space’ construct of facial identity variation features
-the average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.</p>
 </div>
 <div class="section" id="craniofacial-morphology-analysis-for-mf3d">
-<h2><a class="toc-backref" href="#id2">Craniofacial morphology analysis for MF3D</a><a class="headerlink" href="#craniofacial-morphology-analysis-for-mf3d" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Craniofacial morphology analysis for MF3D</a><a class="headerlink" href="#craniofacial-morphology-analysis-for-mf3d" title="Permalink to this headline">¶</a></h2>
 <p>The method for creating the macaque face-space used to generate identity
 variations in MF3D is described in <a class="reference external" href="https://doi.org/10.1016/j.jneumeth.2019.06.001">Murphy &amp; Leopold
 (2019)</a> and
@@ -105,7 +105,7 @@ relative to the mean (middle column) for each mesh. Meshes were aligned
 via Procrustes method.</p>
 </div>
 <div class="section" id="sample-space-expansion">
-<h2><a class="toc-backref" href="#id3">Sample space expansion</a><a class="headerlink" href="#sample-space-expansion" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Sample space expansion</a><a class="headerlink" href="#sample-space-expansion" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right">
 <a class="reference internal image-reference" href="_images/PlotDemo_UNC.png"><img alt="_images/PlotDemo_UNC.png" src="_images/PlotDemo_UNC.png" style="width: 300px;" /></a>
 </div>
@@ -117,7 +117,7 @@ via Procrustes method.</p>
 </div>
 </div>
 <div class="section" id="expression-transfer">
-<h2><a class="toc-backref" href="#id4">Expression transfer</a><a class="headerlink" href="#expression-transfer" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Expression transfer</a><a class="headerlink" href="#expression-transfer" title="Permalink to this headline">¶</a></h2>
 <p>Another limitation of the original MF3D model was that identity was parameterized separately from expression, and it was therefore not possible to generate faces of different individuals with the various modeled expressions. To resolve this issue we performed expression cloning, transferring the expression component of the original model into the face-space framework. This was achieved using <a class="reference external" href="https://www.russian3dscanner.com/">Wrap3 (RS3D)</a> software.</p>
 </div>
 </div>

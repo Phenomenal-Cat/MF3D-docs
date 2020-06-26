@@ -58,7 +58,7 @@ Multiple rows can be selected in each active parameter list, and the
 total number of images currently selected appears in the top right hand
 corner of the GUI.
 
-.. figure:: _images/MF3D_Tools_StimEditor_Fig3.png
+.. figure:: _images/GUIs/MF3D_Tools_StimEditor_Fig3.png
    :alt: MF3D Stimulus Editor GUI selection panel
 
 Preview panel
@@ -115,7 +115,7 @@ functionality:
 -  ``Radius (px)``: Sets the radius of the elliptical crop selection in
    pixels.
 
-.. figure:: _images/MF3D_Tools_StimEditor_Fig2.png   
+.. figure:: _images/GUIs/MF3D_Tools_StimEditor_Fig2.png   
    :alt: MF3D Stimulus Editor GUI preview panel
 
 Output formatting and rescaling

@@ -26,9 +26,9 @@ Full details of how the model and rendered images were generated have been publi
     of social cues. *J.Neurosci.Methods*, 324: 108309. `DOI:
     10.1016/j.jneumeth.2019.06.001 <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_
 
-The graphical abstract figure below illustrates how biometric data from real animals were acquired, analyses and parameterized to generate a realistic digital model. For more details, browse the table of contents.
+The graphical abstract figure below illustrates how biometric data from real animals were acquired, analysed and parameterized to generate a realistic digital model. For more details and information on continuing development of MF3D, browse the table of contents.
 
-.. image:: https://user-images.githubusercontent.com/7523776/58911022-ef7b2000-86e4-11e9-8a6a-ef9a44206a4e.png
+.. image:: _images/ML_Figs/MurphyLeopold_GraphicalAbstract.png
   :width: 800
   :alt: MF3D construction summary
 

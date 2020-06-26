@@ -46,10 +46,10 @@ masking specific structures in the corresponding colour image.
 
 .. _mf3d-r1-figA:
 
-.. figure:: _images/MurphyLeopold_Fig1A.png
+.. figure:: _images/ML_Figs/MurphyLeopold_Fig1A.png
   :alt: Figure 1A - Stimulus set format
 
-**Figure 1A.** Stimulus set format and applications. **i.** Each colour image in the set   is rendered as a 3840 x 2160 pixel RGBA image in .png format with 32-bits per pixel. The avatar is positioned such that the center of the screen coincides with the cyclopean eye when the avatar is directly facing the camera. **ii.** For each colour image, we provide a corresponding label map image (.hdr format) of the same dimensions, where integer pixel values indicate which anatomical structure of the avatar they belong to. **iii.** An example of a simulated gaze distribution map for the stimulus shown in i. **iv.** Proportion of fixations on each labelled structure can be easily computed. **v.** Novel stimuli can be created by using the label map to mask specific parts of the original image. 
+  **Figure 1A.** Stimulus set format and applications. **i.** Each colour image in the set   is rendered as a 3840 x 2160 pixel RGBA image in .png format with 32-bits per pixel. The avatar is positioned such that the center of the screen coincides with the cyclopean eye when the avatar is directly facing the camera. **ii.** For each colour image, we provide a corresponding label map image (.hdr format) of the same dimensions, where integer pixel values indicate which anatomical structure of the avatar they belong to. **iii.** An example of a simulated gaze distribution map for the stimulus shown in i. **iv.** Proportion of fixations on each labelled structure can be easily computed. **v.** Novel stimuli can be created by using the label map to mask specific parts of the original image. 
 
 
 .. _mf3d-r1-expression:
@@ -73,16 +73,10 @@ neck (±30° azimuth and elevation) and body (±60° azimuth) orientations.
 
 .. _mf3d-r1-figB:
 
-.. figure:: _images/MurphyLeopold_Fig1B.png
+.. figure:: _images/ML_Figs/MurphyLeopold_Fig1B.png
   :alt: Figure 1B - Expression stimuli
 
-**Figure 1B, Expression stimuli.** **i.** All head orientations
-rendered for each expression condition (neutral expression shown for
-illustration): 19 azimuth angles (-90 to +90° in 10° increments) x 7
-elevation angles (-30 to +30° in 10° increments) for 133 unique head
-orientations. **ii.** Five facial expressions (rows) rendered at four
-levels of intensity (columns), at each of the head orientations
-illustrated in **i**, for a total of 2,793 unique colour images. 
+  **Figure 1B, Expression stimuli. i.** All head orientations rendered for each expression condition (neutral expression shown for illustration): 19 azimuth angles (-90 to +90° in 10° increments) x 7 elevation angles (-30 to +30° in 10° increments) for 133 unique head orientations. **ii.** Five facial expressions (rows) rendered at four levels of intensity (columns), at each of the head orientations illustrated in **i**, for a total of 2,793 unique colour images. 
 
 .. _mf3d-r1-identity:
 
@@ -100,25 +94,26 @@ mean; :ref:`Figure 1C, iii <mf3d-r1-figC>`) for a total of 10,941 identity image
 
 .. _mf3d-r1-figc:
 
-.. figure:: _images/MurphyLeopold_Fig1C.png
-   :alt: Figure 1C - Identity stimuli
+.. figure:: _images/ML_Figs/MurphyLeopold_Fig1C.png
+  :alt: Figure 1C - Identity stimuli
 
-**Figure 1C. Identity stimuli. i.** All head orientations rendered for
-each identity condition (average identity shown for illustration): 7
-azimuth angles x 3 elevation angles for 21 head orientations. **ii.**
-Identity trajectories through face space were selected through all
-pairwise combinations of the first 5 principal components from the PCA
-(which cumulatively account for 75% of the sample variance in facial
-morphology), at 3 polar angles for a total of 65 unique trajectories.
-**iii.** Identities were rendered at eight levels of distinctiveness
-(±4σ from the sample mean in 1σ increments) along each identity
-trajectory (shown here for the first 5 PCs), plus the sample mean for a
-total of 10,941 unique colour images.
+  **Figure 1C. Identity stimuli. i.** All head orientations rendered for each identity condition (average identity shown for illustration): 7 azimuth angles x 3 elevation angles for 21 head orientations. **ii.** Identity trajectories through face space were selected through all pairwise combinations of the first 5 principal components from the PCA (which cumulatively account for 75% of the sample variance in facial morphology), at 3 polar angles for a total of 65 unique trajectories. **iii.** Identities were rendered at eight levels of distinctiveness (±4σ from the sample mean in 1σ increments) along each identity trajectory (shown here for the first 5 PCs), plus the sample mean for a total of 10,941 unique colour images.
 
 .. _mf3d-r1-animation:
 
 Animation subset
 ----------------
+
+.. _mf3d-r1-figD:
+
+.. figure:: _images/ML_Figs/MurphyLeopold_Fig1D.png
+  :align: left
+  :width: 100%
+  :figwidth: 40%
+  :alt: Figure 1C - Identity stimuli
+
+  **Figure 1D.** Animated stimuli. A subset of frames from an example animation sequence included in the MF3D R1 stimulus set is rendered at 5 different head azimuth orientations (rows). Bottom panel: Accompanying audio waveform and spectrogram for this particular animation, which depicts a ‘scream’ vocalization.
+
 
 For studies requiring more naturalistic stimuli, we also have the
 ability to generate a virtually limitless number of animations that
@@ -140,21 +135,7 @@ video sequence editor. The animations were produced by manually coding
 video footage of real Rhesus macaques performing facial expressions and
 vocalizations.
 
-.. _mf3d-r1-figD:
 
 .. raw:: html
 
-     <figure>
-     <img src="_images/MurphyLeopold_Fig1D.png" width="300" align="left" style="display:block; padding:10px; border:5px"/>
-     </figure>
-
 	<iframe src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" style="display:block; padding:10px; border:5px" width="400" height="225" frameborder="0" align="right" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-	</br>
-	<div>
-	<b>Figure 1D.</b> Animated stimuli. A subset of frames from an example
-	animation sequence included in the MF3D R1 stimulus set is rendered at 5
-	different head azimuth orientations (rows). Bottom panel: Accompanying
-	audio waveform and spectrogram for this particular animation, which
-	depicts a ‘scream’ vocalization.
-	</div>

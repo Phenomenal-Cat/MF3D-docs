@@ -22,7 +22,7 @@ Full details of how the model and rendered images were generated have been publi
     of social cues. *J.Neurosci.Methods*, 324: 108309. `DOI:
     10.1016/j.jneumeth.2019.06.001 <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_
 
-.. image:: https://user-images.githubusercontent.com/7523776/58911022-ef7b2000-86e4-11e9-8a6a-ef9a44206a4e.png
+.. image:: _images/ML_Figs/MurphyLeopold_GraphicalAbstract.png
   :width: 800
   :alt: MF3D construction summary
 

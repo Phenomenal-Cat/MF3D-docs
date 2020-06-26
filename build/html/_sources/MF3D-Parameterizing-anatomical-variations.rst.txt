@@ -7,6 +7,14 @@ MF3D 'Face-space' construction
 Parameterizing anatomical variations
 ------------------------------------
 
+.. figure:: _images/DocFigs/FaceSpace_DurerLeopold.png
+  :align: right
+  :figwidth: 50%
+  :width: 100%
+  :alt: Parameterization of facial shape
+
+  **A.** `Dürer (1528) <https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer>`_ originally proposed mathematical descriptions of variation in face shape using deformation grid. **B.** `Leopold et al., 2006 <https://doi.org/10.1038/82947>`_ used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The 'face-space' construct of facial identity variation features the average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.
+
 One of the earliest studies of variation in anatomical proportions was
 by the German Renaissance artist `Albrecht Dürer
 (1528) <https://www.nlm.nih.gov/exhibition/historicalanatomies/durer_bio.html>`__,
@@ -16,15 +24,6 @@ to mathematically describe variation in human facial anatomy. This approach was 
 
 In the digital age, a pioneering study by `Blanz & Vetter (1999) <https://doi.org/10.1145/311535.311556>`__ was the first to apply this approach to 3D face data acquired through laser scans of 200 human participants. Specifically, they used `principal component analysis (PCA) <https://en.wikipedia.org/wiki/Principal_component_analysis>`_ to identify the major components of morphological variation in their sample. The resulting statistical description of 'face space' can be used to generate an infinite number of novel faces, which is now commercially available as the `FaceGen <https://facegen.com/>`__ software.
 
-.. image:: _images/Durer_1528_Grid.jpg
-  :width: 48%
-  :alt: deformation grid
-.. image:: _images/Leopold_2006_Fig1.png
-  :width: 48%
-  :alt: deformation grid
-
-**Left:** `Dürer (1528) <https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer>`_ originally proposed mathematical descriptions of variation in face shape using deformation grid. **Right:** `Leopold et al., 2006 <https://doi.org/10.1038/82947>`_ used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The 'face-space' construct of facial identity variation features
-the average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.
 
 
 Craniofacial morphology analysis for MF3D
