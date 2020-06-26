@@ -51,7 +51,12 @@ while the media provided in the MF3D R1 stimulus set is licensed under Creative 
 4.0 <http://creativecommons.org/licenses/by-nc/4.0/>`_. If you use any content from the stimulus set in your research, we ask
 that you cite the :ref:`publication <murphy-leopold>` listed above.
 
-
+.. image:: _images/Logos/Blender.svg
+  :width: 125
+  :alt: Blender
+  :target: https://www.blender.org
+.. image:: _images/spacer.png
+  :width: 15
 .. image:: _images/Logos/Figshare.svg
   :width: 125
   :alt: Figshare
