@@ -51,38 +51,45 @@ while the media provided in the MF3D R1 stimulus set is licensed under Creative 
 4.0 <http://creativecommons.org/licenses/by-nc/4.0/>`_. If you use any content from the stimulus set in your research, we ask
 that you cite the :ref:`publication <murphy-leopold>` listed above.
 
+
 .. image:: _images/Logos/Blender.svg
-  :width: 125
+  :height: 30
   :alt: Blender
   :target: https://www.blender.org
 .. image:: _images/spacer.png
-  :width: 15
+  :width: 10
+.. image:: _images/Logos/Slicer.png
+  :height: 30
+  :alt: Blender
+  :target: https://www.slicer.org
+.. image:: _images/spacer.png
+  :width: 10
 .. image:: _images/Logos/Figshare.svg
-  :width: 125
+  :height: 30
   :alt: Figshare
   :target: https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544
 .. image:: _images/spacer.png
-  :width: 15
-.. image:: _images/Logos/GitHub.svg
-  :width: 40
+  :width: 10
+.. image:: _images/Logos/GitHub.png
+  :height: 30
   :alt: GitHub
   :target: https://github.com/MonkeyGone2Heaven/MF3D-Tools
 .. image:: _images/spacer.png
-  :width: 15
+  :width: 10
 .. image:: _images/Logos/Copyleft.png
-  :width: 40
+  :height: 30
   :alt: Copyleft
   :target: https://en.wikipedia.org/wiki/Copyleft
 .. image:: _images/spacer.png
-  :width: 20
+  :width: 10
 .. image:: _images/Logos/cc-by-nc.svg
-  :width: 110
+  :height: 30
   :alt: CC-BY-NC
   :target: http://creativecommons.org/licenses/by-nc/4.0/
 .. image:: _images/spacer.png
-  :width: 20
+  :width: 10
 .. image:: _images/Logos/gplv3.png
-  :width: 100
+  :height: 30
   :alt: GPL v3
   :target: https://choosealicense.com/licenses/gpl-3.0/#
 

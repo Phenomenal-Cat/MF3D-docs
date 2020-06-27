@@ -15,8 +15,8 @@ together in video editing software.
 .. sidebar:: Video Editing in Blender
 
   .. image:: _images/Logos/Blender.svg
-    :height: 40
-    :align: right
+    :height: 30
+    :align: left
     :alt: Blender
     :target: https://www.blender.org
 
@@ -30,7 +30,6 @@ together in video editing software.
      Python scripting of various actions
   3. Blender is the software that we also used to render the images and
      movies of 3D macaque avatar, and hope to make publicly available in future.
-
 
 
 Using MF3D_ConcatClips.py

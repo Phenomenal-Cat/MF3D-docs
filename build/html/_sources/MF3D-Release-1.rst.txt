@@ -139,3 +139,8 @@ vocalizations.
 .. raw:: html
 
 	<iframe src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" style="display:block; padding:10px; border:5px" width="400" height="225" frameborder="0" align="right" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+.. container:: clearer
+
+    .. image :: _images/spacer.png
+       :width: 1
