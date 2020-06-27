@@ -17,7 +17,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="MF3D Research" href="MF3D-Research.html" />
-    <link rel="prev" title="Overview" href="MF3D-Video-Parameter-Estimation-GUI.html" /> 
+    <link rel="prev" title="Compiling Animation Sequences" href="MF3D-Video-Clip-Compiler.html" /> 
   </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
@@ -29,7 +29,7 @@
           <a href="MF3D-Research.html" title="MF3D Research"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="MF3D-Video-Parameter-Estimation-GUI.html" title="Overview"
+          <a href="MF3D-Video-Clip-Compiler.html" title="Compiling Animation Sequences"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">MF3D ‘Face-space’ construction</a></li> 
@@ -55,7 +55,7 @@
 <h2><a class="toc-backref" href="#id6">Parameterizing anatomical variations</a><a class="headerlink" href="#parameterizing-anatomical-variations" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id3" style="width: 50%">
 <a class="reference internal image-reference" href="_images/FaceSpace_DurerLeopold.png"><img alt="Parameterization of facial shape" src="_images/FaceSpace_DurerLeopold.png" style="width: 100%;" /></a>
-<p class="caption"><span class="caption-text"><strong>A.</strong> <a class="reference external" href="https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer">Dürer (1528)</a> originally proposed mathematical descriptions of variation in face shape using deformation grid. <strong>B.</strong> <a class="reference external" href="https://doi.org/10.1038/82947">Leopold et al., 2006</a> used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The ‘face-space’ construct of facial identity variation features the average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text"><strong>A.</strong> <a class="reference external" href="https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer">Dürer (1528)</a> originally proposed mathematical descriptions of variation in face shape using deformation grids. <strong>B.</strong> <a class="reference external" href="https://doi.org/10.1038/82947">Leopold et al., 2006</a> used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The ‘face-space’ construct of facial identity variation features the average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <p>One of the earliest studies of variation in anatomical proportions was
 by the German Renaissance artist <a class="reference external" href="https://www.nlm.nih.gov/exhibition/historicalanatomies/durer_bio.html">Albrecht Dürer
@@ -63,22 +63,22 @@ by the German Renaissance artist <a class="reference external" href="https://www
 who described the application of <a class="reference external" href="https://www.virtual-anthropology.com/virtual-anthropology/compare/geometric-morphometrics/thin-plate-spline/">deformation
 grids</a>
 to mathematically describe variation in human facial anatomy. This approach was further developed by Scottish mathematical biologist D’Arcy Thompson in <a class="reference external" href="https://en.wikipedia.org/wiki/On_Growth_and_Form">On Growth and Form (1917)</a>.</p>
-<p>In the digital age, a pioneering study by <a class="reference external" href="https://doi.org/10.1145/311535.311556">Blanz &amp; Vetter (1999)</a> was the first to apply this approach to 3D face data acquired through laser scans of 200 human participants. Specifically, they used <a class="reference external" href="https://en.wikipedia.org/wiki/Principal_component_analysis">principal component analysis (PCA)</a> to identify the major components of morphological variation in their sample. The resulting statistical description of ‘face space’ can be used to generate an infinite number of novel faces, which is now commercially available as the <a class="reference external" href="https://facegen.com/">FaceGen</a> software.</p>
+<p>In the digital age, a pioneering study by <a class="reference external" href="https://doi.org/10.1145/311535.311556">Blanz &amp; Vetter (1999)</a> was the first to apply this approach to 3D face data acquired through laser scans of 200 human participants. Specifically, the authors used <a class="reference external" href="https://en.wikipedia.org/wiki/Principal_component_analysis">principal component analysis (PCA)</a> to identify the major components of morphological variation in their sample. The resulting statistical description or ‘morphable model’ of ‘face space’ can be used to generate an infinite number of plausible novel human faces. This resource has since be used in a vast number of neuroscience and psychology studies, and is commercially available as the <a class="reference external" href="https://facegen.com/">FaceGen</a> software.</p>
 </div>
 <div class="section" id="craniofacial-morphology-analysis-for-mf3d">
 <h2><a class="toc-backref" href="#id7">Craniofacial morphology analysis for MF3D</a><a class="headerlink" href="#craniofacial-morphology-analysis-for-mf3d" title="Permalink to this headline">¶</a></h2>
-<p>The method for creating the macaque face-space used to generate identity
-variations in MF3D is described in <a class="reference external" href="https://doi.org/10.1016/j.jneumeth.2019.06.001">Murphy &amp; Leopold
+<p>The methods for creating the macaque face-space used to generate identity
+variations in MF3D is broadly similar to that used by Blanz &amp; Vetter. The steps
+Involved are described in <a class="reference external" href="https://doi.org/10.1016/j.jneumeth.2019.06.001">Murphy &amp; Leopold
 (2019)</a> and
-illustrated in figure 5 from that paper (below). Briefly, Corresponding vertices
+illustrated in figure 5 from that paper (shown below). Briefly, Corresponding vertices
 were manually selected on a low polygon count (50,000 vertices) base mesh topology
 (created based on individual M02 of the CT data sample) and the high poly raw
 surface meshes of each other individual (panel A). This was performed in the
 commercial software <a class="reference external" href="https://www.russian3dscanner.com/">Wrap3</a>, which then applies
 a warping process to produces a surface mesh with topology A and
 morphology B (bottom left of panel A). This process was repeated for each individual in the sample, and the resulting mesh data were then manually cleaned by a professional digital artist (bottom right of panel A).</p>
-<p>The cleaned corresponding meshes of all individuals were then imported into
-Matlab, their vertex positions were averaged to generate the mesh of
+<p>The cleaned corresponding meshes of all individuals (N = 24 in the initial sample) were then imported into Matlab, their vertex positions were averaged to generate the mesh of
 the sample mean and a PCA was run.</p>
 <div class="figure align-default" id="id4">
 <img alt="Facial morphology analysis" src="_images/MurphyLeopold_Fig5.jpg" />
@@ -124,6 +124,7 @@ the sample mean and a PCA was run.</p>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Release-2.html">MF3D Release 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Stimulus-Editor.html">MF3D Tools - Stimulus Editor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Video-Parameter-Estimation-GUI.html">MF3D Tools - Video Parameter GUI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Video-Clip-Compiler.html">MF3D Tools - Video Clip Compiler</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Methods - Face Space</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#parameterizing-anatomical-variations">Parameterizing anatomical variations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#craniofacial-morphology-analysis-for-mf3d">Craniofacial morphology analysis for MF3D</a></li>
@@ -131,12 +132,12 @@ the sample mean and a PCA was run.</p>
 <li class="toctree-l2"><a class="reference internal" href="#expression-transfer">Expression transfer</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="MF3D-Research.html">Published Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MF3D-Research.html">MF3D Publications</a></li>
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="MF3D-Video-Parameter-Estimation-GUI.html"
-                        title="previous chapter">Overview</a></p>
+  <p class="topless"><a href="MF3D-Video-Clip-Compiler.html"
+                        title="previous chapter">Compiling Animation Sequences</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="MF3D-Research.html"
                         title="next chapter">MF3D Research</a></p>
@@ -164,7 +165,7 @@ the sample mean and a PCA was run.</p>
           <a href="MF3D-Research.html" title="MF3D Research"
              >next</a> |</li>
         <li class="right" >
-          <a href="MF3D-Video-Parameter-Estimation-GUI.html" title="Overview"
+          <a href="MF3D-Video-Clip-Compiler.html" title="Compiling Animation Sequences"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">MF3D ‘Face-space’ construction</a></li> 
