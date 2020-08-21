@@ -129,7 +129,7 @@ possibility of stitching multiple clips together using video editing
 software (such as the video editor included in Blender), to produce
 longer, seamless movies containing various permutations of action
 sequences. We provide a `Python
-script <https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_ConcatClips_Demo.py>`__
+script <https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_ConcatClips_Demo.py>`__
 to demonstrate automated compilation of animation clips using Blender's
 video sequence editor. The animations were produced by manually coding
 video footage of real Rhesus macaques performing facial expressions and

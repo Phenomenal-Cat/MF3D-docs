@@ -113,4 +113,4 @@ In the Blender or UPBGE graphical user interface, go to the `add-on menu <https:
 MF3D RT Matlab Demo
 --------------------
 
-We provide a Matlab GUI to demonstrate online control of the MF3D stimulus rendering in UPBGE. 
+We provide Matlab scripts for use with `NIMH MonkeyLogic <https://monkeylogic.nimh.nih.gov/>`_ (`Hwang et al., 2019 <https://doi.org/10.1016/j.jneumeth.2019.05.002>`_) and `PsychToolbox <http://psychtoolbox.org/>`_ () / `PLDAPS <https://github.com/HukLab/PLDAPS>`_ (`Eastman & Huk, 2012 <https://www.doi.org/10.3389/fninf.2012.00001>`_) experiments that demonstrate online iterative control of the MF3D stimulus rendering in UPBGE. In all cases, Matlab communicates with UPBGE via TCP connection between each stimulus presentation in order to 

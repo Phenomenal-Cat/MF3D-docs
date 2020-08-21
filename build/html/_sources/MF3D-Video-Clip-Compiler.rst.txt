@@ -1,4 +1,4 @@
-===============================
+Phenomenal-Cat===============================
 Compiling Animation Sequences
 ===============================
 
@@ -36,7 +36,7 @@ Using MF3D_ConcatClips.py
 -----------------------------
 
 MF3D R1 provides a limited set of movie clips, which are summarized in
-the accompanying spreadsheet (.csv file). `MF3D_ConcatClips_Demo.py <https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`__
+the accompanying spreadsheet (.csv file). `MF3D_ConcatClips_Demo.py <https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`__
 reads the data from this spreadsheet to find the appropriate order to
 position various movie clips in order to generate a new longer movie
 containing smooth continuous motion.
@@ -58,7 +58,7 @@ Example
 --------
 
 For example, if a user were to specify the following variables in
-`MF3D_ConcatClips.py <https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`_:
+`MF3D_ConcatClips.py <https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`_:
 
 .. code:: python
 

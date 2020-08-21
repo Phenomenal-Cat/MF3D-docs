@@ -12,16 +12,16 @@ operations that are not currently implemented in the GUI.
 Getting started
 ---------------
 
-`MF3D Tools <https://github.com/MonkeyGone2Heaven/MF3D-Tools>`_ contains scripts that can be used to downloaded the MF3D R1 stimulus sets from Figshare, unzip them and reorganize the directory structure. If you are using Matlab, this can be done using the
+`MF3D Tools <https://github.com/Phenomenal-Cat/MF3D-Tools>`_ contains scripts that can be used to downloaded the MF3D R1 stimulus sets from Figshare, unzip them and reorganize the directory structure. If you are using Matlab, this can be done using the
 ``MF3D_Installer.m`` GUI as follows:
 
--  Clone the `MF3D-Tools <https://github.com/MonkeyGone2Heaven/MF3D-Tools>`_ GitHub repository by opening a terminal window, navigating to the directory where you want MF3D-Tools installed and run:
+-  Clone the `MF3D-Tools <https://github.com/Phenomenal-Cat/MF3D-Tools>`_ GitHub repository by opening a terminal window, navigating to the directory where you want MF3D-Tools installed and run:
 
 .. code-block:: none
 
-  git clone https://github.com/MonkeyGone2Heaven/MF3D-Tools.git
+  git clone https://github.com/Phenomenal-Cat/MF3D-Tools.git
 
-- Alternatively, you can `download MF3D Tools <https://github.com/MonkeyGone2Heaven/MF3D-Tools/archive/master.zip>`_ directly and unzip the folder.
+- Alternatively, you can `download MF3D Tools <https://github.com/Phenomenal-Cat/MF3D-Tools/archive/master.zip>`_ directly and unzip the folder.
 
 -  Open Matlab, navigate to the 'MF3D Tools' folder and run ``MF3D_Installer.m`` in the Matlab command line. Note that the script requires permissions to move the code and image files around.
 

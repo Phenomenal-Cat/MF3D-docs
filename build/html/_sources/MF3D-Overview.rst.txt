@@ -43,7 +43,7 @@ set (Release 1) <https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_
 
 An overview of the contents of this stimulus set can be found
 :doc:`here <MF3D-Release-1>`.
-The `MF3D Tools <https://github.com/MonkeyGone2Heaven/MF3D-Tools>`_ GitHub repository contains code (Matlab and Python) to facilitate
+The `MF3D Tools <https://github.com/Phenomenal-Cat/MF3D-Tools>`_ GitHub repository contains code (Matlab and Python) to facilitate
 the selection, loading, editing, analysis and saving of images and animations from the stimulus set.
 
 The code in this repository is licensed under GNU General Public License `GNU GPLv3 <https://choosealicense.com/licenses/gpl-3.0/#>`_,
@@ -60,7 +60,7 @@ that you cite the :ref:`publication <murphy-leopold>` listed above.
   :width: 10
 .. image:: _images/Logos/Slicer.png
   :height: 30
-  :alt: Blender
+  :alt: Slicer
   :target: https://www.slicer.org
 .. image:: _images/spacer.png
   :width: 10
@@ -73,7 +73,7 @@ that you cite the :ref:`publication <murphy-leopold>` listed above.
 .. image:: _images/Logos/GitHub.png
   :height: 30
   :alt: GitHub
-  :target: https://github.com/MonkeyGone2Heaven/MF3D-Tools
+  :target: https://github.com/Phenomenal-Cat/MF3D-Tools
 .. image:: _images/spacer.png
   :width: 10
 .. image:: _images/Logos/Copyleft.png
@@ -172,5 +172,5 @@ Animation <https://figshare.com/articles/MF3D_R1_Animations/8226317>`_
 stimulus set can be combined to form a longer continuous animation
 sequence for use in experiments that require more naturalistic dynamics.
 This example was generated using the Python script
-`MF3D_ConcatClips_Demo.py <https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`_
+`MF3D_ConcatClips_Demo.py <https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`_
 to interleave the appropriate head rotation sequences between consecutive expression clips, controlled via the open-source `Blender <www.blender.org>`_ video sequence editor.
