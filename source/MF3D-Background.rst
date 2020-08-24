@@ -76,6 +76,8 @@ Consequently, scientists have more recently begun exploring alternative approach
 Development of Macaque Avatars
 -------------------------------
 
+.. _avatars-fig:
+
 .. figure:: _images/DocFigs/MacaqueAvatarsFig.png
   :align: left
   :figwidth: 40%
