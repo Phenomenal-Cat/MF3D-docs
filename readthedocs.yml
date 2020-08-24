@@ -5,7 +5,7 @@
 }
 {\*\expandedcolortbl;;\cssrgb\c25098\c50196\c50196;\cssrgb\c25098\c25098\c25098;\cssrgb\c0\c50196\c0;
 }
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\margl1440\margr1440\vieww26680\viewh14320\viewkind0
 \deftab720
 \pard\pardeftab720\sl320\partightenfactor0
 
@@ -37,7 +37,7 @@
 \f1\b0 \cf3 :\
   
 \f2\b \cf4 configuration
-\f1\b0 \cf3 : docs/conf.py\
+\f1\b0 \cf3 : source/conf.py\
 \
 \pard\pardeftab720\sl320\partightenfactor0
 
