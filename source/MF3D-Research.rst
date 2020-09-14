@@ -9,7 +9,7 @@ Publications
 ============
 
 ..
-	* **Khandhadia AP, Murphy AP, Romanksi LM, Bizley JK, Leopold DA (under review)**. 	Audiovisual Integration in Macaque Face Patch Neurons. 
+	* **Khandhadia AP, Murphy AP, Romanksi LM, Bizley JK, Leopold DA (2020)**. 	Audiovisual Integration in Macaque Face Patch Neurons. *Curr. Bio**
 
 * **Taubert J, Japee S, Murphy AP, Tardiff CT, Koele EA, Kumar S, Leopold DA, & Ungerleider LG (2020)**. Parallel processing of facial expression and head orientation in the macaque brain. *J.Neurosci.*
 
@@ -35,7 +35,7 @@ This study used stereoscopic 3D presentations of the macaque avatar faces to gen
 Audiovisual Integration in Macaque Face Patch Neurons.
 ----------------------------------------------------------------------------------
 
-.. image:: _images/Figures/Khandhadia2019_Fig1.png
+.. image:: _images/Figures/Khandhadia_Fig2A.png
   :width: 300
   :align: right
   :class: align-right

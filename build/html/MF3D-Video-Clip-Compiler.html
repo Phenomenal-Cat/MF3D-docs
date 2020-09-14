@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Using MF3D_ConcatClips.py &#8212; MF3D 1.0 documentation</title>
+    <title>Compiling Animation Sequences &#8212; MF3D 1.0 documentation</title>
     <link rel="stylesheet" href="_static/nature.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/css/mf3d.css" />
@@ -32,7 +32,7 @@
           <a href="MF3D-Video-Parameter-Estimation-GUI.html" title="Video Parameter Estimation GUI"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li>
-        <li class="nav-item nav-item-this"><a href="">Using MF3D_ConcatClips.py</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Compiling Animation Sequences</a></li> 
       </ul>
     </div>  
 
@@ -41,9 +41,8 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <p>Phenomenal-Cat===============================
-Compiling Animation Sequences
-===============================</p>
+  <div class="section" id="compiling-animation-sequences">
+<h1>Compiling Animation Sequences<a class="headerlink" href="#compiling-animation-sequences" title="Permalink to this headline">¶</a></h1>
 <p>For addressing certain scientific questions, it may be beneficial to
 be able to present dynamic video stimuli continuously over a longer
 duration, with many variations of facial movement interleaved. The short
@@ -69,7 +68,7 @@ movies of 3D macaque avatar, and hope to make publicly available in future.</p><
 </ol>
 </div>
 <div class="section" id="using-mf3d-concatclips-py">
-<h1>Using MF3D_ConcatClips.py<a class="headerlink" href="#using-mf3d-concatclips-py" title="Permalink to this headline">¶</a></h1>
+<h2>Using MF3D_ConcatClips.py<a class="headerlink" href="#using-mf3d-concatclips-py" title="Permalink to this headline">¶</a></h2>
 <p>MF3D R1 provides a limited set of movie clips, which are summarized in
 the accompanying spreadsheet (.csv file). <a class="reference external" href="https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py">MF3D_ConcatClips_Demo.py</a>
 reads the data from this spreadsheet to find the appropriate order to
@@ -84,7 +83,7 @@ containing smooth continuous motion.</p>
 </div>
 </div>
 <div class="section" id="example">
-<h1>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h1>
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
 <p>For example, if a user were to specify the following variables in
 <a class="reference external" href="https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py">MF3D_ConcatClips.py</a>:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ClipSequence</span>    <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Yawn&#39;</span><span class="p">,</span><span class="s1">&#39;Rotate&#39;</span><span class="p">,</span><span class="s1">&#39;Coo&#39;</span><span class="p">,</span><span class="s1">&#39;Rotate&#39;</span><span class="p">,</span><span class="s1">&#39;Scream&#39;</span><span class="p">]</span>
@@ -108,6 +107,7 @@ from -60° to +30°, at 105°/second</p></li>
 azimuth angle at +30°</p></li>
 </ol>
 </div>
+</div>
 
 
             <div class="clearer"></div>
@@ -127,8 +127,11 @@ azimuth angle at +30°</p></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Release-2.html">MF3D Release 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Stimulus-Editor.html">MF3D Tools - Stimulus Editor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Video-Parameter-Estimation-GUI.html">MF3D Tools - Video Parameter GUI</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Using MF3D_ConcatClips.py</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#example">Example</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">MF3D Tools - Video Clip Compiler</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#using-mf3d-concatclips-py">Using MF3D_ConcatClips.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Parameterizing-anatomical-variations.html">Methods - Face Space</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MF3D-Research.html">MF3D Publications</a></li>
 </ul>
@@ -166,7 +169,7 @@ azimuth angle at +30°</p></li>
           <a href="MF3D-Video-Parameter-Estimation-GUI.html" title="Video Parameter Estimation GUI"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">MF3D 1.0 documentation</a> &#187;</li>
-        <li class="nav-item nav-item-this"><a href="">Using MF3D_ConcatClips.py</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Compiling Animation Sequences</a></li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
