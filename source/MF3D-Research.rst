@@ -11,7 +11,7 @@ Publications
 ..
 	* **Khandhadia AP, Murphy AP, Romanksi LM, Bizley JK, Leopold DA (2020)**. 	Audiovisual Integration in Macaque Face Patch Neurons. *Curr. Bio**
 
-* **Taubert J, Japee S, Murphy AP, Tardiff CT, Koele EA, Kumar S, Leopold DA, & Ungerleider LG (2020)**. Parallel processing of facial expression and head orientation in the macaque brain. *J.Neurosci.*
+* **Taubert J, Japee S, Murphy AP, Tardiff CT, Koele EA, Kumar S, Leopold DA, & Ungerleider LG (2020)**. `Parallel processing of facial expression and head orientation in the macaque brain. <https://doi.org/10.1523/JNEUROSCI.0524-20.2020>`_ *J.Neurosci.*
 
 * **Murphy AP & Leopold DA, (2019)**. `A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_ *J.Neurosci.Methods* 
 
