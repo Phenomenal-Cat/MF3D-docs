@@ -13,12 +13,12 @@ Parameterizing anatomical variations
   :width: 100%
   :alt: Parameterization of facial shape
 
-  **A.** `Dürer (1528) <https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer>`_ originally proposed mathematical descriptions of variation in face shape using deformation grids. **B.** `Leopold et al., 2006 <https://doi.org/10.1038/82947>`_ used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The 'face-space' construct of facial identity variation features the average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.
+  **A.** `Dürer (1528) <https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer>`_ originally proposed mathematical descriptions of variation in face shape using deformation grids. **B.** `Leopold et al., 2006 <https://doi.org/10.1038/82947>`_ used digital 3D scans of human faces to generate visual stimuli for neuroscientific research. The 'face-space' model of facial identity variation features the statistically average face at the center of a high-dimensional parameter space, in which distance from the center corresponds to facial distinctiveness.
 
 One of the earliest studies of variation in anatomical proportions was
 by the German Renaissance artist `Albrecht Dürer
 (1528) <https://www.nlm.nih.gov/exhibition/historicalanatomies/durer_bio.html>`__,
-who described the application of `deformation
+who proposed the application of `deformation
 grids <https://www.virtual-anthropology.com/virtual-anthropology/compare/geometric-morphometrics/thin-plate-spline/>`__
 to mathematically describe variation in human facial anatomy. This approach was further developed by Scottish mathematical biologist D'Arcy Thompson in `On Growth and Form (1917) <https://en.wikipedia.org/wiki/On_Growth_and_Form>`_. 
 
@@ -30,9 +30,9 @@ Craniofacial morphology analysis for MF3D
 
 The methods for creating the macaque face-space used to generate identity
 variations in MF3D is broadly similar to that used by Blanz & Vetter. The steps
-Involved are described in `Murphy & Leopold
+involved are described in `Murphy & Leopold
 (2019) <https://doi.org/10.1016/j.jneumeth.2019.06.001>`__ and
-illustrated in figure 5 from that paper (shown below). Briefly, Corresponding vertices
+illustrated in figure 5 from that paper (shown below). Briefly, corresponding vertices
 were manually selected on a low polygon count (50,000 vertices) base mesh topology
 (created based on individual M02 of the CT data sample) and the high poly raw
 surface meshes of each other individual (panel A). This was performed in the
@@ -58,7 +58,7 @@ Sample space expansion
   :width: 300px
   :align: right
 
-The validity of a 'face-space' is fundamentally limited by the sample used to construct it. The demographic make-up of the sample used to construct the original MF3D face-space is shown in Figure 5G above. All animals in this sample (N = 36) were over 4 years of age, and only a small proportion were female (N = 7). Although it is possible to identify an axis within the N-dimensional face-space that corresponds to age and then linearly extrapolate (Figure 5H), the resulting constructions of facial morphology are unlikely to be realistic (e.g. due to non-linear age related changes in facial morphology).
+The validity of a 'face-space' model is fundamentally limited by the sample data used to construct it. The demographic make-up of the sample used to construct the original MF3D face-space is shown in Figure 5G above. All animals in this sample (N = 36) were over 4 years of age, and only a small proportion were female (N = 7). Although it is possible to identify an axis within the N-dimensional face-space that corresponds to age and then linearly extrapolate (Figure 5H), the resulting constructions of facial morphology are unlikely to be realistic (e.g. due to non-linear age related changes in facial morphology).
 
 
 To resolve this issue, we expanded the sample used to construct the face-space model, using the `UNC-Wisconsin Rhesus macaque Neurodevelopment Database <https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3>`_ (`Young et al., 2017 <https://doi.org/10.3389/fnins.2017.00029>`_). This database includes anatomical (T1-weighted) MRI scans from 36 infant Rhesus macaques between the ages of 2 weeks to 4 years old, collected longitudinally (150 scans total). The demographic distribution of this additional sample is shown in the plot on the right. The figure below illustrates raw soft tissue surface reconstructions from the T1 data for an individual at 5 time points during the first year of life. The segmentation of soft tissue from MRI data is noticeably noisier than segmentations from CT data, requires more smoothing and therefore lacks comparable detail. However, the data are sufficient to estimate craniofacial morphology since we fit the existing base mesh (clean topology) constructed from CT data to these raw MRI-derived meshes.
@@ -81,4 +81,4 @@ To resolve this issue, we expanded the sample used to construct the face-space m
 Expression transfer
 ------------------------------------
 
-Another limitation of the original MF3D model was that identity was parameterized separately from expression, and it was therefore not possible to generate faces of different individuals with the various modeled expressions. To resolve this issue we performed expression cloning, transferring the expression component of the original model into the face-space framework. This was achieved using `Wrap3 (RS3D) <https://www.russian3dscanner.com/>`_ software.
+Another limitation of the original MF3D model was that identity was parameterized separately from expression, and it was therefore not possible to generate faces of different individuals with the various modeled expressions. To resolve this issue we performed 'expression cloning', to transfer the expression component of the original model into the face-space framework. This was achieved using `Wrap3 (RS3D) <https://www.russian3dscanner.com/>`_ software.
