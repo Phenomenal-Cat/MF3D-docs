@@ -79,8 +79,9 @@ Cameo Appearances
 
 The macaque avatar makes cameo appearances (i.e. appears in figures but was not used as a visual stimulus) in the following articles:
 
-* **Leopold DA & Krauzlis RJ (2020)**. `How the brain pays attention to others’ attention <https://www.pnas.org/content/117/8/3901>`_. *Curr.Bio.*
+* **Beauchamp MS (2021)**. `Face and Voice Perception: Monkey see, monkey hear <http://oww-files-public.s3.amazonaws.com/e/e5/Beauchamp_Current_Biology_In_Press.pdf>`_. *Curr.Bio.*
 * **Koyano KW, Jones AP, McMahon DBT, Waidmann EN, Russ BE, Leopold DA (2021)**. `Dynamic Suppression of Average Facial Structure Shapes Neural Tuning in Three Macaque Face Patches <https://doi.org/10.1016/j.cub.2020.09.070>`_. *Curr.Bio.*
+* **Leopold DA & Krauzlis RJ (2020)**. `How the brain pays attention to others’ attention <https://www.pnas.org/content/117/8/3901>`_. *Curr.Bio.*
 
 
 Acknowledgements
