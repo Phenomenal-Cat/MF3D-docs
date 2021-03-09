@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 project = 'MF3D'
 now = datetime.datetime.now()       # Get current date
-author = 'Aidan Murphy'
+author = 'Aidan Murphy, PhD'
 copyright = '%d, %s' % (now.year, author)
 version = '1.0'                     # The short X.Y version
 release = '1.0'                     # The full version, including alpha/beta/rc tags
@@ -43,6 +43,9 @@ release = '1.0'                     # The full version, including alpha/beta/rc 
 extensions = [
     'sphinx.ext.githubpages',
     'recommonmark',
+    'sphinx.ext.intersphinx',
+    'sphinx_inline_tabs',
+    'sphinx_panels',
     # 'zot4rst.sphinx',
     'matplotlib.sphinxext.plot_directive',
 ]
@@ -73,7 +76,7 @@ exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
-
+#pygments_style = 'monokai'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -89,6 +92,7 @@ html_theme = 'nature'
 html_logo = './_images/Logos/MF3D_Logo_black.svg'
 
 html_show_sourcelink = False
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -111,6 +115,7 @@ html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 
 # Custom CSS
 html_css_files = [
     'css/mf3d.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
 ]
 
 

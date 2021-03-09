@@ -6,6 +6,7 @@ Why are neuroscientists creating virtual reality monkeys? The answer requires a 
 
 .. contents:: :local:
 
+
 Studying the social primate brain
 -------------------------------------
 

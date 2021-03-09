@@ -5,7 +5,7 @@ Compiling Animation Sequences
 For addressing certain scientific questions, it may be beneficial to
 be able to present dynamic video stimuli continuously over a longer
 duration, with many variations of facial movement interleaved. The short
-animated videos provided in the :ref:`MF3D Animations R1 <mf3d-r1-animation>` stimulus set have been rendered in manner that allows users to concatenate multiple clips
+animated videos provided in the :link-badge:`mf3d-r1-animation, MF3D Animations R1, ref,badge-success text-white` stimulus set have been rendered in manner that allows users to concatenate multiple clips
 together to achieve this goal. Specifically, the first and last frames
 of each movie clip for a given head azimuth orientation are identical.
 Therefore, all that is needed to create longer movie clips containing
@@ -36,8 +36,7 @@ Using MF3D_ConcatClips.py
 -----------------------------
 
 MF3D R1 provides a limited set of movie clips, which are summarized in
-the accompanying spreadsheet (.csv file). `MF3D_ConcatClips_Demo.py <https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`__
-reads the data from this spreadsheet to find the appropriate order to
+the accompanying spreadsheet (.csv file). :link-badge:`https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py,"MF3D_ConcatClips.py",cls=badge-primary text-white` reads the data from this spreadsheet to find the appropriate order to
 position various movie clips in order to generate a new longer movie
 containing smooth continuous motion.
 
@@ -58,7 +57,7 @@ Example
 --------
 
 For example, if a user were to specify the following variables in
-`MF3D_ConcatClips.py <https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`_:
+:link-badge:`https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py,"MF3D_ConcatClips.py",cls=badge-primary text-white`:
 
 .. code:: python
 
