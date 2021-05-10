@@ -14,8 +14,7 @@ Publications
 
   .. _Khandhadia2021:
 
-  **Khandhadia AP, Murphy AP, Romanksi LM, Bizley JK, Leopold DA (2021)**. 	`Audiovisual Integration in Macaque Face Patch Neurons <https://doi.org/10.1016/j.cub.2021.01.102>`_. *Curr. Biol.* :badge:`Electrophysiology,badge-warning badge-pill` :link-badge:`https://pubmed.ncbi.nlm.nih.gov/33636119/, "PMID: 33636119", cls=badge-secondary badge-pill`
-
+  **Khandhadia AP, Murphy AP, Romanksi LM, Bizley JK, Leopold DA (2021)**. 	`Audiovisual Integration in Macaque Face Patch Neurons <https://doi.org/10.1016/j.cub.2021.01.102>`_. *Curr. Biol.*, 31(9) :badge:`Electrophysiology,badge-warning badge-pill` :link-badge:`https://pubmed.ncbi.nlm.nih.gov/33636119/, "PMID: 33636119", cls=badge-secondary badge-pill`
 
 .. panels::
   :column: col-lg-12 p-1 border-0
@@ -94,9 +93,9 @@ This methods paper describes the creation of the MF3D avatar model and stimulus 
 Cameo Appearances
 ====================
 
-The macaque avatar makes 'cameo appearances' (appears in figures but was not used as a visual stimulus) in the following articles:
+The macaque avatar makes 'cameo appearances' (appears in figures but was not used as a visual stimulus) in the following articles and commentaries:
 
-* **Beauchamp MS (2021)**. `Face and Voice Perception: Monkey see, monkey hear <http://oww-files-public.s3.amazonaws.com/e/e5/Beauchamp_Current_Biology_In_Press.pdf>`_. *Curr.Bio.*
+* **Beauchamp MS (2021)**. `Face and Voice Perception: Monkey see, monkey hear <https://doi.org/10.1016/j.cub.2021.02.060>`_. *Curr.Bio.*
 
 * **Koyano KW, Jones AP, McMahon DBT, Waidmann EN, Russ BE, Leopold DA (2021)**. `Dynamic Suppression of Average Facial Structure Shapes Neural Tuning in Three Macaque Face Patches <https://doi.org/10.1016/j.cub.2020.09.070>`_. *Curr.Bio.*
 
