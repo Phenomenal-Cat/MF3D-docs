@@ -95,6 +95,8 @@ Cameo Appearances
 
 The macaque avatar makes 'cameo appearances' (appears in figures but was not used as a visual stimulus) in the following articles and commentaries:
 
+* **Fan S, Dal Monte O, Chang SWC (2021)**. `Levels of naturalism in social neuroscience research <https://doi.org/10.1016/j.isci.2021.102702>`_. *iScience*
+
 * **Beauchamp MS (2021)**. `Face and Voice Perception: Monkey see, monkey hear <https://doi.org/10.1016/j.cub.2021.02.060>`_. *Curr.Bio.*
 
 * **Koyano KW, Jones AP, McMahon DBT, Waidmann EN, Russ BE, Leopold DA (2021)**. `Dynamic Suppression of Average Facial Structure Shapes Neural Tuning in Three Macaque Face Patches <https://doi.org/10.1016/j.cub.2020.09.070>`_. *Curr.Bio.*
