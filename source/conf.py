@@ -58,6 +58,8 @@ extensions = [
     'notfound.extension',
 ]
 
+bibtex_bibfiles = ['MF3D_refs.bib']
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
