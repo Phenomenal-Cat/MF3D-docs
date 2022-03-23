@@ -1,6 +1,5 @@
 Sphinx==4.3.2
 Pygments
-Sphinx
 alabaster
 commonmark
 cycler
@@ -11,7 +10,7 @@ sphinx-fontawesome==0.0.6
 sphinx-notfound-page==0.8
 sphinx-panels==0.6.0
 sphinx-tabs==3.2.0
-sphinx_inline_tabs==2022.1.2b11
+sphinx_inline_tabs
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-bibtex==2.4.1
 sphinxcontrib-devhelp==1.0.2
