@@ -6,34 +6,53 @@ About MF3D
 ===============================
 
 The Macaque Face 3D project is an effort to develop a parametrically controlled,
-anatomically accurate, three-dimensional, virtual avatar of the Rhesus macaque face and head, for
-visual stimulation in behavioral neuroscience experiments involving this important model species.
-The avatar has been used to produced the first ever publicly available database of computer generated 
-images of macaque facial expression and identity, which you can learn more about below.
-Full details of how the model and rendered images were generated have been published here:
+anatomically accurate, three-dimensional, virtual avatar of the Rhesus macaque face and head, for visual stimulation in behavioral neuroscience experiments involving this important model species. The avatar has been used to produced the first ever publicly available database of computer generated images of macaque facial expression and identity  :link-badge:`MF3D-Release-1,MF3D R1,ref,badge-primary text-white`, which you can learn more about below. Full details of how the model and rendered images were generated have been published here:
 
 
 .. _murphy-leopold:
 
-.. note::  
+.. panels::
+  :container: container-lg pb-3 
+  :column: col-lg-12 p-1 border-0
+  :body: bg-white
 
-    **Murphy AP & Leopold DA (2019)**. A parameterized digital 3D model
-    of the Rhesus macaque face for investigating the visual processing
-    of social cues. *J.Neurosci.Methods*, 324: 108309. `DOI:
-    10.1016/j.jneumeth.2019.06.001 <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_
+  ---
+  :fa:`book` **Murphy AP & Leopold DA, (2019)**. `A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_ *J.Neurosci.Methods*, 324: 108309. 
+
+  +++++
+
+  .. image:: _images/Logos/OpenAccess.png
+    :height: 30
+    :target: https://publicaccess.nih.gov/
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/PubMed.png
+    :height: 30
+    :target: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7446874/
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/GoogleScholar.png
+    :height: 30
+    :target: https://scholar.google.com/scholar?cites=9006831545148241977&as_sdt=5,47&sciodt=0,47&hl=en
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/ResearchGate.png
+    :height: 30
+    :target: https://www.researchgate.net/publication/333700889_A_parameterized_digital_3D_model_of_the_Rhesus_macaque_face_for_investigating_the_visual_processing_of_social_cues
+  .. 
+
 
 .. image:: _images/ML_Figs/MurphyLeopold_GraphicalAbstract.png
   :width: 800
   :alt: MF3D construction summary
-
 
 --------------
 
 MF3D R1 Stimulus Set
 ===============================
 
-The `MF3D stimulus
-set (Release 1) <https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544>`_ consist of 14,000 high resolution images and animated video sequences. The images and animations are hosted on `Figshare <https://figshare.com>`_ and can be downloaded separately:
+The MF3D stimulus
+set (Release 1) :link-badge:`MF3D-Release-1,MF3D R1,ref,badge-primary text-white` consists of 14,000 high resolution images and over one hundred animated video sequences. The images and animations are hosted on `Figshare <https://figshare.com>`_ and can be downloaded separately:
 
 -  `MF3D Expression set <https://doi.org/10.6084/m9.figshare.8226029>`_
 

@@ -41,13 +41,21 @@ release = '1.0'                     # The full version, including alpha/beta/rc 
 # ones.
 
 extensions = [
+    'sphinx.ext.todo',
     'sphinx.ext.githubpages',
     'recommonmark',
     'sphinx.ext.intersphinx',
+   # 'sphinx_tabs.tabs',
     'sphinx_inline_tabs',
     'sphinx_panels',
-    # 'zot4rst.sphinx',
+   # 'sphinx_fontawesome',
+   # 'zot2rst.sphinx',
+    'sphinxcontrib.bibtex',
     'matplotlib.sphinxext.plot_directive',
+    'sphinxcontrib.video',
+    'sphinx_copybutton',
+    'sphinxemoji.sphinxemoji',
+    'notfound.extension',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

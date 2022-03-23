@@ -1,5 +1,8 @@
-MF3D Release 1
-===============
+.. _Stim_MF3DR1:
+
+=================================
+:fa:`image` MF3D Stimulus Set 1
+=================================
 
 The `MF3D stimulus set (Release 1) <https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544>`_ consist of 14,000 high resolution images and animated video sequences. The images and animations are hosted on `Figshare <https://figshare.com>`_ and can be downloaded separately (:opticon:`file-zip`):
 
@@ -62,7 +65,7 @@ The static stimuli of MF3D release 1 are divided into two collections:
 MF3D R1 Subsets
 -----------------
 
-.. tabbed:: Expression subset
+.. tabbed:: Expression subset :fa:`image`
 
   For the expression set, we varied head orientation (±90° azimuth x ±30° elevation in 10° increments = 133 orientations; :ref:`Figure 1B, i <mf3d-r1-figB>`), facial expression type (neutral plus bared-teeth ‘fear grimace’, open-mouthed threat, coo, yawn, and tongue-protrusion = 5) and the intensity of the expression (25, 50, 75 and 100% = 4; :ref:`Figure 1B, ii <mf3d-r1-figB>`). We additionally include the neutral expression with open and closed eyes, as well as azimuth rotations beyond 90° (100 to 260° in 10° increments) for a total of 2,926 colour images. In order to maintain naturalistic poses, head orientation was varied through a combination of neck (±30° azimuth and elevation) and body (±60° azimuth) orientations.
 
@@ -73,7 +76,7 @@ MF3D R1 Subsets
 
     **Figure 1B, Expression stimuli. i.** All head orientations rendered for each expression condition (neutral expression shown for illustration): 19 azimuth angles (-90 to +90° in 10° increments) x 7 elevation angles (-30 to +30° in 10° increments) for 133 unique head orientations. **ii.** Five facial expressions (rows) rendered at four levels of intensity (columns), at each of the head orientations illustrated in **i**, for a total of 2,793 unique colour images. 
 
-.. tabbed:: Identity subset
+.. tabbed:: Identity subset :fa:`image`
 
   .. _mf3d-r1-identity:
 
@@ -88,7 +91,7 @@ MF3D R1 Subsets
 
 
 
-.. tabbed:: Animation subset
+.. tabbed:: Animation subset :fa:`film` 
 
   .. _mf3d-r1-animation:
 

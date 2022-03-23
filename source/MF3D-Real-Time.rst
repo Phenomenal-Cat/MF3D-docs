@@ -1,5 +1,8 @@
-MF3D RT (real-time)
-===================
+.. _Stim_MF3DRT:
+
+======================================
+:fa:`gamepad` MF3D Real-time
+======================================
 
 MF3D RT is not a rendered stimulus set, but a code base for (near) real-time rendering of the macaque avatar using a game rendering engine. Since each frame must be rendered within a single display refresh (e.g. 16.6ms for a 60Hz display), there is a trade off in level of detail and realism that can be achieved compared to offline rendering. It is intended for brief visual presentations of static images employed in traditional neuroscience studies, although it can be used to generate slowly evolving scene dynamics. For real-time generation of animated sequences of the avatar embedded in virtual environments, see the `MF3D Unity <>`_ project.
 

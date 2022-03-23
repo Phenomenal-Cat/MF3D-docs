@@ -1,5 +1,5 @@
 ==================================
-MF3D Background
+:fa:`clock-o` MF3D Background
 ==================================
 
 Why are neuroscientists creating virtual reality monkeys? The answer requires a brief history of the field of social neuroscience and the importance of the macaque monkey as an animal model for understanding the human brain and psychiatric disorders. 
@@ -92,7 +92,7 @@ Digital macaque 'avatars' have been used in behavioral and neuroscience research
 
 Since the earliest uses of macaque avatars (:ref:`Figure 1A <avatars-fig>`), technological advances in graphic processing power and decreases in cost have lead to increased accessibility and photorealistic quality of rendering for complex particle systems (such as hair and fur) and naturalistic lighting (such as subsurface scattering). Given a studio budget, state of the art CGI is now almost `indistinguishable from video <https://www.youtube.com/watch?v=HjHiC0mt4Ts>`_, while even low-budget projects utilizing open-source tools such as `Blender <https://www.blender.org>`_ can now achieve high-quality results.
 
-Despite these technological advances, the time and cost of employing skilled digital professionals to generate realistic 3D models of macaques can be prohibitive for lab budgets. The duplication of these efforts across many labs who opt not to share their intellectual property is ultimately a waste of resources for the research community. MF3D is the first ever publicly available macaque avatar resource for the scientific research community.
+Despite these technological advances, the time and cost of employing skilled digital professionals to generate realistic 3D models of macaques can be prohibitive for lab budgets. The duplication of these efforts across many labs who (understandably) choose not to freely distribute their intellectual property is an inefficient use of the research community's collective resources. MF3D is the first ever publicly available macaque avatar resource for the scientific research community.
 
 
 
