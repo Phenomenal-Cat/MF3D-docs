@@ -50,7 +50,7 @@ extensions = [
     'sphinx_panels',
     'sphinx_fontawesome',
    # 'zot2rst.sphinx',
-    'sphinxcontrib.bibtex',
+   # 'sphinxcontrib.bibtex',
     'matplotlib.sphinxext.plot_directive',
    #'sphinxcontrib.video',
     'sphinx_copybutton',

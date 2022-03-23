@@ -9,7 +9,6 @@ Publications
 ====================
 
 .. panels::
-<<<<<<< HEAD
   :container: container-lg pb-3
   :column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
   :img-top-cls: pl-0 pr-0
@@ -18,14 +17,6 @@ Publications
   :img-top: _images/Figures/Khandhadia_GraphicalAbstract.png
   :badge:`E.phys,badge-warning badge-pill` 
   ^^^^^^^^
-=======
-  :column: col-lg-12 p-0 border-0
-  :footer: text-left text-white bg-success
-
-  .. _Khandhadia2021:
-
-  **Khandhadia AP, Murphy AP, Romanksi LM, Bizley JK, Leopold DA (2021)**. 	`Audiovisual Integration in Macaque Face Patch Neurons <https://doi.org/10.1016/j.cub.2021.01.102>`_. *Curr. Biol.*, 31(9) :badge:`Electrophysiology,badge-warning badge-pill` :link-badge:`https://pubmed.ncbi.nlm.nih.gov/33636119/, "PMID: 33636119", cls=badge-secondary badge-pill`
->>>>>>> d53ac2213144556fece6b5f1ab3026bcf420e80b
 
   .. _Khandhadia2021:
 
