@@ -6,6 +6,18 @@ commonmark
 cycler
 docutils
 recommonmark
-sphinxcontrib-bibtex
-sphinx-inline-tabs
-sphinx_panels
+sphinx-copybutton==0.4.0
+sphinx-fontawesome==0.0.6
+sphinx-notfound-page==0.8
+sphinx-panels==0.6.0
+sphinx-tabs==3.2.0
+sphinx_inline_tabs==2022.1.2b11
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-bibtex==2.4.1
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+sphinxcontrib-video @ git+https://github.com/sphinx-contrib/video.git@d5e64ea43b3715e733724a8382c419aa2437783d
+sphinxemoji==0.2.0
