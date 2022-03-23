@@ -19,5 +19,4 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
-sphinxcontrib-video @ git+https://github.com/sphinx-contrib/video.git@d5e64ea43b3715e733724a8382c419aa2437783d
 sphinxemoji==0.2.0
