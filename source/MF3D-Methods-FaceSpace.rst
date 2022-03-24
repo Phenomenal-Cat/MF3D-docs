@@ -1,13 +1,13 @@
 .. _Methods_FaceSpace:
 
-==============================
+==========================================
 :fa:`flask` Methods - Face-space
-==============================
+==========================================
 
 .. contents:: :local:
 
 Parameterizing anatomical variations
-------------------------------------
+-------------------------------------
 
 .. figure:: _images/DocFigs/FaceSpace_DurerLeopold.png
   :align: right

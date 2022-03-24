@@ -13,7 +13,7 @@ This page lists some of the software tools that have been developed in the proce
   :img-top-cls: pl-0 pr-0
 
   ---
-  :img-top: _images/GUIs/MF3D_Tools_StimEditor_Fig1.png
+  :img-top: _images/GUIs/Matlab_StimEditorGUI.png
   ^^^^^^^^
 
   .. link-button:: Tools_StimulusEditor

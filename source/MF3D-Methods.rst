@@ -4,7 +4,7 @@
 :fa:`flask` MF3D Methods
 ============================
 
-This page lists some of the theoretical and technical methods used in the creation of MF3D. Click the :badge:`blue button,badge-primary` on each card to learn more.
+This page lists some of the theoretical and technical methods used in the creation of MF3D. Click a card to learn more.
 
 .. panels::
   :container: container-lg pb-3
@@ -42,5 +42,16 @@ This page lists some of the theoretical and technical methods used in the creati
     :width: 10
   
   ---
+  :img-top: _images/Figures/Murphy_2022_InterAxial.png
+  ^^^^^^^^
+
+  .. link-button:: Methods_Stereoscopic
+    :type: ref
+    :text: Stereoscopic rendering and display
+    :classes: btn-primary btn-block stretched-link
+
+  +++++
+  
+
 
   
