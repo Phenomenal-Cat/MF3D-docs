@@ -59,11 +59,24 @@ Full details of how the model and rendered images were generated have been publi
 
 
 
+
 The graphical abstract below summarizes how biometric data from real animals were acquired, analysed and parameterized to generate a realistic digital model. For more details and information on continuing development of MF3D, browse the table of contents.
 
+
 .. image:: _images/ML_Figs/MurphyLeopold_GraphicalAbstract.png
-  :width: 800
+  :width: 550
   :alt: MF3D construction summary
+  :align: left
+
+
+.. raw:: html
+
+  <iframe src="https://player.vimeo.com/video/243763351?autoplay=1&loop=1&color=ff9933&byline=0&portrait=0" width="225" height="225" frameborder="0" align="right" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+.. container:: clearer
+
+    .. image :: _images/spacer.png
+       :width: 1
 
 
 :fa:`lock-open` Supporting Open Science
