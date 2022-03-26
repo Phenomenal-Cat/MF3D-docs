@@ -1,6 +1,6 @@
-==================================
-:fa:`clock-o` MF3D Background
-==================================
+=======================================
+:fa:`graduation-cap` MF3D Background
+=======================================
 
 Why are neuroscientists creating virtual reality monkeys? The answer requires a brief history of the field of social neuroscience and the importance of the macaque monkey as an animal model for understanding the human brain and psychiatric disorders. 
 

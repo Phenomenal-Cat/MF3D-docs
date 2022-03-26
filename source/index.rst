@@ -80,7 +80,7 @@ The graphical abstract below summarizes how biometric data from real animals wer
 
 
 :fa:`lock-open` Supporting Open Science
----------------------------------------------
+---------------------------------------------------------------------
 
 .. image:: _images/Logos/OpenSource.png
   :height: 30
@@ -120,7 +120,7 @@ The graphical abstract below summarizes how biometric data from real animals wer
   :width: 5
 .. image:: _images/Logos/Slicer.png
   :height: 30
-  :alt: Blender
+  :alt: Slicer
   :target: https://www.slicer.org
 .. image:: _images/spacer.png
   :width: 5
@@ -222,7 +222,7 @@ stimulus set can be combined to form a longer continuous animation
 sequence for use in experiments that require more naturalistic dynamics.
 This example was generated using the Python script
 `MF3D_ConcatClips_Demo.py <https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>`_
-to interleave the appropriate head rotation sequences between consecutive expression clips, controlled via the open-source `Blender <www.blender.org>`_ video sequence editor.
+to interleave the appropriate head rotation sequences between consecutive expression clips, controlled via the open-source `Blender <https://www.blender.org>`_ video sequence editor.
 
 
 

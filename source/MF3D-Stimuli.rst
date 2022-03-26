@@ -88,3 +88,12 @@ This page lists the the pre-rendered MF3D stimulus sets (media) that are already
     :width: 10
 
 
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   MF3D-Release-1
+   MF3D-Release-2
+   MF3D-Stimuli-Blender
+   MF3D-Stimuli-RealTime
