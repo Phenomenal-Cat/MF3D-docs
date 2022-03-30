@@ -9,7 +9,7 @@
 Virtual Camera Setup
 -------------------------------------
 
-.. figure:: _images/DocFigs/FaceSpace_DurerLeopold.png
+.. figure:: _images/Figures/Murphy_2022_InterAxial.png
   :align: right
   :figwidth: 50%
   :width: 100%

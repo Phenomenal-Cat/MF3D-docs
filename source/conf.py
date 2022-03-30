@@ -49,7 +49,7 @@ extensions = [
     'sphinx_inline_tabs',
    # 'sphinx_fontawesome',
     'sphinx_panels',
-    'sphinx_design',
+   # 'sphinx_design',
    # 'zot2rst.sphinx',
    # 'sphinxcontrib.bibtex',
     'matplotlib.sphinxext.plot_directive',
@@ -130,6 +130,14 @@ html_css_files = [
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
     # 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css',
 ]
+
+
+html_title = 'Macaque Face 3D'
+html_short_title = 'MF3D'
+
+# Image for use as logo at top of sidebar
+
+html_favicon = 'MF3D_favicon.ico'
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
