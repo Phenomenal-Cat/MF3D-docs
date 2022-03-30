@@ -68,7 +68,7 @@ The validity of a morphable model for a given application is fundamentally limit
     :width: 300px
     :align: right
 
-  To extend the theoretical concept underlying 'face-space' to macaque bodies, we used a sample of whole-body CT data from 200 adult Rhesus macaques from the `CNPRC <https://cnprc.ucdavis.edu/>`_, that was acquired by researchers at UC Davis (`Buck et al., 2021 <https://doi.org/10.1016/j.jhevol.2021.103049>`_). A subset of these data are available via `Morphosource <https://www.morphosource.org/projects/00000C291?f%5Bmember_of_project_ids_ssim%5D%5B%5D=00000C291&locale=en>`_. 
+  To extend the theoretical concept underlying 'face-space' to macaque bodies, we used a sample of whole-body CT data from 200 adult Rhesus macaques from the `CNPRC <https://cnprc.ucdavis.edu/>`_, that was acquired by researchers at UC Davis (`Buck et al., 2021 <https://doi.org/10.1016/j.jhevol.2021.103049>`_). A subset of these data are available via `Morphosource <https://www.morphosource.org/projects/00000C291>`_. All data were acquired on a `GE Discovery® 610 PET/CT <https://cnprc.ucdavis.edu/multimodal-imaging/>`_ scanner, at an in-plane voxel resolution of 0.76mm and 0.625mm slice interval.
 
   .. container:: clearer
 
