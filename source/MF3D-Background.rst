@@ -95,6 +95,25 @@ Since the earliest uses of macaque avatars (:ref:`Figure 1A <avatars-fig>`), tec
 Despite these technological advances, the time and cost of employing skilled digital professionals to generate realistic 3D models of macaques can be prohibitive for lab budgets. The duplication of these efforts across many labs who (understandably) choose not to freely distribute their intellectual property is an inefficient use of the research community's collective resources. MF3D is the first ever publicly available macaque avatar resource for the scientific research community.
 
 
+A note on 'uncanniness'
+--------------------------
+
+.. figure:: _images/DocFigs/Carp2022_Uncanny.png
+  :align: right
+  :figwidth: 40%
+  :width: 100%
+  :alt: Studying the uncanny valley in macaques
+
+  Figure from `Carp et al., 2022 <https://doi.org/10.1038/s41598-022-14615-x>`_ illustrating the visual stimuli used to test the 'uncanny valley' hypothesis in macaque observers. 
+
+The `'uncanny valley' <https://en.wikipedia.org/wiki/Uncanny_valley>`_ is a hypothesized psychological effect that postulates the relationship between an object's resemblance to a 'real' animal (usually human) and the viewer's emotional response to that object. Specifically, the hypothesis states that there is a proportional relationship between resemblance and positive emotional response, but a sudden dip (the 'valley') towards negative emotional response for objects that are *almost* life-like (such as a corpse, prosthesis, or animatronic robot).
+
+The idea that macaque avatars may induce uncanniness in macaque observers was first explored by `Steckenfinger & Ghazanfar (2009) <https://doi.org/10.1073/pnas.0910063106>`_. By manipulating the resemblance of the visual stimuli to real animals (including both rendered and photographic images), and measuring subjects' eye movements, the authors found that monkeys spent less time looking at face images of intermediate resemblance compared to photographs and unrealistic synthetic avatars. They concluded from this that their subjects did indeed experience an uncanny valley effect.
+
+However, CGI and macaque avatars came a long way in the next decade and subsequent studies using newer avatars report conflicting results as to whether an uncanny valley effect actually exists in either humans or monkeys (`Siebert et al., 2020 <https://doi.org/10.1523%2FENEURO.0524-19.2020>`_; `Wilson et al., 2020 <https://doi.org/10.3389/fpsyg.2020.01645>`_; `Carp et al., 2022 <https://doi.org/10.1038/s41598-022-14615-x>`_). 
+
+While the question of whether monkeys experience an uncanny valley type effect is important to researchers who seek to exploit the experimental control of virtual avatars in behavioral research with monkey subjects. However, for neuroscientists interested in how the macaque brain processes social information, the bar is much lower. 'Face-selective' neurons in macaque inferotemporal cortex will respond to a crude cartoon face composed of a circle with two eyes and a mouth, so it is clearly possible to address some questions about how the brain processes faces without the need for the subject to believe they are observing a real animal. 
+
 
 Virtual Reality: ethologically validity and experimental control
 ------------------------------------------------------------------
@@ -108,5 +127,7 @@ Virtual Reality: ethologically validity and experimental control
   An example frame of the MF3D avatar inserted into a naturalistic virtual environment, rendered with Blender's Cycles engine. 
 
 While the use of macaque avatars rendered in isolation is the logical extension of the traditional visual neuroscience approach, a major benefit of the flexibility provided by a digital avatar is the ability to embed it in more naturalistic virtual environments. This can take the form of either offline rendered film-like realistic scenes, or real-time rendered computer game-like scenes. These approaches offer the ability to address a range of research questions that it would not be possible to test using traditional video stimuli or real-life interactions between animals.
+
+
 
 
