@@ -1,6 +1,6 @@
 
 
-<img src="https://github.com/Phenomenal-Cat/MF3D-docs/blob/master/source/_images/Logos/MF3D_Logo_black.svg" width="200px" align="left"> 
+<img src="https://github.com/Phenomenal-Cat/MF3D-docs/blob/main/source/_images/Logos/MF3D_Logo_black.svg" width="200px" align="left"> 
 
 # MF3D-docs
 
