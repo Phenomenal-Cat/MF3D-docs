@@ -1,10 +1,13 @@
 .. _Methods_Stereoscopic:
 
 ==========================================
-:fa:`flask` Methods - Stereoscopic
+:fa:`flask` Methods - Stereoscopic Depth
 ==========================================
 
 .. contents:: :local:
+
+
+
 
 Virtual Camera Setup
 -------------------------------------
@@ -13,7 +16,7 @@ Virtual Camera Setup
   :align: right
   :figwidth: 50%
   :width: 100%
-  :alt: Parameterization of facial shape
+  :alt: Virtual camera placement for stereoscopic depth scaling
 
   **A.** 
 
@@ -21,4 +24,9 @@ Virtual Camera Setup
 
 Stereoscopic Display
 -------------------------------------
+
+.. figure:: _images/Figures/Murphy_2022_InterAxial.png
+  :align: left
+  :figwidth: 50%
+  :width: 100%
 
