@@ -4,7 +4,7 @@
 :fa:`gamepad` MF3D Real-time
 ======================================
 
-MF3D RT is not a rendered stimulus set, but a code base for (near) real-time rendering of the macaque avatar using a game rendering engine. Since each frame must be rendered within a single display refresh (e.g. 16.6ms for a 60Hz display), there is a trade off in level of detail and realism that can be achieved compared to offline rendering. It is intended for brief visual presentations of static images employed in traditional neuroscience studies, although it can be used to generate slowly evolving scene dynamics. For real-time generation of animated sequences of the avatar embedded in virtual environments, see the :ref:`MF3D Unity <Stim_Unity>`_ below.
+MF3D RT is not a rendered stimulus set, but a code base for (near) real-time rendering of the macaque avatar using a game rendering engine. Since each frame must be rendered within a single display refresh (e.g. 16.6ms for a 60Hz display), there is a trade off in level of detail and realism that can be achieved compared to offline rendering. It is intended for brief visual presentations of static images employed in traditional neuroscience studies, although it can be used to generate slowly evolving scene dynamics. For real-time generation of animated sequences of the avatar embedded in virtual environments, see the :ref:`MF3D Unity <Stim_Unity>` below.
 
 .. image:: _images/Logos/Blender.svg
   :width: 150
@@ -13,8 +13,16 @@ MF3D RT is not a rendered stimulus set, but a code base for (near) real-time ren
   :width: 100
   :alt: CC-BY-NC
 
-.. Note:: 
-	MF3D RT requires access to the 3D model Blender file, which is not currently publicly released. If you are interested in using this resource in your research then please contact us to discuss possible collaboration.
+.. panels::
+    :body: text-justify
+    :header: bg-primary text-white font-weight-bold
+
+    -------------------
+    :fa:`info` Note
+    ^^^^^^^^^^^^^^
+
+    MF3D RT requires access to the 3D model Blender file, which is not currently publicly released. If you are interested in using this resource in your research then please contact us to discuss possible collaboration.
+
 
 Adaptive stimulus optimization
 ------------------------------
