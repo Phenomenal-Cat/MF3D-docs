@@ -16,6 +16,7 @@
   --main-lightblue: #3b438f; /* light blue  */
   --header-major: #14194a; /* heading H1 background (Original = #BED4EB; green = #94e330) */
   --header-minor: #535ba6; /* heading H2 background (green = #bdff66) */
+  --hover-color: #e36a00;
 }
  
 /* -- page layout ----------------------------------------------------------- */
@@ -167,7 +168,7 @@ a {
 }
  
 a:hover {
-    color: #E32E00;
+    color: var(--hover-color);
     text-decoration: underline;
 }
  
@@ -179,9 +180,9 @@ div.body h5,
 div.body h6 {
     font-family: Arial, sans-serif; 
     background-color: var(--header-major); /* #BED4EB; */
+    headerlinkcolor: #ffffff;
     font-weight: normal;
     color: #ffffff;
-    headerlinkcolor: #ffffff;
     margin: 30px 0px 10px 0px;
     padding: 5px 0 5px 10px;
     text-shadow: 0px 1px 0 black
@@ -194,21 +195,21 @@ div.body h4 { font-size: 110%; background-color: var(--header-minor); }
 div.body h5 { font-size: 100%; background-color: var(--header-minor); }
 div.body h6 { font-size: 100%; background-color: var(--header-minor); }
  
-a.headerlink {
+a:headerlink {
     color: #ffffff;
     font-size: 0.8em;
     padding: 0 4px 0 4px;
     text-decoration: none;
 }
  
-a.headerlink:hover {
-    background-color: #ff7300;
+a:headerlink:hover {
+    background-color: var(--hover-color);
     color: #ffffff;
 }
 
-a:visited {
+/* a:visited {
   color: blue;
-}
+} */
  
 div.body p, div.body dd, div.body li {
     line-height: 1.5em;

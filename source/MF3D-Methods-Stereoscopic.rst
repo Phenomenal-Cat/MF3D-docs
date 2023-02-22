@@ -34,10 +34,9 @@ To achieve realistic (i.e. geometrically veridical) stereoscopic renders, the ex
 In our own use, we have favored stereoscopic presentation methods that allow for the use of passive polarizing filter 3D glasses, thus keeping active electronics away from the subjects. To preserve color information, this should ideally be a polarizing filter, but could instead utilize interference filters (INFITEC) or standard color anaglyph filters.
 
 - LG 55EF9600 55" OLED TV, 3840 x 2160 @ 60Hz
-- VPixx ProPixx with Depth Q polarizing filter 
-- Optoma UHZ45 with Volfoni polarizing filter
-- 
-
+- VPixx ProPixx projector with Depth Q polarizing filter 
+- Optoma UHZ45 projector with Volfoni polarizing filter
+- Epson (x 2) with INFITEC interference filters
 
 
 :fa:`cube` Depth cue manipulations
