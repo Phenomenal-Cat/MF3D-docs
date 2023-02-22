@@ -13,8 +13,9 @@
 :root {
   --main-dk1: #0B0C10; /* black-ish */
   --main-lime: #6BA81E;  /* lime green 'nature' header color #6BA81E */
-  --header-major: #94e330; /* heading H1 background (Original = #BED4EB) */
-  --header-minor: #bdff66; /* heading H2 background */
+  --main-lightblue: #3b438f; /* light blue  */
+  --header-major: #14194a; /* heading H1 background (Original = #BED4EB; green = #94e330) */
+  --header-minor: #535ba6; /* heading H2 background (green = #bdff66) */
 }
  
 /* -- page layout ----------------------------------------------------------- */
@@ -66,7 +67,7 @@ div.footer a {
 }
  
 div.related {
-    background-color: var(--main-lime);  /* lime green 'nature' header */
+    background-color: var(--main-lightblue);  /* lime green 'nature' header */
     line-height: 32px;
     color: #fff;
     text-shadow: 0px 1px 0 #444;
@@ -179,10 +180,11 @@ div.body h6 {
     font-family: Arial, sans-serif; 
     background-color: var(--header-major); /* #BED4EB; */
     font-weight: normal;
-    color: #212224;
+    color: #ffffff;
+    headerlinkcolor: #ffffff;
     margin: 30px 0px 10px 0px;
     padding: 5px 0 5px 10px;
-    text-shadow: 0px 1px 0 white
+    text-shadow: 0px 1px 0 black
 }
  
 div.body h1 { border-top: 20px solid white; margin-top: 0; font-size: 200%; }
@@ -193,7 +195,7 @@ div.body h5 { font-size: 100%; background-color: var(--header-minor); }
 div.body h6 { font-size: 100%; background-color: var(--header-minor); }
  
 a.headerlink {
-    color: #c60f0f;
+    color: #ffffff;
     font-size: 0.8em;
     padding: 0 4px 0 4px;
     text-decoration: none;
@@ -202,6 +204,10 @@ a.headerlink {
 a.headerlink:hover {
     background-color: #c60f0f;
     color: white;
+}
+
+a:visited {
+  color: blue;
 }
  
 div.body p, div.body dd, div.body li {
