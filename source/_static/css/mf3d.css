@@ -67,7 +67,7 @@ div.footer a {
 }
  
 div.related {
-    background-color: var(--main-lightblue);  /* lime green 'nature' header */
+    background-color: var(--main-lightblue);
     line-height: 32px;
     color: #fff;
     text-shadow: 0px 1px 0 #444;
@@ -75,7 +75,7 @@ div.related {
 }
  
 div.related a {
-    color: #E2F3CC;  /* light green hyperlink */
+    color: #ccd0f3;  /* light blue hyperlink */
 }
  
 div.sphinxsidebar {
@@ -202,8 +202,8 @@ a.headerlink {
 }
  
 a.headerlink:hover {
-    background-color: #c60f0f;
-    color: white;
+    background-color: #ff7300;
+    color: #ffffff;
 }
 
 a:visited {
