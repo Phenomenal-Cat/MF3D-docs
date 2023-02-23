@@ -13,9 +13,9 @@
 :root {
   --main-dk1: #0B0C10; /* black-ish */
   --main-lime: #6BA81E;  /* lime green 'nature' header color #6BA81E */
-  --main-lightblue: #3b438f; /* light blue  */
+  --main-lightblue: #354b8f; /* light blue  */
   --header-major: #14194a; /* heading H1 background (Original = #BED4EB; green = #94e330) */
-  --header-minor: #535ba6; /* heading H2 background (green = #bdff66) */
+  --header-minor: #354b8f; /* heading H2 background (green = #bdff66) */
   --hover-color: #e36a00;
 }
  
@@ -195,15 +195,19 @@ div.body h4 { font-size: 110%; background-color: var(--header-minor); }
 div.body h5 { font-size: 100%; background-color: var(--header-minor); }
 div.body h6 { font-size: 100%; background-color: var(--header-minor); }
  
-a:headerlink {
+a.headerlink {
     color: #ffffff;
     font-size: 0.8em;
     padding: 0 4px 0 4px;
     text-decoration: none;
 }
  
-a:headerlink:hover {
+a.headerlink:hover {
     background-color: var(--hover-color);
+    color: #ffffff;
+}
+
+a.toc-backref {
     color: #ffffff;
 }
 

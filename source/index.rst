@@ -16,9 +16,10 @@ Full details of how the model and rendered images were generated have been publi
   :container: container-lg pb-3 
   :column: col-lg-12 p-1 border-0
   :body: bg-white
+  :footer: bg-muted
 
   ---
-  :fa:`book` **Murphy AP & Leopold DA, (2019)**. `A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_ *J.Neurosci.Methods*, 324: 108309. 
+  :fa:`book` **Murphy AP & Leopold DA (2019)**. `A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_ :link-badge:`https://doi.org/10.1016/j.jneumeth.2019.06.001,"J.Neurosci.Methods",cls=badge-primary text-white` 324: 108309. 
 
   +++++
 
@@ -52,11 +53,15 @@ Full details of how the model and rendered images were generated have been publi
     :target: https://www.researchgate.net/publication/333700889_A_parameterized_digital_3D_model_of_the_Rhesus_macaque_face_for_investigating_the_visual_processing_of_social_cues
   .. image:: _images/spacer.png
     :width: 5
+  .. image:: _images/Logos/Mendeley.png
+    :height: 30
+    :target: https://www.mendeley.com/catalogue/1e719e6b-6d3c-3182-b801-fe4f26b058da/
+  .. image:: _images/spacer.png
+    :width: 5
   .. image:: _images/Logos/Figshare_Icon.png
     :height: 30
     :alt: Figshare
     :target: https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544
-
 
 
 
@@ -78,68 +83,69 @@ The graphical abstract below summarizes how biometric data from real animals wer
     .. image :: _images/spacer.png
        :width: 1
 
+.. dropdown:: :fa:`lock-open` Promoting Open Science
+  :container: + shadow
+  :title: bg-primary text-white font-weight-bold
+  :body: bg-light 
+  :animate: fade-in
+  :open:
 
-:fa:`lock-open` Supporting Open Science
----------------------------------------------------------------------
+  The MF3D project strives to utilize open-source software tools where possible (`Blender <https://www.blender.org>`_, `Slicer <https://www.slicer.org>`_, Python) and provides open access **media** (hosted on `Figshare <https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544>`_ under Creative Commons `CC BY-NC 4.0 <http://creativecommons.org/licenses/by-nc/4.0/>`_) and **code** (hosted on `GitHub <https://github.com/Phenomenal-Cat/MF3D-Tools>`_ under GNU General Public License `GNU GPLv3 <https://choosealicense.com/licenses/gpl-3.0/#>`_). 
 
-.. image:: _images/Logos/OpenSource.png
-  :height: 30
-  :alt: OpenSource
-  :target: https://opensource.org/
-.. image:: _images/spacer.png
-  :width: 5
-.. image:: _images/Logos/OpenAccess_logo.png
-  :height: 30
-  :alt: OpenAccess
-  :target: https://en.wikipedia.org/wiki/Open_access
-.. image:: _images/spacer.png
-  :width: 5
-.. image:: _images/Logos/Copyleft.png
-  :height: 30
-  :alt: Copyleft
-  :target: https://en.wikipedia.org/wiki/Copyleft
-.. image:: _images/spacer.png
-  :width: 5
-.. image:: _images/Logos/cc-by-nc.svg
-  :height: 30
-  :alt: CC-BY-NC
-  :target: http://creativecommons.org/licenses/by-nc/4.0/
-.. image:: _images/spacer.png
-  :width: 5
-.. image:: _images/Logos/gplv3.png
-  :height: 30
-  :alt: GPL v3
-  :target: https://choosealicense.com/licenses/gpl-3.0/#
-.. image:: _images/spacer.png
-  :width: 5
-.. image:: _images/Logos/Blender.svg
-  :height: 30
-  :alt: Blender
-  :target: https://www.blender.org
-.. image:: _images/spacer.png
-  :width: 5
-.. image:: _images/Logos/Slicer.png
-  :height: 30
-  :alt: Slicer
-  :target: https://www.slicer.org
-.. image:: _images/spacer.png
-  :width: 5
-.. image:: _images/Logos/Figshare.svg
-  :height: 30
-  :alt: Figshare
-  :target: https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544
-.. image:: _images/spacer.png
-  :width: 5
-.. image:: _images/Logos/GitHub.png
-  :height: 30
-  :alt: GitHub
-  :target: https://github.com/MonkeyGone2Heaven/MF3D-Tools
-.. image:: _images/spacer.png
-  :width: 5
-
-
-The MF3D project strives to utilizes open-source software tools (`Blender <https://www.blender.org>`_, `Slicer <https://www.slicer.org>`_, Python) and provides open access **media** (hosted on `Figshare <https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544>`_ under Creative Commons `CC BY-NC
-4.0 <http://creativecommons.org/licenses/by-nc/4.0/>`_) and **code** (hosted on `GitHub <https://github.com/MonkeyGone2Heaven/MF3D-Tools>`_ under GNU General Public License `GNU GPLv3 <https://choosealicense.com/licenses/gpl-3.0/#>`_). 
+  .. image:: _images/Logos/OpenSource.png
+    :height: 30
+    :alt: OpenSource
+    :target: https://opensource.org/
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/OpenAccess_logo.png
+    :height: 30
+    :alt: OpenAccess
+    :target: https://en.wikipedia.org/wiki/Open_access
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/Copyleft.png
+    :height: 30
+    :alt: Copyleft
+    :target: https://en.wikipedia.org/wiki/Copyleft
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/cc-by-nc.svg
+    :height: 30
+    :alt: CC-BY-NC
+    :target: http://creativecommons.org/licenses/by-nc/4.0/
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/gplv3.png
+    :height: 30
+    :alt: GPL v3
+    :target: https://choosealicense.com/licenses/gpl-3.0/#
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/Blender.svg
+    :height: 30
+    :alt: Blender
+    :target: https://www.blender.org
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/Slicer.png
+    :height: 30
+    :alt: Slicer
+    :target: https://www.slicer.org
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/Figshare.svg
+    :height: 30
+    :alt: Figshare
+    :target: https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544
+  .. image:: _images/spacer.png
+    :width: 5
+  .. image:: _images/Logos/GitHub.png
+    :height: 30
+    :alt: GitHub
+    :target: https://github.com/MonkeyGone2Heaven/MF3D-Tools
+  .. image:: _images/spacer.png
+    :width: 5
 
 
 
@@ -151,7 +157,6 @@ MF3D avatar that can be controlled and how these variations are encoded.
 
 Facial expression, gaze and lighting
 ----------------------------------------------
-
 
 .. raw:: html
 

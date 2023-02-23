@@ -4,14 +4,14 @@
 :fa:`database` MF3D Database
 ============================
 
-CT data acquisition
-------------------------
+:fa:`radiation` CT data acquisition
+---------------------------------------
 
 All 3D surface data used in MF3D databases were derived from *in vivo* computed tomography (CT) scans of anesthetized captive Rhesus macaque (*m.mulatta*) monkeys. Data were acquired at a range of research institutions, under protocols approved by local Institutional Animal Care and Use Committee (IACUC)'s that conform to national animal welfare law (e.g. the `Animal Welfare Act <https://www.nal.usda.gov/animal-health-and-welfare>`_ in the US).
 
 
-Database demographics
-------------------------
+:fa:`venus-mars` Database demographics
+-----------------------------------------
 
 The validity of a morphable model for a given application is fundamentally limited by the sample data that were used to construct it. In particular, while the central tendency of a sample will quickly converge towards an accurate representation of the population mean, the accuracy of linearly interpolated morphs into the extreme periphery of the model space will suffer if that region is under sampled. For example, changes in craniofacial morphology with age are non-linear: there is an early period of bone and muscle growth, followed by loosening of the skin and eventual loss of muscle tone. The demographic make-up of the samples used to construct the original MF3D face-space and other morphable models are provided below.
 

@@ -14,14 +14,16 @@ MF3D RT is not a rendered stimulus set, but a code base for (near) real-time ren
   :alt: CC-BY-NC
 
 .. panels::
-    :body: text-justify
-    :header: bg-primary text-white font-weight-bold
+  :container: container-lg p-0 m-0 border-0
+  :column: col-lg-12 p-2 m-0 border-0
+  :body: text-justify
+  :header: bg-primary text-white font-weight-bold
 
-    -------------------
-    :fa:`info` Note
-    ^^^^^^^^^^^^^^
+  -------------------
+  :fa:`circle-info` Note
+  ^^^^^^^^^^^^^^
 
-    MF3D RT requires access to the 3D model Blender file, which is not currently publicly released. If you are interested in using this resource in your research then please contact us to discuss possible collaboration.
+  MF3D RT requires access to the 3D model Blender file, which is not currently publicly released. If you are interested in using this resource in your research then please contact us to discuss possible collaboration.
 
 
 Adaptive stimulus optimization
