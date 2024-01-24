@@ -5,6 +5,7 @@ commonmark
 cycler
 docutils
 recommonmark
+wheel
 sphinx-copybutton==0.4.0
 sphinx-fontawesome
 sphinx-notfound-page==0.8
