@@ -1,4 +1,4 @@
-Sphinx
+Sphinx>=5.0.0
 Pygments
 alabaster
 commonmark
