@@ -34,7 +34,7 @@ release = '1.0'                     # The full version, including alpha/beta/rc 
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-# needs_sphinx = '5.0'
+# needs_sphinx = '7.2'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -56,7 +56,7 @@ extensions = [
    #'sphinxcontrib.video',
     'sphinx_copybutton',
     'sphinxemoji.sphinxemoji',
-    'notfound.extension',
+    #'notfound.extension',
 ]
 
 bibtex_bibfiles = ['MF3D_refs.bib']
