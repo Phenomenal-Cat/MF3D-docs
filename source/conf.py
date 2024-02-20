@@ -45,7 +45,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'recommonmark',
     'sphinx.ext.intersphinx',
-   # 'sphinx_tabs.tabs',
+    'sphinx_tabs.tabs',
     'sphinx_inline_tabs',
    # 'sphinx_fontawesome',
     'sphinx_panels',
