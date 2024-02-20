@@ -13,25 +13,27 @@ macaque faces with unparalleled parametric control.
 MF3D R2 Subsets
 ----------------------------
 
-.. tabbed:: Expression x Identity
+.. tabs::
 
-  .. note::
-    The static stimuli of MF3D R2 will extend those of release 1 by
-    covarying the following variables:
+  .. tab:: Expression x Identity
 
-    -  expression types
+    .. note::
+      The static stimuli of MF3D R2 will extend those of release 1 by
+      covarying the following variables:
 
-    -  expression intensities
+      -  expression types
 
-    -  head orientations
+      -  expression intensities
 
-    -  identity dimensions
+      -  head orientations
 
-    -  identity distinctiveness levels
+      -  identity dimensions
 
-    -  lighting directions
+      -  identity distinctiveness levels
+
+      -  lighting directions
 
 
-.. tabbed:: Animation subset
+  .. tab:: Animation subset
 
-  The animated component of the MF3D R2 stimulus set replicates the :link-badge:`mf3d-r1-animation, animation subset, ref, badge-success text-white` of MF3D R1, but includes a variety of facial identities of the avatar.
+    The animated component of the MF3D R2 stimulus set replicates the :link-badge:`mf3d-r1-animation, animation subset, ref, badge-success text-white` of MF3D R1, but includes a variety of facial identities of the avatar.

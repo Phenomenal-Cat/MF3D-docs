@@ -65,55 +65,57 @@ The static stimuli of MF3D release 1 are divided into two collections:
 MF3D R1 Subsets
 -----------------
 
-.. tabbed:: Expression subset :fa:`image`
+.. tabs::
+   
+  .. tab:: Expression subset :fa:`image`
 
-  For the expression set, we varied head orientation (±90° azimuth x ±30° elevation in 10° increments = 133 orientations; :ref:`Figure 1B, i <mf3d-r1-figB>`), facial expression type (neutral plus bared-teeth ‘fear grimace’, open-mouthed threat, coo, yawn, and tongue-protrusion = 5) and the intensity of the expression (25, 50, 75 and 100% = 4; :ref:`Figure 1B, ii <mf3d-r1-figB>`). We additionally include the neutral expression with open and closed eyes, as well as azimuth rotations beyond 90° (100 to 260° in 10° increments) for a total of 2,926 colour images. In order to maintain naturalistic poses, head orientation was varied through a combination of neck (±30° azimuth and elevation) and body (±60° azimuth) orientations.
+    For the expression set, we varied head orientation (±90° azimuth x ±30° elevation in 10° increments = 133 orientations; :ref:`Figure 1B, i <mf3d-r1-figB>`), facial expression type (neutral plus bared-teeth ‘fear grimace’, open-mouthed threat, coo, yawn, and tongue-protrusion = 5) and the intensity of the expression (25, 50, 75 and 100% = 4; :ref:`Figure 1B, ii <mf3d-r1-figB>`). We additionally include the neutral expression with open and closed eyes, as well as azimuth rotations beyond 90° (100 to 260° in 10° increments) for a total of 2,926 colour images. In order to maintain naturalistic poses, head orientation was varied through a combination of neck (±30° azimuth and elevation) and body (±60° azimuth) orientations.
 
-  .. _mf3d-r1-figB:
+    .. _mf3d-r1-figB:
 
-  .. figure:: _images/ML_Figs/MurphyLeopold_Fig1B.png
-    :alt: Figure 1B - Expression stimuli
+    .. figure:: _images/ML_Figs/MurphyLeopold_Fig1B.png
+      :alt: Figure 1B - Expression stimuli
 
-    **Figure 1B, Expression stimuli. i.** All head orientations rendered for each expression condition (neutral expression shown for illustration): 19 azimuth angles (-90 to +90° in 10° increments) x 7 elevation angles (-30 to +30° in 10° increments) for 133 unique head orientations. **ii.** Five facial expressions (rows) rendered at four levels of intensity (columns), at each of the head orientations illustrated in **i**, for a total of 2,793 unique colour images. 
+      **Figure 1B, Expression stimuli. i.** All head orientations rendered for each expression condition (neutral expression shown for illustration): 19 azimuth angles (-90 to +90° in 10° increments) x 7 elevation angles (-30 to +30° in 10° increments) for 133 unique head orientations. **ii.** Five facial expressions (rows) rendered at four levels of intensity (columns), at each of the head orientations illustrated in **i**, for a total of 2,793 unique colour images. 
 
-.. tabbed:: Identity subset :fa:`image`
+  .. tab:: Identity subset :fa:`image`
 
-  .. _mf3d-r1-identity:
+    .. _mf3d-r1-identity:
 
-  For the identity set, we selected a subset of head orientations (±90° azimuth x ±30° elevation in 30° increments = 21 orientations; :ref:`Figure 1C, i <mf3d-r1-figC>`), and co-varied facial morphology based on distinct trajectories within PCA-space (n = 65; :ref:`Figure 1C, ii <mf3d-r1-figC>`), including each of the first five PCs (which together account for 75% of the sample variance in facial morphology), with distinctiveness (Euclidean distance from the average face, ±4σ in 1σ increments = 8 levels, excluding the mean; :ref:`Figure 1C, iii <mf3d-r1-figC>`) for a total of 10,941 identity images.
+    For the identity set, we selected a subset of head orientations (±90° azimuth x ±30° elevation in 30° increments = 21 orientations; :ref:`Figure 1C, i <mf3d-r1-figC>`), and co-varied facial morphology based on distinct trajectories within PCA-space (n = 65; :ref:`Figure 1C, ii <mf3d-r1-figC>`), including each of the first five PCs (which together account for 75% of the sample variance in facial morphology), with distinctiveness (Euclidean distance from the average face, ±4σ in 1σ increments = 8 levels, excluding the mean; :ref:`Figure 1C, iii <mf3d-r1-figC>`) for a total of 10,941 identity images.
 
-  .. _mf3d-r1-figc:
+    .. _mf3d-r1-figc:
 
-  .. figure:: _images/ML_Figs/MurphyLeopold_Fig1C.png
-    :alt: Figure 1C - Identity stimuli
+    .. figure:: _images/ML_Figs/MurphyLeopold_Fig1C.png
+      :alt: Figure 1C - Identity stimuli
 
-    **Figure 1C. Identity stimuli. i.** All head orientations rendered for each identity condition (average identity shown for illustration): 7 azimuth angles x 3 elevation angles for 21 head orientations. **ii.** Identity trajectories through face space were selected through all pairwise combinations of the first 5 principal components from the PCA (which cumulatively account for 75% of the sample variance in facial morphology), at 3 polar angles for a total of 65 unique trajectories. **iii.** Identities were rendered at eight levels of distinctiveness (±4σ from the sample mean in 1σ increments) along each identity trajectory (shown here for the first 5 PCs), plus the sample mean for a total of 10,941 unique colour images.
-
-
-
-.. tabbed:: Animation subset :fa:`film` 
-
-  .. _mf3d-r1-animation:
-
-  .. _mf3d-r1-figD:
-
-  .. figure:: _images/ML_Figs/MurphyLeopold_Fig1D.png
-    :align: left
-    :width: 100%
-    :figwidth: 40%
-    :alt: Figure 1C - Identity stimuli
-
-    **Figure 1D.** Animated stimuli. A subset of frames from an example animation sequence included in the MF3D R1 stimulus set is rendered at 5 different head azimuth orientations (rows). Bottom panel: Accompanying audio waveform and spectrogram for this particular animation, which depicts a ‘scream’ vocalization.
+      **Figure 1C. Identity stimuli. i.** All head orientations rendered for each identity condition (average identity shown for illustration): 7 azimuth angles x 3 elevation angles for 21 head orientations. **ii.** Identity trajectories through face space were selected through all pairwise combinations of the first 5 principal components from the PCA (which cumulatively account for 75% of the sample variance in facial morphology), at 3 polar angles for a total of 65 unique trajectories. **iii.** Identities were rendered at eight levels of distinctiveness (±4σ from the sample mean in 1σ increments) along each identity trajectory (shown here for the first 5 PCs), plus the sample mean for a total of 10,941 unique colour images.
 
 
-  For studies requiring more naturalistic stimuli, we also have the ability to generate a virtually limitless number of animations that promise great flexibility for studying dynamic facial behaviour. Here we have included a small selection of short animations (2 seconds or less per clip) as a proof of concept, which are rendered at 3840 x 2160 pixels and 60 frames per second, encoded with H.264 perceptually-lossless compression and saved in .mp4 format with a black background. For each action sequence, animations are rendered at 5 different head azimuth angles (-60, to 60° in 30° increments). All animations feature identical start and end frames, which allows the possibility of stitching multiple clips together using video editing software (such as the video editor included in Blender), to produce longer, seamless movies containing various permutations of action sequences. We provide a :link-badge:`https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_ConcatClips_Demo.py,Python script,cls=badge-primary text-white` to demonstrate automated compilation of animation clips using Blender's video sequence editor. The animations were produced by manually coding video footage of real Rhesus macaques performing facial expressions and vocalizations.
+
+  .. tab:: Animation subset :fa:`film` 
+
+    .. _mf3d-r1-animation:
+
+    .. _mf3d-r1-figD:
+
+    .. figure:: _images/ML_Figs/MurphyLeopold_Fig1D.png
+      :align: left
+      :width: 100%
+      :figwidth: 40%
+      :alt: Figure 1C - Identity stimuli
+
+      **Figure 1D.** Animated stimuli. A subset of frames from an example animation sequence included in the MF3D R1 stimulus set is rendered at 5 different head azimuth orientations (rows). Bottom panel: Accompanying audio waveform and spectrogram for this particular animation, which depicts a ‘scream’ vocalization.
 
 
-  .. raw:: html
+    For studies requiring more naturalistic stimuli, we also have the ability to generate a virtually limitless number of animations that promise great flexibility for studying dynamic facial behaviour. Here we have included a small selection of short animations (2 seconds or less per clip) as a proof of concept, which are rendered at 3840 x 2160 pixels and 60 frames per second, encoded with H.264 perceptually-lossless compression and saved in .mp4 format with a black background. For each action sequence, animations are rendered at 5 different head azimuth angles (-60, to 60° in 30° increments). All animations feature identical start and end frames, which allows the possibility of stitching multiple clips together using video editing software (such as the video editor included in Blender), to produce longer, seamless movies containing various permutations of action sequences. We provide a :link-badge:`https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_ConcatClips_Demo.py,Python script,cls=badge-primary text-white` to demonstrate automated compilation of animation clips using Blender's video sequence editor. The animations were produced by manually coding video footage of real Rhesus macaques performing facial expressions and vocalizations.
 
-	<iframe src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" style="display:block; padding:10px; border:5px" width="400" height="225" frameborder="0" align="right" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-  .. container:: clearer
+    .. raw:: html
 
-    .. image :: _images/spacer.png
-       :width: 1
+  	<iframe src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" style="display:block; padding:10px; border:5px" width="400" height="225" frameborder="0" align="right" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+    .. container:: clearer
+
+      .. image :: _images/spacer.png
+         :width: 1

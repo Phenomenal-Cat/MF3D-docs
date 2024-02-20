@@ -17,14 +17,41 @@ To achieve realistic (i.e. geometrically veridical) stereoscopic renders, the ex
 .. panels::
   :container: container-lg pb-3
   :column: col-lg-12 p-1
+  :header: bg-primary text-white
+  :body: bg-light
   :card: shadow
 
-  .. image:: _images/ML_Figs/MurphyLeopold_Fig3.jpg
-    :align: right
-    :width: 50%
-    :alt: Virtual camera placement for stereoscopic depth scaling
+  **Viewing geometry**
 
-  **Viewing geometry. A.** Schematic illustration (view from above) of the virtual replication of real-world viewing geometry. The observer was always located at a fixed viewing distance (VD) from the plane of the screen, with the center of the screen aligned to the observer’s cyclopean eye. A pair of virtual cameras are spaced the equivalent of the subject’s inter-pupillary distance (IPD) apart, with off-axis frusta (blue and red triangles). The position of the virtual macaque in 3D space is restricted by the viewing frusta, which are determined by the size of the screen (Sx) and the viewing distance (VD). **B.** When a 2D image is presented peripherally on a flat display, the projection of that image onto the subjects retina becomes distorted due to parallax error. By moving the virtual 3D model to a peripheral location and then rendering the image it is possible to produce retinal stimulation consistent with real-world geometry. **C.** When the avatar is positioned peripherally but oriented toward the observer, the resulting 2D image is more perceptually similar to the same object at the central location. **D.** Depth map generated from Z-buffer rendering to high-dynamic range format (Open-EXR). **E.** Stereoscopic 3D rendering (requires red-cyan anaglyph glasses for viewing). **F.** Random-dot stereogram (red-cyan anaglyph) generated using the depth map in D, which contains the same binocular disparity content as E, but no other visual cues to depth or object form.
+  ^^^
+
+  .. tabbed:: A
+
+    .. image:: _images/ML_Figs/MurphyLeopold_Fig3A.jpg
+      :align: right
+      :width: 40%
+      :alt: Virtual camera placement for stereoscopic depth scaling
+
+    **A.** Schematic illustration (view from above) of the virtual replication of real-world viewing geometry. The observer was always located at a fixed :badge:`viewing distance,badge-primary` (*VD*) from the plane of the screen, with the center of the screen aligned to the observer’s cyclopean eye. A pair of virtual cameras are spaced the equivalent of the subject’s :badge:`inter-pupillary distance,badge-primary` (*IPD*) apart, with off-axis frusta (blue and red triangles). The position of the virtual macaque in 3D space is restricted by the viewing frusta, which are determined by the :badge:`size of the screen,badge-primary` (*Sx*) and the :badge:`viewing distance,badge-primary` (*VD*). 
+
+  .. tabbed:: B
+
+    .. image:: _images/ML_Figs/MurphyLeopold_Fig3B.jpg
+      :align: right
+      :width: 40%
+      :alt: Overcoming parallax error
+
+    **B.** When a 2D image is presented peripherally on a flat display, the projection of that image onto the subjects retina becomes distorted due to parallax error. By moving the virtual 3D model to a peripheral location and then rendering the image it is possible to produce retinal stimulation consistent with real-world geometry. **C.** When the avatar is positioned peripherally but oriented toward the observer, the resulting 2D image is more perceptually similar to the same object at the central location. 
+
+  .. tabbed:: C
+
+    .. image:: _images/ML_Figs/MurphyLeopold_Fig3D.jpg
+      :align: left
+      :width: 100%
+      :alt: Depth rendering
+
+    **D.** Depth map generated from Z-buffer rendering to high-dynamic range format (Open-EXR). **E.** Stereoscopic 3D rendering (requires red-cyan anaglyph glasses for viewing). **F.** Random-dot stereogram (red-cyan anaglyph) generated using the depth map in D, which contains the same binocular disparity content as E, but no other visual cues to depth or object form.
+
 
 
 :fa:`vr-cardboard` Stereoscopic Displays
