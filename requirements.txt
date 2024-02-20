@@ -10,6 +10,7 @@ sphinx-copybutton==0.4.0
 sphinx-fontawesome
 sphinx-notfound-page==1.0.0
 sphinx-panels
+sphinx-tabs
 sphinx-inline-tabs
 sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
