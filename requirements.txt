@@ -6,10 +6,12 @@ cycler
 docutils
 recommonmark
 wheel
-sphinx-copybutton==0.4.0
+sphinx-copybutton
 sphinx-fontawesome
-sphinx-notfound-page==1.0.0
+sphinx-design
+sphinx-notfound-page
 sphinx-panels
+sphinx-carousel
 sphinx-tabs
 sphinx-inline-tabs
 sphinxcontrib-htmlhelp==2.0.0
@@ -21,7 +23,7 @@ Babel
 Jinja2
 MarkupSafe
 Pillow
-PyYAML==6.0.1
+PyYAML
 certifi
 charset-normalizer
 commonmark

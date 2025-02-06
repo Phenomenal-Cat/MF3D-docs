@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 project = 'MF3D'
 now = datetime.datetime.now()       # Get current date
-author = 'Aidan Murphy, PhD'
+author = 'New Atlantis Labs'
 copyright = '%d, %s' % (now.year, author)
 version = '1.0'                     # The short X.Y version
 release = '1.0'                     # The full version, including alpha/beta/rc tags
@@ -49,7 +49,8 @@ extensions = [
     'sphinx_inline_tabs',
    # 'sphinx_fontawesome',
     'sphinx_panels',
-   # 'sphinx_design',
+    'sphinx_design',
+    'sphinx_carousel.carousel',
    # 'zot2rst.sphinx',
    # 'sphinxcontrib.bibtex',
     'matplotlib.sphinxext.plot_directive',
@@ -183,7 +184,7 @@ sd_fontawesome_latex = True
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'MF3D.tex', 'MF3D Documentation',
-     'Aidan Murphy', 'manual'),
+     'New Atlantis Labs', 'manual'),
 ]
 
 
