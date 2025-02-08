@@ -50,10 +50,25 @@ The virtual scene was configured such that the avatar will appear at real-world 
 
 .. _mf3d-r1-figA:
 
-.. figure:: _images/ML_Figs/MurphyLeopold_Fig1A.png
-  :alt: Figure 1A - Stimulus set format
+.. grid:: 1
 
-  **Figure 1A.** Stimulus set format and applications. **i.** Each colour image in the set is rendered as a 3840 x 2160 pixel RGBA image in .png format with 32-bits per pixel. The avatar is positioned such that the center of the screen coincides with the cyclopean eye when the avatar is directly facing the camera. **ii.** For each colour image, we provide a corresponding label map image (.hdr format) of the same dimensions, where integer pixel values indicate which anatomical structure of the avatar they belong to. **iii.** An example of a simulated gaze distribution map for the stimulus shown in i. **iv.** Proportion of fixations on each labelled structure can be easily computed. **v.** Novel stimuli can be created by using the label map to mask specific parts of the original image. 
+  .. grid-item-card::
+    :margin: 0
+    :padding: 0
+    :shadow: none
+    :class-card: sd-border-0 sd-bg-light
+
+    .. image:: _images/ML_Figs/MurphyLeopold_Fig1A.png
+      :alt: Figure 1A - Stimulus set format
+      :width: 100%
+
+  .. grid-item-card::
+    :margin: 0
+    :padding: 0
+    :shadow: none
+    :class-card: sd-border-0 sd-bg-light
+
+    **Figure 1A.** Stimulus set format and applications. **i.** Each colour image in the set is rendered as a 3840 x 2160 pixel RGBA image in .png format with 32-bits per pixel. The avatar is positioned such that the center of the screen coincides with the cyclopean eye when the avatar is directly facing the camera. **ii.** For each colour image, we provide a corresponding label map image (.hdr format) of the same dimensions, where integer pixel values indicate which anatomical structure of the avatar they belong to. **iii.** An example of a simulated gaze distribution map for the stimulus shown in i. **iv.** Proportion of fixations on each labelled structure can be easily computed. **v.** Novel stimuli can be created by using the label map to mask specific parts of the original image. 
 
 The static stimuli of MF3D release 1 are divided into two collections:
 
@@ -65,20 +80,36 @@ The static stimuli of MF3D release 1 are divided into two collections:
 MF3D R1 Subsets
 -----------------
 
-.. tabs::
+.. tab-set::
+  :class: sd-bg-light sd-rounded-2 p-2
    
-  .. tab:: Expression subset :fa:`image`
+  .. tab-item:: Expression subset :fa:`image`
 
     For the expression set, we varied head orientation (±90° azimuth x ±30° elevation in 10° increments = 133 orientations; :ref:`Figure 1B, i <mf3d-r1-figB>`), facial expression type (neutral plus bared-teeth ‘fear grimace’, open-mouthed threat, coo, yawn, and tongue-protrusion = 5) and the intensity of the expression (25, 50, 75 and 100% = 4; :ref:`Figure 1B, ii <mf3d-r1-figB>`). We additionally include the neutral expression with open and closed eyes, as well as azimuth rotations beyond 90° (100 to 260° in 10° increments) for a total of 2,926 colour images. In order to maintain naturalistic poses, head orientation was varied through a combination of neck (±30° azimuth and elevation) and body (±60° azimuth) orientations.
 
     .. _mf3d-r1-figB:
 
-    .. figure:: _images/ML_Figs/MurphyLeopold_Fig1B.png
-      :alt: Figure 1B - Expression stimuli
+    .. grid:: 1
 
-      **Figure 1B, Expression stimuli. i.** All head orientations rendered for each expression condition (neutral expression shown for illustration): 19 azimuth angles (-90 to +90° in 10° increments) x 7 elevation angles (-30 to +30° in 10° increments) for 133 unique head orientations. **ii.** Five facial expressions (rows) rendered at four levels of intensity (columns), at each of the head orientations illustrated in **i**, for a total of 2,793 unique colour images. 
+      .. grid-item-card::
+        :margin: 0
+        :padding: 0
+        :shadow: none
+        :class-card: sd-border-0
 
-  .. tab:: Identity subset :fa:`image`
+        .. image:: _images/ML_Figs/MurphyLeopold_Fig1B.png
+          :alt: Figure 1B - Expression stimuli
+          :width: 100%
+
+      .. grid-item-card:: 
+        :margin: 0
+        :padding: 0
+        :shadow: none
+        :class-card: sd-border-0
+
+        **Figure 1B, Expression stimuli. i.** All head orientations rendered for each expression condition (neutral expression shown for illustration): 19 azimuth angles (-90 to +90° in 10° increments) x 7 elevation angles (-30 to +30° in 10° increments) for 133 unique head orientations. **ii.** Five facial expressions (rows) rendered at four levels of intensity (columns), at each of the head orientations illustrated in **i**, for a total of 2,793 unique colour images. 
+
+  .. tab-item:: Identity subset :fa:`image`
 
     .. _mf3d-r1-identity:
 
@@ -86,14 +117,29 @@ MF3D R1 Subsets
 
     .. _mf3d-r1-figc:
 
-    .. figure:: _images/ML_Figs/MurphyLeopold_Fig1C.png
-      :alt: Figure 1C - Identity stimuli
+    .. grid:: 1
 
-      **Figure 1C. Identity stimuli. i.** All head orientations rendered for each identity condition (average identity shown for illustration): 7 azimuth angles x 3 elevation angles for 21 head orientations. **ii.** Identity trajectories through face space were selected through all pairwise combinations of the first 5 principal components from the PCA (which cumulatively account for 75% of the sample variance in facial morphology), at 3 polar angles for a total of 65 unique trajectories. **iii.** Identities were rendered at eight levels of distinctiveness (±4σ from the sample mean in 1σ increments) along each identity trajectory (shown here for the first 5 PCs), plus the sample mean for a total of 10,941 unique colour images.
+      .. grid-item-card::
+        :margin: 0
+        :padding: 0
+        :shadow: none
+        :class-card: sd-border-0
+
+        .. image:: _images/ML_Figs/MurphyLeopold_Fig1C.png
+          :alt: Figure 1C - Identity stimuli
+          :width: 100%
+
+      .. grid-item-card::
+        :margin: 0
+        :padding: 0
+        :shadow: none
+        :class-card: sd-border-0
+
+        **Figure 1C. Identity stimuli. i.** All head orientations rendered for each identity condition (average identity shown for illustration): 7 azimuth angles x 3 elevation angles for 21 head orientations. **ii.** Identity trajectories through face space were selected through all pairwise combinations of the first 5 principal components from the PCA (which cumulatively account for 75% of the sample variance in facial morphology), at 3 polar angles for a total of 65 unique trajectories. **iii.** Identities were rendered at eight levels of distinctiveness (±4σ from the sample mean in 1σ increments) along each identity trajectory (shown here for the first 5 PCs), plus the sample mean for a total of 10,941 unique colour images.
 
 
 
-  .. tab:: Animation subset :fa:`film` 
+  .. tab-item:: Animation subset :fa:`film` 
 
     .. _mf3d-r1-animation:
 
@@ -108,7 +154,7 @@ MF3D R1 Subsets
       **Figure 1D.** Animated stimuli. A subset of frames from an example animation sequence included in the MF3D R1 stimulus set is rendered at 5 different head azimuth orientations (rows). Bottom panel: Accompanying audio waveform and spectrogram for this particular animation, which depicts a ‘scream’ vocalization.
 
 
-    For studies requiring more naturalistic stimuli, we also have the ability to generate a virtually limitless number of animations that promise great flexibility for studying dynamic facial behaviour. Here we have included a small selection of short animations (2 seconds or less per clip) as a proof of concept, which are rendered at 3840 x 2160 pixels and 60 frames per second, encoded with H.264 perceptually-lossless compression and saved in .mp4 format with a black background. For each action sequence, animations are rendered at 5 different head azimuth angles (-60, to 60° in 30° increments). All animations feature identical start and end frames, which allows the possibility of stitching multiple clips together using video editing software (such as the video editor included in Blender), to produce longer, seamless movies containing various permutations of action sequences. We provide a :link-badge:`https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_ConcatClips_Demo.py,Python script,cls=badge-primary text-white` to demonstrate automated compilation of animation clips using Blender's video sequence editor. The animations were produced by manually coding video footage of real Rhesus macaques performing facial expressions and vocalizations.
+    For studies requiring more naturalistic stimuli, we also have the ability to generate a virtually limitless number of animations that promise great flexibility for studying dynamic facial behaviour. Here we have included a small selection of short animations (2 seconds or less per clip) as a proof of concept, which are rendered at 3840 x 2160 pixels and 60 frames per second, encoded with H.264 perceptually-lossless compression and saved in .mp4 format with a black background. For each action sequence, animations are rendered at 5 different head azimuth angles (-60, to 60° in 30° increments). All animations feature identical start and end frames, which allows the possibility of stitching multiple clips together using video editing software (such as the video editor included in Blender), to produce longer, seamless movies containing various permutations of action sequences. We provide a :bdg-link-primary:`Python script <https://github.com/Phenomenal-Cat/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py>` to demonstrate automated compilation of animation clips using Blender's video sequence editor. The animations were produced by manually coding video footage of real Rhesus macaques performing facial expressions and vocalizations.
 
 
     .. raw:: html

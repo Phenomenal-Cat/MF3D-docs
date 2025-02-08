@@ -4,26 +4,17 @@
 :fa:`gamepad` MF3D Real-time
 ======================================
 
+.. card::
+  :margin: 0
+  :class-header: sd-bg-warning
+  :class-body: sd-bg-warning
+
+  :fa:`triangle-exclamation` Under Development!
+  ^^^^^^
+  This page describes the technically acheivable goal and benefits of converting the existing MF3D Blender avatar into a game-engine asset. However, this is work that may or may not be in progress (several groups have expressed interest in doing so, and have been provided the necessary files). Any results from these efforts will be shared publicly via this site. If you are interested in trying this yourself, or outsourcing the process, then please let us know so that we can coordinate efforts and avoid duplication.
+
+
 MF3D RT is not a rendered stimulus set, but a code base for (near) real-time rendering of the macaque avatar using a game rendering engine. Since each frame must be rendered within a single display refresh (e.g. 16.6ms for a 60Hz display), there is a trade off in level of detail and realism that can be achieved compared to offline rendering. It is intended for brief visual presentations of static images employed in traditional neuroscience studies, although it can be used to generate slowly evolving scene dynamics. For real-time generation of animated sequences of the avatar embedded in virtual environments, see the :ref:`MF3D Unity <Stim_Unity>` below.
-
-.. image:: _images/Logos/Blender.svg
-  :width: 150
-  :alt: Blender
-.. image:: _images/Logos/cc-by-nc.svg
-  :width: 100
-  :alt: CC-BY-NC
-
-.. panels::
-  :container: container-lg p-0 m-0 border-0
-  :column: col-lg-12 p-2 m-0 border-0
-  :body: text-justify
-  :header: bg-primary text-white font-weight-bold
-
-  -------------------
-  :fa:`circle-info` Note
-  ^^^^^^^^^^^^^^
-
-  MF3D RT requires access to the 3D model Blender file, which is not currently publicly released. If you are interested in using this resource in your research then please contact us to discuss possible collaboration.
 
 
 Adaptive stimulus optimization

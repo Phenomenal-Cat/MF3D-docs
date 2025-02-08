@@ -8,15 +8,18 @@
 This page lists the the pre-rendered MF3D stimulus sets (media) that are already publicly available, as well as some of the 3D data and rigs that we plan to release to interested research groups. Click the on each card below to learn more.
 
 .. grid:: 3
+  :margin: 0
+  :padding: 0
+  :gutter: 2
 
   .. grid-item-card:: 
-    :link: Stim_MF3DR1
+    :link: stim_mf3dr1
     :link-type: ref
-    :class-card: p-0
+    :margin: 0
+    :padding: 1
     :class-header: sd-bg-primary sd-text-white
-    :class-body: p-2
-    :class-footer: sd-bg-light p-0
-    :img-bottom: _images/ML_Figs/MurphyLeopold_Fig1B.png
+    :class-footer: sd-bg-light
+    :img-top: _images/ML_Figs/MurphyLeopold_Fig1B.png
 
     :fa:`image` :fa:`film` MF3D Stim Set 1
     ^^^
@@ -32,13 +35,12 @@ This page lists the the pre-rendered MF3D stimulus sets (media) that are already
 
 
   .. grid-item-card:: 
-    :link: Stim_MF3DR2
     :link-type: ref
-    :class-card: p-0
+    :margin: 0
+    :padding: 1
     :class-header: sd-bg-primary sd-text-white
-    :class-body: p-2
-    :class-footer: sd-bg-light p-0
-
+    :class-footer: sd-bg-light
+    .. :link: stim_mf3dr2
 
     :fa:`image` :fa:`film` MF3D Stim Set 2
     ^^^
@@ -52,13 +54,13 @@ This page lists the the pre-rendered MF3D stimulus sets (media) that are already
     .. image:: _images/spacer.png
       :width: 10
 
-  .. grid-item-card::
-    :link: Stim_Blender
+  .. grid-item-card:: 
+    :link: stim_blender
     :link-type: ref
-    :class-card: p-0
+    :margin: 0
+    :padding: 1
     :class-header: sd-bg-primary sd-text-white
-    :class-body: p-2
-    :class-footer: sd-bg-light p-0
+    :class-footer: sd-bg-light
 
     :fa:`cube` Blender
     ^^^
@@ -73,12 +75,12 @@ This page lists the the pre-rendered MF3D stimulus sets (media) that are already
       :width: 10
 
   .. grid-item-card:: 
-    :link: Stim_MF3DRT
     :link-type: ref
-    :class-card: p-0
+    :margin: 0
+    :padding: 1
     :class-header: sd-bg-primary sd-text-white
-    :class-body: p-2
-    :class-footer: sd-bg-light p-0
+    :class-footer: sd-bg-light
+    .. :link: stim_mf3drt
 
     :fa:`vr-cardboard` MF3D Real-Time Asset
     ^^^
