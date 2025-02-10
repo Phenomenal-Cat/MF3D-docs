@@ -33,20 +33,36 @@ The MF3D Blender files are made available under the `Creative Commons (CC) BY-NC
 .. grid:: 3
 
   .. grid-item::
-    .. button-link:: https://proton.me/drive
-      :color: primary
-      :expand:
-      :tooltip: Download MF3D Expressions .blend file. Password required!
 
-      :fa:`file-arrow-down` MF3D Expressions
+    .. grid:: 1
+
+      .. grid-item::
+        .. image:: _images/Screenshots/Blender/MF3D_ExpressionScreenshot.png
+          :width: 100%
+
+      .. grid-item::
+        .. button-link:: https://proton.me/drive
+          :color: primary
+          :expand:
+          :tooltip: Download MF3D Expressions .blend file. Password required!
+
+          :fa:`file-arrow-down` MF3D Expressions
 
   .. grid-item::
-    .. button-link:: https://proton.me/drive
-      :color: primary
-      :expand:
-      :tooltip: Download MF3D Identities .blend file. Password required!
 
-      :fa:`file-arrow-down` MF3D Identities
+    .. grid:: 1
+
+      .. grid-item::
+        .. image:: _images/Screenshots/Blender/MF3D_IdentityScreenshot.png
+          :width: 100%
+
+      .. grid-item::
+        .. button-link:: https://proton.me/drive
+          :color: primary
+          :expand:
+          :tooltip: Download MF3D Identities .blend file. Password required!
+
+          :fa:`file-arrow-down` MF3D Identities
 
 
 
