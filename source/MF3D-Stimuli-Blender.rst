@@ -41,7 +41,7 @@ The MF3D Blender files are made available under the `Creative Commons (CC) BY-NC
           :width: 100%
 
       .. grid-item::
-        .. button-link:: https://proton.me/drive
+        .. button-link:: https://drive.proton.me/urls/BC6EBYM7H8#OLLghwH5twiC
           :color: primary
           :expand:
           :tooltip: Download MF3D Expressions .blend file. Password required!
@@ -57,7 +57,7 @@ The MF3D Blender files are made available under the `Creative Commons (CC) BY-NC
           :width: 100%
 
       .. grid-item::
-        .. button-link:: https://proton.me/drive
+        .. button-link:: https://drive.proton.me/urls/E55KBC4HTC#7LxyOIXJUgLj
           :color: primary
           :expand:
           :tooltip: Download MF3D Identities .blend file. Password required!
