@@ -16,6 +16,7 @@ The `MF3D stimulus set (Release 1) <https://figshare.com/projects/MF3D_Release_1
     :align: right
     :class: align-right
     :alt: Figshare
+    
   .. image:: _images/Logos/cc-by-nc.svg
     :width: 100
     :align: right

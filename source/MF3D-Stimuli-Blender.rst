@@ -17,14 +17,7 @@
 The MF3D avatar(s) were creating using a variety analysis and modelling software (as described in `Murphy & Leopold, 2019 <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_) before being assembled in the open-source 3D software `Blender <https://www.blender.org>`_. This powerful software is free to download, has a large online user community and an experienced development team with an excellent track record. 
 
 
-:fab:`creative-commons` CC License
---------------------------------------
-
-The MF3D Blender files are made available under the `Creative Commons (CC) BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_ license. This license enables users to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms. CC BY-NC-SA includes the following elements:
-
- - :fab:`creative-commons-by` BY: Credit must be given to the creator.
- - :fab:`creative-commons-nc` NC: Only noncommercial uses of the work are permitted.
- - :fab:`creative-commons-sa` SA: Adaptations must be shared under the same terms.
+.. include:: MF3D-License.rst
 
 
 :fa:`file-arrow-down` Download .blend files

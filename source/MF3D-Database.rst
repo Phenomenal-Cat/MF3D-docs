@@ -10,6 +10,9 @@
 All 3D surface data used in MF3D databases were derived from *in vivo* computed tomography (CT) scans of anesthetized captive Rhesus macaque (*m.mulatta*) monkeys. Data were acquired at a range of research institutions, under protocols approved by local Institutional Animal Care and Use Committee (IACUC)'s that conform to national animal welfare law (e.g. the `Animal Welfare Act <https://www.nal.usda.gov/animal-health-and-welfare>`_ in the US).
 
 
+.. include:: MF3D-License.rst
+
+
 :fa:`venus-mars` Database demographics
 -----------------------------------------
 
@@ -27,14 +30,68 @@ The validity of a morphable model for a given application is fundamentally limit
 
     The demographic make-up of the sample used to construct the original MF3D face-space is shown in the plot to the right. All animals in this sample (N = 36) were over 4 years of age, and only a small proportion were female (N = 7). The voxel resolution of CT volumes varied from 0.25 - 0.37mm in-plane, and 0.125 - 0.5mm slice thickness. 
 
+
+    .. image:: _images/ML_Figs/ML_PCA_Face-SpaceDist.gif
+      :width: 300px
+      :align: left
+
     .. container:: clearer
 
       .. image :: _images/spacer.png
          :width: 1
 
+
+    :fa:`download` Download surface meshes
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    .. grid:: 4
+
+
+      .. grid-item-card:: 
+        :link-type: url
+        :link: https://drive.proton.me/urls/MRN9WQ0TR8#eVm4UmrOBReA
+        :margin: 0
+        :padding: 1
+        :class-header: sd-bg-primary sd-text-white
+        :class-footer: sd-bg-light
+        :img-top: _images/Screenshots/Mesh_Average_std.png
+
+        :fa:`file-arrow-down` Average mesh
+        ^^^
+        Standardized mesh (.obj file) of MF3D R1 'average' identity in 'neutral' expression.
+
+      .. grid-item-card:: 
+        :link: https://drive.proton.me/urls/ANV0ST8F28#qyc9jYKW0b1z
+        :link-type: url
+        :margin: 0
+        :padding: 1
+        :class-header: sd-bg-primary sd-text-white
+        :class-footer: sd-bg-light
+        :img-top: _images/Screenshots/Mesh_M01_std.png
+
+        :fa:`file-arrow-down` M01 mesh
+        ^^^
+        Standardized mesh (.obj file) of original MF3D identity 'M01' in 'neutral' expression.
+
+      .. grid-item-card:: 
+        :link: https://drive.proton.me/urls/9SRATFSYCW#8vT1dh878MaK
+        :link-type: url
+        :margin: 0
+        :padding: 1
+        :class-header: sd-bg-primary sd-text-white
+        :class-footer: sd-bg-light
+        :img-top: _images/Screenshots/Mesh_M02_std.png
+
+        :fa:`file-arrow-down` M02 mesh
+        ^^^
+        Standardized mesh (.obj file) of original MF3D identity 'M02' in 'neutral' expression.
+
+
+
     .. dropdown:: MF3D Demographics Table
       :color: primary
       :chevron: down-up
+      :open:
 
       .. csv-table:: 
         :widths: auto
@@ -59,6 +116,7 @@ The validity of a morphable model for a given application is fundamentally limit
     .. dropdown:: MF3Di Demographics Table
       :color: primary
       :chevron: down-up
+      :open:
 
       .. csv-table:: 
         :widths: auto
@@ -81,8 +139,9 @@ The validity of a morphable model for a given application is fundamentally limit
          :width: 1
 
     .. dropdown:: MB3D Demographics Table
-        :color: primary
-        :chevron: down-up
+      :color: primary
+      :chevron: down-up
+      :open:
 
       .. csv-table:: 
         :widths: auto
