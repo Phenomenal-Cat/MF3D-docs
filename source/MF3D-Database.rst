@@ -4,13 +4,18 @@
 :fa:`database` MF3D Database
 ============================
 
+
+.. include:: MF3D-License.rst
+
+
 :fa:`radiation` CT data acquisition
 ---------------------------------------
 
+.. image:: _images/Photos/EpicaVimagoCT.png
+  :width: 25%
+  :align: right
+
 All 3D surface data used in MF3D databases were derived from *in vivo* computed tomography (CT) scans of anesthetized captive Rhesus macaque (*m.mulatta*) monkeys. Data were acquired at a range of research institutions, under protocols approved by local Institutional Animal Care and Use Committee (IACUC)'s that conform to national animal welfare law (e.g. the `Animal Welfare Act <https://www.nal.usda.gov/animal-health-and-welfare>`_ in the US).
-
-
-.. include:: MF3D-License.rst
 
 
 :fa:`venus-mars` Database demographics
@@ -39,53 +44,6 @@ The validity of a morphable model for a given application is fundamentally limit
 
       .. image :: _images/spacer.png
          :width: 1
-
-
-    :fa:`download` Download surface meshes
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    .. grid:: 4
-
-
-      .. grid-item-card:: 
-        :link-type: url
-        :link: https://drive.proton.me/urls/MRN9WQ0TR8#eVm4UmrOBReA
-        :margin: 0
-        :padding: 1
-        :class-header: sd-bg-primary sd-text-white
-        :class-footer: sd-bg-light
-        :img-top: _images/Screenshots/Mesh_Average_std.png
-
-        :fa:`file-arrow-down` Average mesh
-        ^^^
-        Standardized mesh (.obj file) of MF3D R1 'average' identity in 'neutral' expression.
-
-      .. grid-item-card:: 
-        :link: https://drive.proton.me/urls/ANV0ST8F28#qyc9jYKW0b1z
-        :link-type: url
-        :margin: 0
-        :padding: 1
-        :class-header: sd-bg-primary sd-text-white
-        :class-footer: sd-bg-light
-        :img-top: _images/Screenshots/Mesh_M01_std.png
-
-        :fa:`file-arrow-down` M01 mesh
-        ^^^
-        Standardized mesh (.obj file) of original MF3D identity 'M01' in 'neutral' expression.
-
-      .. grid-item-card:: 
-        :link: https://drive.proton.me/urls/9SRATFSYCW#8vT1dh878MaK
-        :link-type: url
-        :margin: 0
-        :padding: 1
-        :class-header: sd-bg-primary sd-text-white
-        :class-footer: sd-bg-light
-        :img-top: _images/Screenshots/Mesh_M02_std.png
-
-        :fa:`file-arrow-down` M02 mesh
-        ^^^
-        Standardized mesh (.obj file) of original MF3D identity 'M02' in 'neutral' expression.
-
 
 
     .. dropdown:: MF3D Demographics Table
@@ -148,4 +106,98 @@ The validity of a morphable model for a given application is fundamentally limit
         :file: _static/CSVs/MB3D_table.csv
         :header-rows: 1
         :align: left 
+
+
+:fa:`download` Data Downloads
+----------------------------------
+
+.. dropdown:: :fa:`lock-open` Request Data Access
+  :color: warning
+  :class-body: sd-bg-warning
+  :open:
+
+  Unlike the publicly available :bdg-ref-primary:`MF3D stimuli <MF3D_Stimuli>` media files and :bdg-ref-primary:`MF3D code <MF3D-Tools>`, all other MF3D data are are currently hosted on a **password protected** secure server. To request access to download MF3D data files, please contact :bdg-link-primary:`New Atlantis Labs <http://newatlantis.rtfd.io/>` via the contact form below.
+
+
+  .. include:: MF3D-AccessRequestForm.rst
+
+
+.. tab-set::
+
+  .. tab-item:: Surface meshes
+
+    These standardized 3D surface meshes of macaque heads have identical uniform topology and polygon count (~50K), and are provided in .obj file format. They contain data about the 3D structure of each animal's cranio-facial morphology, but no texture (e.g. color, fur, etc.) information. All faces have been edited to have open eye lids and neutral closed mouth expressions.
+
+    .. grid:: 4
+
+      .. grid-item-card:: 
+        :link-type: url
+        :link: https://drive.proton.me/urls/MRN9WQ0TR8#eVm4UmrOBReA
+        :margin: 0
+        :padding: 1
+        :class-header: sd-bg-primary sd-text-white
+        :class-footer: sd-bg-light
+        :img-top: _images/Screenshots/Mesh_Average_std.png
+
+        :fa:`file-arrow-down` Average mesh
+        ^^^
+        MF3D R1 'average' identity in 'neutral' expression.
+
+      .. grid-item-card:: 
+        :link: https://drive.proton.me/urls/ANV0ST8F28#qyc9jYKW0b1z
+        :link-type: url
+        :margin: 0
+        :padding: 1
+        :class-header: sd-bg-primary sd-text-white
+        :class-footer: sd-bg-light
+        :img-top: _images/Screenshots/Mesh_M01_std.png
+
+        :fa:`file-arrow-down` M01 mesh
+        ^^^
+        MF3D identity 'M01' in 'neutral' expression.
+
+      .. grid-item-card:: 
+        :link: https://drive.proton.me/urls/9SRATFSYCW#8vT1dh878MaK
+        :link-type: url
+        :margin: 0
+        :padding: 1
+        :class-header: sd-bg-primary sd-text-white
+        :class-footer: sd-bg-light
+        :img-top: _images/Screenshots/Mesh_M02_std.png
+
+        :fa:`file-arrow-down` M02 mesh
+        ^^^
+        MF3D identity 'M02' in 'neutral' expression.
+
+  .. tab-item:: CT scan volumes
+
+    These *in vivo* CT scans of macaque heads are 3D volumetric data in `NIFTII <https://nifti.nimh.nih.gov/>`_ (.nii) format. They can be viewed and analysed in medical imaging software such as `3D Slicer <www.slicer.org>`_.
+
+    .. grid:: 4
+
+      .. grid-item-card::
+        :link-type: url
+        :link: https://drive.proton.me/urls/VN2Q2EJKN8#6iRZRqocaANR
+        :margin: 0
+        :padding: 1
+        :class-header: sd-bg-primary sd-text-white
+        :class-footer: sd-bg-light
+        :img-top: _images/Screenshots/M01_SlicerScreenshot.png
+
+        :fa:`file-arrow-down` M01 Volume
+        ^^^
+        3D volume (.nii file) of MF3D identity 'M01'
+
+      .. grid-item-card::
+        :link-type: url
+        :link: https://drive.proton.me/urls/VN2Q2EJKN8#6iRZRqocaANR
+        :margin: 0
+        :padding: 1
+        :class-header: sd-bg-primary sd-text-white
+        :class-footer: sd-bg-light
+        :img-top: _images/Screenshots/M02_SlicerScreenshot.png
+
+        :fa:`file-arrow-down` M02 Volume
+        ^^^
+        3D volume (.nii file) of MF3D identity 'M02'
 

@@ -4,17 +4,27 @@
 :fa:`cube` MF3D Blender
 ======================================
 
-.. card::
+.. card:: :fa:`triangle-exclamation` **Under Development!**
   :margin: 0
-  :class-header: sd-bg-warning
+  :class-header: sd-bg-warning sd-text-black
   :class-body: sd-bg-warning 
 
-  :fa:`triangle-exclamation` Under Development!
-  ^^^^^^
-  Blender (.blend) files of the MF3D avatar are currently available upon request, however the learning curve is still quite steep for those unfamiliar with CGI software. We are working on cleaning and simplifyting the files, and to produce a guide that will allow researchers to more easily generate and render their own custom stimuli using this resource. Updates will be made available here.
+  Blender (.blend) files of the MF3D avatar are currently available upon request, however the learning curve is still quite steep for those unfamiliar with CGI software. We are working on cleaning and simplifying the files, as well as providing a guide that will allow researchers to more easily generate and render their own custom stimuli using this resource. Updates will be made available here.
 
 
-The MF3D avatar(s) were creating using a variety analysis and modelling software (as described in `Murphy & Leopold, 2019 <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_) before being assembled in the open-source 3D software `Blender <https://www.blender.org>`_. This powerful software is free to download, has a large online user community and an experienced development team with an excellent track record. 
+The MF3D avatar(s) were creating using a variety of analysis and modelling software (as described in `Murphy & Leopold, 2019 <https://doi.org/10.1016/j.jneumeth.2019.06.001>`_) before being assembled in the open-source 3D software `Blender <https://www.blender.org>`_. This powerful software is free to download, has a large online user community, an experienced development team and many excellent online resources, including tutorials and documentation. 
+
+
+:fa:`lock-open` Request Data Access
+-----------------------------------------
+
+Unlike the publicly available :bdg-ref-primary:`MF3D stimuli <MF3D_Stimuli>` media files and :bdg-ref-primary:`MF3D code <MF3D-Tools>`, all other MF3D data are are currently hosted on a **password protected** secure server. To request access to the MF3D Blender (.blend) files, please submit the request form below.
+
+.. dropdown:: :fa:`lock-open` Data Access Request Form
+  :color: primary
+  :class-body: sd-bg-light
+
+  .. include:: MF3D-AccessRequestForm.rst
 
 
 .. include:: MF3D-License.rst
