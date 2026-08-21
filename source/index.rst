@@ -251,13 +251,13 @@ The graphical abstract below summarizes how biometric data from real animals wer
 
   <iframe src="https://player.vimeo.com/video/243763351?autoplay=1&loop=1&color=ff9933&byline=0&portrait=0" width="225" height="225" frameborder="0" align="right" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
+
 .. container:: clearer
 
     .. image :: _images/spacer.png
        :width: 1
 
 .. dropdown:: :fa:`lock-open` Promoting Open Science
-  :container: + shadow
   :title: bg-primary text-white font-weight-bold
   :body: bg-light 
   :animate: fade-in
