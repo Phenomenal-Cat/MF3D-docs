@@ -65,7 +65,7 @@ This page lists the the pre-rendered MF3D stimulus sets (media) that are already
 
     :fa:`cube` Blender
     ^^^
-    Blender (.blend) file containing meshes, textures, rigged armatures and animation data, for generating novel renders.
+    Blender (.blend) files containing meshes, textures, rigged armatures and animation data, for generating novel renders.
 
     +++++
     .. image:: _images/Logos/Blender.svg
@@ -76,12 +76,12 @@ This page lists the the pre-rendered MF3D stimulus sets (media) that are already
       :width: 10
 
   .. grid-item-card:: 
+    :link: stim_mf3drt
     :link-type: ref
     :margin: 0
     :padding: 1
     :class-header: sd-bg-primary sd-text-white
     :class-footer: sd-bg-light
-    .. :link: stim_mf3drt
 
     :fa:`vr-cardboard` MF3D Real-Time Asset
     ^^^

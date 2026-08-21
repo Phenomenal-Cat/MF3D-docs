@@ -14,7 +14,7 @@
 
 import os
 import sys
-from datetime import datetime
+from datetime import date
 sys.path.insert(0, os.path.abspath('.'))
 # sys.path.append(os.path.abspath('sphinxext'))
 
@@ -23,8 +23,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'MF3D'
-now = datetime.now()                # Get current date
-current_year = datetime.now().year  
+current_year = date.today().year  
 author = 'New Atlantis Labs'
 copyright = '%d, %s' % (current_year, author)
 version = '1.0'                     # The short X.Y version
@@ -136,7 +135,7 @@ html_css_files = [
 ]
 
 html_context = {
-    "current_year": datetime.now().year,
+    "current_year": date.today().year,
 }
 
 
