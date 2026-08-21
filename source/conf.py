@@ -14,7 +14,7 @@
 
 import os
 import sys
-import datetime
+from datetime import datetime
 sys.path.insert(0, os.path.abspath('.'))
 # sys.path.append(os.path.abspath('sphinxext'))
 
@@ -23,10 +23,10 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'MF3D'
-now = datetime.datetime.now()       # Get current date
+now = datetime.now()                # Get current date
 current_year = datetime.now().year  
 author = 'New Atlantis Labs'
-copyright = '%d, %s' % (now.year, author)
+copyright = '%d, %s' % (current_year, author)
 version = '1.0'                     # The short X.Y version
 release = '1.0'                     # The full version, including alpha/beta/rc tags
 
