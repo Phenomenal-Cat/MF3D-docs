@@ -307,18 +307,6 @@ The graphical abstract below summarizes how biometric data from real animals wer
     :target: https://www.slicer.org
   .. image:: _images/spacer.png
     :width: 5
-  .. image:: _images/Logos/Figshare.svg
-    :height: 30
-    :alt: Figshare
-    :target: https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544
-  .. image:: _images/spacer.png
-    :width: 5
-  .. image:: _images/Logos/GitHub.png
-    :height: 30
-    :alt: GitHub
-    :target: https://github.com/MonkeyGone2Heaven/MF3D-Tools
-  .. image:: _images/spacer.png
-    :width: 5
 
 
 .. image:: _images/Logos/NALabs_b.png
