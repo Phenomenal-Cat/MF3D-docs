@@ -35,12 +35,13 @@ This page lists the the pre-rendered MF3D stimulus sets (media) that are already
 
 
   .. grid-item-card:: 
+    :link: stim_mf3dr2
     :link-type: ref
     :margin: 0
     :padding: 1
     :class-header: sd-bg-primary sd-text-white
     :class-footer: sd-bg-light
-    .. :link: stim_mf3dr2
+    
 
     :fa:`image` :fa:`film` MF3D Stim Set 2
     ^^^

@@ -258,8 +258,8 @@ The graphical abstract below summarizes how biometric data from real animals wer
        :width: 1
 
 .. dropdown:: :fa:`lock-open` Promoting Open Science
-  :title: bg-primary text-white font-weight-bold
-  :body: bg-light 
+  :class-title: sd-bg-primary sd-text-white sd-font-weight-bold
+  :class-body: sd-bg-light sd-shadow-sm
   :animate: fade-in
   :open:
 
