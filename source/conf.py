@@ -24,6 +24,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 project = 'MF3D'
 now = datetime.datetime.now()       # Get current date
+current_year = datetime.now().year  
 author = 'New Atlantis Labs'
 copyright = '%d, %s' % (now.year, author)
 version = '1.0'                     # The short X.Y version
@@ -133,6 +134,10 @@ html_css_files = [
     #'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css',
 ]
+
+html_context = {
+    "current_year": datetime.now().year,
+}
 
 
 html_title = 'Macaque Face 3D'
